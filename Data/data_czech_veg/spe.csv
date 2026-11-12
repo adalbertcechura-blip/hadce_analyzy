@@ -1,0 +1,2279 @@
+﻿"releve_nr","species","plant_group","layer","cover_perc"
+1,"Acer campestre","vascular",1,20
+1,"Acer campestre","vascular",7,0.5
+1,"Acer platanoides","vascular",7,0.1
+1,"Anemone","vascular",6,0.5
+1,"Bromus ramosus agg.","vascular",6,0.1
+1,"Carex digitata","vascular",6,3
+1,"Carex michelii","vascular",6,0.1
+1,"Carex montana","vascular",6,0.5
+1,"Carpinus betulus","vascular",7,0.5
+1,"Cephalanthera damasonium","vascular",6,0.1
+1,"Convallaria majalis","vascular",6,4
+1,"Cornus mas","vascular",4,10
+1,"Corylus avellana","vascular",7,0.1
+1,"Crataegus laevigata","vascular",4,0.5
+1,"Crataegus monogyna s.lat.","vascular",7,0.5
+1,"Euonymus verrucosus","vascular",7,3
+1,"Fragaria moschata","vascular",6,0.1
+1,"Fraxinus excelsior","vascular",7,0.5
+1,"Galium sylvaticum","vascular",6,3
+1,"Geranium robertianum","vascular",6,0.1
+1,"Geum urbanum","vascular",6,0.5
+1,"Hepatica nobilis","vascular",6,3
+1,"Hieracium lachenalii","vascular",6,0.5
+1,"Hieracium murorum","vascular",6,0.5
+1,"Ligustrum vulgare","vascular",7,0.5
+1,"Lonicera xylosteum","vascular",4,3
+1,"Maianthemum bifolium","vascular",6,0.1
+1,"Melica nutans","vascular",6,0.5
+1,"Platanthera bifolia","vascular",6,0.1
+1,"Poa nemoralis","vascular",6,0.5
+1,"Polygonatum odoratum","vascular",6,0.5
+1,"Primula veris","vascular",6,0.1
+1,"Prunus avium","vascular",7,0.1
+1,"Pulmonaria mollis","vascular",6,0.1
+1,"Quercus petraea agg.","vascular",1,62.5
+1,"Quercus petraea agg.","vascular",7,4
+1,"Rhamnus cathartica","vascular",7,0.1
+1,"Rosa","vascular",7,0.1
+1,"Rubus fruticosus agg.","vascular",6,0.5
+1,"Sanicula europaea","vascular",6,0.1
+1,"Vincetoxicum hirundinaria","vascular",6,0.1
+1,"Viola hirta","vascular",6,0.1
+1,"Viola mirabilis","vascular",6,0.5
+1,"Viola reichenbachiana","vascular",6,3
+2,"Carex digitata","vascular",6,0.5
+2,"Carpinus betulus","vascular",7,3
+2,"Cytisus nigricans","vascular",6,0.1
+2,"Festuca ovina","vascular",6,3
+2,"Fraxinus excelsior","vascular",7,0.1
+2,"Galium rotundifolium","vascular",6,0.1
+2,"Hieracium lachenalii","vascular",6,3
+2,"Hieracium murorum","vascular",6,0.5
+2,"Hieracium sabaudum s.lat.","vascular",6,0.1
+2,"Hypericum perforatum","vascular",6,0.1
+2,"Luzula luzuloides","vascular",6,20
+2,"Melampyrum pratense","vascular",6,0.5
+2,"Melica uniflora","vascular",6,0.5
+2,"Poa nemoralis","vascular",6,3
+2,"Quercus petraea agg.","vascular",1,62.5
+2,"Quercus petraea agg.","vascular",7,10
+2,"Veronica officinalis","vascular",6,0.1
+3,"Campanula persicifolia","vascular",6,0.1
+3,"Convallaria majalis","vascular",6,3
+3,"Festuca ovina","vascular",6,4
+3,"Galium odoratum","vascular",6,0.5
+3,"Galium pumilum agg.","vascular",6,0.5
+3,"Galium rotundifolium","vascular",6,0.5
+3,"Hieracium lachenalii","vascular",6,0.5
+3,"Hieracium murorum","vascular",6,3
+3,"Luzula luzuloides","vascular",6,3
+3,"Melampyrum pratense","vascular",6,4
+3,"Melica uniflora","vascular",6,0.5
+3,"Poa nemoralis","vascular",6,4
+3,"Quercus petraea agg.","vascular",1,62.5
+3,"Quercus petraea agg.","vascular",7,4
+3,"Senecio nemorensis agg.","vascular",6,0.1
+3,"Veronica chamaedrys agg.","vascular",6,0.1
+4,"Anthericum ramosum","vascular",6,3
+4,"Carpinus betulus","vascular",1,20
+4,"Carpinus betulus","vascular",7,0.5
+4,"Cytisus nigricans","vascular",6,0.1
+4,"Dryopteris filix-mas","vascular",6,0.1
+4,"Fagus sylvatica","vascular",7,0.1
+4,"Festuca ovina","vascular",6,0.1
+4,"Fraxinus excelsior","vascular",7,0.5
+4,"Genista tinctoria","vascular",6,0.1
+4,"Hieracium lachenalii","vascular",6,0.5
+4,"Hieracium murorum","vascular",6,3
+4,"Hieracium sabaudum s.lat.","vascular",6,0.5
+4,"Hypericum montanum","vascular",6,0.1
+4,"Impatiens parviflora","vascular",6,0.1
+4,"Melittis melissophyllum","vascular",6,0.1
+4,"Poa nemoralis","vascular",6,4
+4,"Prunus avium","vascular",7,0.5
+4,"Quercus petraea agg.","vascular",1,37.5
+4,"Quercus petraea agg.","vascular",7,10
+4,"Hylotelephium telephium agg.","vascular",6,0.1
+4,"Veronica officinalis","vascular",6,0.1
+4,"Vincetoxicum hirundinaria","vascular",6,0.5
+5,"Agrostis capillaris","vascular",6,4
+5,"Ajuga genevensis","vascular",6,0.5
+5,"Calamagrostis arundinacea","vascular",6,0.5
+5,"Carex humilis","vascular",6,0.5
+5,"Fallopia dumetorum","vascular",6,0.1
+5,"Festuca ovina","vascular",6,4
+5,"Hieracium lachenalii","vascular",6,0.5
+5,"Hypericum perforatum","vascular",6,0.1
+5,"Luzula luzuloides","vascular",6,3
+5,"Melittis melissophyllum","vascular",6,0.1
+5,"Poa nemoralis","vascular",6,20
+5,"Polygonatum odoratum","vascular",6,0.5
+5,"Quercus petraea agg.","vascular",1,62.5
+5,"Quercus petraea agg.","vascular",7,3
+5,"Vincetoxicum hirundinaria","vascular",6,0.1
+6,"Ajuga genevensis","vascular",6,0.5
+6,"Alliaria petiolata","vascular",6,3
+6,"Allium oleraceum","vascular",6,0.1
+6,"Carex muricata agg.","vascular",6,0.5
+6,"Fallopia dumetorum","vascular",6,4
+6,"Galium pumilum agg.","vascular",6,0.1
+6,"Glechoma hederacea","vascular",6,3
+6,"Hypericum perforatum","vascular",6,0.1
+6,"Lapsana communis","vascular",6,3
+6,"Ligustrum vulgare","vascular",4,0.5
+6,"Ligustrum vulgare","vascular",7,0.5
+6,"Moehringia trinervia","vascular",6,0.5
+6,"Myosotis sylvatica","vascular",6,0.5
+6,"Poa nemoralis","vascular",6,37.5
+6,"Polygonatum odoratum","vascular",6,0.5
+6,"Quercus petraea agg.","vascular",1,37.5
+6,"Quercus petraea agg.","vascular",7,4
+6,"Rosa","vascular",4,0.5
+6,"Rosa","vascular",7,0.1
+6,"Urtica dioica","vascular",6,0.1
+6,"Vincetoxicum hirundinaria","vascular",6,4
+6,"Viola collina","vascular",6,3
+7,"Agrostis capillaris","vascular",6,0.5
+7,"Ajuga genevensis","vascular",6,0.1
+7,"Alliaria petiolata","vascular",6,0.1
+7,"Calamagrostis epigejos","vascular",6,0.1
+7,"Carex michelii","vascular",6,0.5
+7,"Carex muricata agg.","vascular",6,0.1
+7,"Crataegus monogyna s.lat.","vascular",7,0.5
+7,"Fallopia dumetorum","vascular",6,3
+7,"Festuca ovina","vascular",6,3
+7,"Hypericum perforatum","vascular",6,0.5
+7,"Ligustrum vulgare","vascular",7,0.5
+7,"Moehringia trinervia","vascular",6,0.5
+7,"Poa pratensis agg.","vascular",6,0.1
+7,"Poa nemoralis","vascular",6,37.5
+7,"Quercus petraea agg.","vascular",1,62.5
+7,"Quercus petraea agg.","vascular",7,10
+7,"Rosa","vascular",7,0.5
+7,"Rubus fruticosus agg.","vascular",6,0.5
+7,"Tilia platyphyllos","vascular",7,0.1
+7,"Veronica chamaedrys agg.","vascular",6,0.5
+7,"Vincetoxicum hirundinaria","vascular",6,3
+7,"Viola collina","vascular",6,0.5
+7,"Viola reichenbachiana","vascular",6,3
+8,"Agrostis capillaris","vascular",6,0.5
+8,"Calamagrostis arundinacea","vascular",6,37.5
+8,"Carex michelii","vascular",6,4
+8,"Carex montana","vascular",6,10
+8,"Carex muricata agg.","vascular",6,0.5
+8,"Convallaria majalis","vascular",6,0.5
+8,"Festuca heterophylla","vascular",6,3
+8,"Festuca ovina","vascular",6,3
+8,"Fragaria moschata","vascular",6,0.5
+8,"Galium odoratum","vascular",6,3
+8,"Galium pumilum agg.","vascular",6,0.5
+8,"Galium mollugo agg.","vascular",6,0.5
+8,"Lathyrus vernus","vascular",6,0.5
+8,"Luzula luzuloides","vascular",6,0.5
+8,"Melica nutans","vascular",6,3
+8,"Poa pratensis agg.","vascular",6,3
+8,"Poa nemoralis","vascular",6,20
+8,"Quercus petraea agg.","vascular",1,37.5
+8,"Quercus petraea agg.","vascular",7,4
+8,"Scrophularia nodosa","vascular",6,0.1
+8,"Tilia cordata","vascular",1,37.5
+8,"Veronica officinalis","vascular",6,0.5
+8,"Vicia sepium","vascular",6,0.1
+8,"Viola reichenbachiana","vascular",6,0.5
+9,"Acer campestre","vascular",4,0.5
+9,"Acer campestre","vascular",7,0.5
+9,"Acer platanoides","vascular",1,3
+9,"Acer platanoides","vascular",7,0.5
+9,"Asplenium trichomanes","vascular",6,0.5
+9,"Brachypodium pinnatum","vascular",6,0.1
+9,"Campanula persicifolia","vascular",6,0.5
+9,"Carpinus betulus","vascular",1,20
+9,"Carpinus betulus","vascular",4,10
+9,"Carpinus betulus","vascular",7,0.5
+9,"Euonymus verrucosus","vascular",4,3
+9,"Festuca ovina","vascular",6,0.5
+9,"Galium pumilum agg.","vascular",6,0.5
+9,"Hieracium murorum","vascular",6,4
+9,"Hieracium sabaudum s.lat.","vascular",6,0.5
+9,"Lonicera xylosteum","vascular",4,0.5
+9,"Luzula luzuloides","vascular",6,4
+9,"Poa nemoralis","vascular",6,4
+9,"Polypodium vulgare agg.","vascular",6,3
+9,"Quercus petraea agg.","vascular",1,37.5
+9,"Quercus petraea agg.","vascular",4,3
+9,"Quercus petraea agg.","vascular",7,3
+9,"Hylotelephium telephium agg.","vascular",6,3
+9,"Stellaria holostea","vascular",6,3
+9,"Tanacetum corymbosum","vascular",6,3
+9,"Tilia cordata","vascular",4,3
+9,"Veronica chamaedrys agg.","vascular",6,0.5
+9,"Vincetoxicum hirundinaria","vascular",6,0.5
+10,"Campanula persicifolia","vascular",6,0.1
+10,"Carex humilis","vascular",6,3
+10,"Carex michelii","vascular",6,0.1
+10,"Crataegus monogyna s.lat.","vascular",7,0.1
+10,"Digitalis grandiflora","vascular",6,0.1
+10,"Euonymus verrucosus","vascular",7,3
+10,"Euphorbia cyparissias","vascular",6,0.5
+10,"Festuca ovina","vascular",6,0.5
+10,"Genista tinctoria","vascular",6,3
+10,"Hypericum perforatum","vascular",6,0.5
+10,"Viscaria vulgaris","vascular",6,0.1
+10,"Poa nemoralis","vascular",6,37.5
+10,"Quercus petraea agg.","vascular",1,62.5
+10,"Quercus petraea agg.","vascular",7,37.5
+10,"Rosa","vascular",7,0.1
+10,"Tanacetum corymbosum","vascular",6,0.5
+10,"Trifolium alpestre","vascular",6,0.5
+10,"Verbascum chaixii subsp. austriacum","vascular",6,0.5
+10,"Vincetoxicum hirundinaria","vascular",6,10
+11,"Acer platanoides","vascular",7,0.1
+11,"Anthericum ramosum","vascular",6,0.5
+11,"Carpinus betulus","vascular",1,37.5
+11,"Carpinus betulus","vascular",4,10
+11,"Carpinus betulus","vascular",7,0.5
+11,"Digitalis grandiflora","vascular",6,0.5
+11,"Festuca ovina","vascular",6,0.5
+11,"Hieracium sabaudum s.lat.","vascular",6,0.1
+11,"Hypericum perforatum","vascular",6,0.1
+11,"Luzula luzuloides","vascular",6,4
+11,"Viscaria vulgaris","vascular",6,3
+11,"Mycelis muralis","vascular",6,0.1
+11,"Poa nemoralis","vascular",6,3
+11,"Polygonatum odoratum","vascular",6,0.5
+11,"Polypodium vulgare agg.","vascular",6,0.1
+11,"Quercus petraea agg.","vascular",1,62.5
+11,"Quercus petraea agg.","vascular",7,0.5
+11,"Tilia cordata","vascular",7,0.5
+11,"Vincetoxicum hirundinaria","vascular",6,0.5
+14,"Calamagrostis arundinacea","vascular",6,3
+14,"Campanula persicifolia","vascular",6,3
+14,"Campanula rotundifolia agg.","vascular",6,0.5
+14,"Arabidopsis arenosa","vascular",6,0.5
+14,"Carex digitata","vascular",6,0.1
+14,"Carpinus betulus","vascular",4,10
+14,"Carpinus betulus","vascular",7,0.1
+14,"Convallaria majalis","vascular",6,0.5
+14,"Epilobium montanum","vascular",6,0.5
+14,"Festuca ovina","vascular",6,0.1
+14,"Fragaria vesca","vascular",6,0.5
+14,"Galium pumilum agg.","vascular",6,0.5
+14,"Galium sylvaticum","vascular",6,3
+14,"Geranium robertianum","vascular",6,0.5
+14,"Hepatica nobilis","vascular",6,0.1
+14,"Hieracium lachenalii","vascular",6,0.5
+14,"Hieracium murorum","vascular",6,4
+14,"Hieracium sabaudum s.lat.","vascular",6,0.5
+14,"Impatiens parviflora","vascular",6,4
+14,"Lathyrus vernus","vascular",6,0.1
+14,"Luzula luzuloides","vascular",6,10
+14,"Mycelis muralis","vascular",6,0.5
+14,"Pinus sylvestris","vascular",1,10
+14,"Poa nemoralis","vascular",6,10
+14,"Polygonatum odoratum","vascular",6,0.1
+14,"Polypodium vulgare agg.","vascular",6,0.5
+14,"Primula veris","vascular",6,4
+14,"Quercus petraea agg.","vascular",1,37.5
+14,"Quercus petraea agg.","vascular",7,0.5
+14,"Hylotelephium telephium agg.","vascular",6,3
+14,"Senecio nemorensis agg.","vascular",6,0.5
+14,"Stellaria holostea","vascular",6,3
+14,"Tanacetum corymbosum","vascular",6,0.5
+14,"Tilia cordata","vascular",4,10
+14,"Tilia cordata","vascular",7,0.1
+14,"Veronica chamaedrys agg.","vascular",6,0.5
+14,"Veronica officinalis","vascular",6,0.1
+16,"Acer platanoides","vascular",7,0.1
+16,"Asplenium trichomanes","vascular",6,0.1
+16,"Astragalus glycyphyllos","vascular",6,0.5
+16,"Campanula persicifolia","vascular",6,3
+16,"Arabidopsis arenosa","vascular",6,0.1
+16,"Carex digitata","vascular",6,3
+16,"Carpinus betulus","vascular",1,10
+16,"Carpinus betulus","vascular",7,4
+16,"Digitalis grandiflora","vascular",6,0.1
+16,"Festuca ovina","vascular",6,4
+16,"Fragaria moschata","vascular",6,0.1
+16,"Galium mollugo agg.","vascular",6,0.5
+16,"Galium odoratum","vascular",6,3
+16,"Genista germanica","vascular",6,0.5
+16,"Hieracium lachenalii","vascular",6,4
+16,"Hieracium murorum","vascular",6,4
+16,"Hieracium sabaudum s.lat.","vascular",6,0.5
+16,"Luzula luzuloides","vascular",6,20
+16,"Viscaria vulgaris","vascular",6,3
+16,"Melampyrum pratense","vascular",6,0.5
+16,"Melica nutans","vascular",6,0.5
+16,"Myosotis sylvatica","vascular",6,0.5
+16,"Poa nemoralis","vascular",6,4
+16,"Polypodium vulgare agg.","vascular",6,0.5
+16,"Prunus","vascular",7,0.5
+16,"Quercus petraea agg.","vascular",1,62.5
+16,"Quercus petraea agg.","vascular",7,20
+16,"Rosa","vascular",7,0.5
+16,"Rubus fruticosus agg.","vascular",6,0.5
+16,"Hylotelephium telephium agg.","vascular",6,0.5
+16,"Silene nutans","vascular",6,4
+16,"Sorbus aucuparia","vascular",7,0.5
+16,"Tilia platyphyllos","vascular",7,0.5
+18,"Alliaria petiolata","vascular",6,0.1
+18,"Asarum europaeum","vascular",6,3
+18,"Campanula rapunculoides","vascular",6,0.1
+18,"Carpinus betulus","vascular",1,0.5
+18,"Convallaria majalis","vascular",6,0.5
+18,"Crataegus monogyna s.lat.","vascular",7,0.5
+18,"Cyclamen purpurascens","vascular",6,3
+18,"Euonymus verrucosus","vascular",7,0.5
+18,"Galium aparine","vascular",6,3
+18,"Hedera helix","vascular",6,4
+18,"Impatiens parviflora","vascular",6,3
+18,"Lathyrus vernus","vascular",6,0.1
+18,"Melica uniflora","vascular",6,62.5
+18,"Myosotis sylvatica","vascular",6,0.1
+18,"Poa nemoralis","vascular",6,3
+18,"Polygonatum odoratum","vascular",6,0.5
+18,"Quercus petraea agg.","vascular",1,62.5
+18,"Quercus petraea agg.","vascular",7,10
+28,"Calamagrostis arundinacea","vascular",6,4
+28,"Campanula persicifolia","vascular",6,3
+28,"Carex digitata","vascular",6,3
+28,"Carex montana","vascular",6,3
+28,"Clinopodium vulgare","vascular",6,0.5
+28,"Festuca ovina","vascular",6,0.5
+28,"Melampyrum pratense","vascular",6,0.5
+28,"Melica uniflora","vascular",6,3
+28,"Poa pratensis agg.","vascular",6,0.5
+28,"Poa nemoralis","vascular",6,37.5
+28,"Quercus petraea agg.","vascular",1,62.5
+28,"Quercus petraea agg.","vascular",7,3
+28,"Veronica officinalis","vascular",6,3
+29,"Carex pilulifera","vascular",6,0.1
+29,"Carpinus betulus","vascular",1,10
+29,"Carpinus betulus","vascular",7,0.5
+29,"Festuca ovina","vascular",6,0.5
+29,"Melica uniflora","vascular",6,4
+29,"Poa nemoralis","vascular",6,20
+29,"Quercus petraea agg.","vascular",1,62.5
+29,"Quercus petraea agg.","vascular",7,4
+29,"Veronica officinalis","vascular",6,0.1
+31,"Avenella flexuosa","vascular",6,10
+31,"Carpinus betulus","vascular",4,10
+31,"Festuca ovina","vascular",6,4
+31,"Loranthus europaeus","vascular",1,0.1
+31,"Melampyrum pratense","vascular",6,3
+31,"Picea abies","vascular",7,0.1
+31,"Poa nemoralis","vascular",6,0.5
+31,"Quercus petraea agg.","vascular",1,62.5
+31,"Quercus petraea agg.","vascular",7,3
+31,"Tilia cordata","vascular",1,10
+31,"Tilia cordata","vascular",4,4
+32,"Acer pseudoplatanus","vascular",7,3
+32,"Agrostis capillaris","vascular",6,0.5
+32,"Ajuga reptans","vascular",6,0.1
+32,"Calamagrostis epigejos","vascular",6,0.5
+32,"Campanula persicifolia","vascular",6,0.5
+32,"Carex digitata","vascular",6,4
+32,"Carex pallescens","vascular",6,0.5
+32,"Carex pilulifera","vascular",6,0.5
+32,"Carpinus betulus","vascular",1,4
+32,"Carpinus betulus","vascular",7,4
+32,"Deschampsia cespitosa","vascular",6,0.5
+32,"Dryopteris dilatata","vascular",6,0.5
+32,"Euphorbia cyparissias","vascular",6,3
+32,"Festuca ovina","vascular",6,3
+32,"Fraxinus excelsior","vascular",7,0.5
+32,"Galeobdolon luteum agg.","vascular",6,3
+32,"Hieracium murorum","vascular",6,0.1
+32,"Hieracium sabaudum s.lat.","vascular",6,0.5
+32,"Hypericum perforatum","vascular",6,0.5
+32,"Knautia drymeia","vascular",6,0.5
+32,"Luzula luzuloides","vascular",6,3
+32,"Luzula pilosa","vascular",6,0.5
+32,"Maianthemum bifolium","vascular",6,3
+32,"Melampyrum pratense","vascular",6,4
+32,"Melica nutans","vascular",6,10
+32,"Pinus sylvestris","vascular",1,10
+32,"Poa nemoralis","vascular",6,20
+32,"Quercus petraea agg.","vascular",1,20
+32,"Quercus petraea agg.","vascular",7,3
+32,"Quercus robur","vascular",1,37.5
+32,"Quercus robur","vascular",7,4
+32,"Rubus fruticosus agg.","vascular",6,0.1
+32,"Senecio nemorensis agg.","vascular",6,0.5
+32,"Sorbus aucuparia","vascular",7,0.1
+32,"Tilia cordata","vascular",7,3
+32,"Veronica chamaedrys agg.","vascular",6,0.1
+32,"Viola reichenbachiana","vascular",6,0.5
+36,"Calamagrostis arundinacea","vascular",6,0.5
+36,"Carex digitata","vascular",6,3
+36,"Carpinus betulus","vascular",1,10
+36,"Carpinus betulus","vascular",7,0.5
+36,"Fraxinus excelsior","vascular",7,0.1
+36,"Galium rotundifolium","vascular",6,0.1
+36,"Luzula luzuloides","vascular",6,3
+36,"Maianthemum bifolium","vascular",6,0.1
+36,"Melica nutans","vascular",6,0.5
+36,"Milium effusum","vascular",6,0.5
+36,"Quercus petraea agg.","vascular",1,62.5
+36,"Quercus petraea agg.","vascular",7,4
+36,"Stellaria holostea","vascular",6,0.5
+36,"Tilia cordata","vascular",7,0.1
+41,"Calamagrostis arundinacea","vascular",6,0.1
+41,"Carpinus betulus","vascular",7,0.5
+41,"Galium odoratum","vascular",6,4
+41,"Hieracium murorum","vascular",6,0.5
+41,"Hypericum perforatum","vascular",6,0.1
+41,"Lathyrus vernus","vascular",6,0.5
+41,"Loranthus europaeus","vascular",1,0.5
+41,"Luzula luzuloides","vascular",6,0.5
+41,"Melampyrum pratense","vascular",6,3
+41,"Poa nemoralis","vascular",6,20
+41,"Quercus petraea agg.","vascular",1,62.5
+41,"Quercus petraea agg.","vascular",7,37.5
+41,"Stellaria holostea","vascular",6,4
+41,"Tilia cordata","vascular",4,3
+41,"Tilia cordata","vascular",7,0.5
+41,"Veronica chamaedrys agg.","vascular",6,0.5
+42,"Acer campestre","vascular",7,0.5
+42,"Campanula persicifolia","vascular",6,0.5
+42,"Carpinus betulus","vascular",1,10
+42,"Carpinus betulus","vascular",4,3
+42,"Carpinus betulus","vascular",7,0.5
+42,"Digitalis grandiflora","vascular",6,3
+42,"Fagus sylvatica","vascular",7,0.5
+42,"Festuca ovina","vascular",6,3
+42,"Fraxinus excelsior","vascular",7,0.5
+42,"Genista tinctoria","vascular",6,0.5
+42,"Hieracium lachenalii","vascular",6,3
+42,"Hieracium murorum","vascular",6,4
+42,"Loranthus europaeus","vascular",1,0.5
+42,"Luzula luzuloides","vascular",6,10
+42,"Melampyrum pratense","vascular",6,0.5
+42,"Picea abies","vascular",7,0.1
+42,"Pinus sylvestris","vascular",1,4
+42,"Poa nemoralis","vascular",6,0.5
+42,"Quercus petraea agg.","vascular",1,37.5
+42,"Quercus petraea agg.","vascular",7,4
+42,"Silene nutans","vascular",6,0.1
+43,"Acer platanoides","vascular",7,0.1
+43,"Ajuga reptans","vascular",6,3
+43,"Asarum europaeum","vascular",6,4
+43,"Carex digitata","vascular",6,3
+43,"Carex pilosa","vascular",6,20
+43,"Carpinus betulus","vascular",1,10
+43,"Carpinus betulus","vascular",4,4
+43,"Carpinus betulus","vascular",7,3
+43,"Convallaria majalis","vascular",6,4
+43,"Dactylis polygama","vascular",6,0.5
+43,"Euphorbia amygdaloides","vascular",6,0.1
+43,"Galium odoratum","vascular",6,4
+43,"Galium sylvaticum","vascular",6,0.1
+43,"Hieracium murorum","vascular",6,0.5
+43,"Lathyrus niger","vascular",6,3
+43,"Lathyrus vernus","vascular",6,0.5
+43,"Luzula luzuloides","vascular",6,3
+43,"Melica uniflora","vascular",6,10
+43,"Orobanche","vascular",6,0.1
+43,"Poa nemoralis","vascular",6,0.5
+43,"Polygonatum odoratum","vascular",6,0.5
+43,"Pulmonaria officinalis agg.","vascular",6,0.1
+43,"Quercus petraea agg.","vascular",1,62.5
+43,"Quercus petraea agg.","vascular",7,20
+43,"Rosa","vascular",7,0.1
+43,"Stellaria holostea","vascular",6,4
+43,"Tilia cordata","vascular",1,4
+43,"Tilia cordata","vascular",4,4
+43,"Tilia platyphyllos","vascular",4,4
+44,"Allium senescens subsp. montanum","vascular",6,0.1
+44,"Anthericum ramosum","vascular",6,4
+44,"Calluna vulgaris","vascular",6,0.5
+44,"Carex montana","vascular",6,0.5
+44,"Cytisus nigricans","vascular",6,0.5
+44,"Digitalis grandiflora","vascular",6,0.5
+44,"Festuca ovina","vascular",6,37.5
+44,"Galium pumilum agg.","vascular",6,0.1
+44,"Genista germanica","vascular",6,0.5
+44,"Genista tinctoria","vascular",6,0.5
+44,"Hieracium lachenalii","vascular",6,0.5
+44,"Hieracium maculatum","vascular",6,3
+44,"Hieracium murorum","vascular",6,3
+44,"Hieracium sabaudum s.lat.","vascular",6,0.5
+44,"Luzula campestris agg.","vascular",6,0.5
+44,"Viscaria vulgaris","vascular",6,4
+44,"Melampyrum pratense","vascular",6,0.5
+44,"Poa nemoralis","vascular",6,0.5
+44,"Polygonatum odoratum","vascular",6,3
+44,"Quercus petraea agg.","vascular",1,62.5
+44,"Quercus petraea agg.","vascular",7,4
+44,"Rubus fruticosus agg.","vascular",6,0.1
+44,"Silene nutans","vascular",6,3
+44,"Veronica officinalis","vascular",6,0.5
+44,"Vincetoxicum hirundinaria","vascular",6,3
+47,"Acer platanoides","vascular",7,0.1
+47,"Carex digitata","vascular",6,4
+47,"Euonymus verrucosus","vascular",7,0.1
+47,"Festuca ovina","vascular",6,3
+47,"Frangula alnus","vascular",7,0.5
+47,"Fraxinus excelsior","vascular",7,0.5
+47,"Genista germanica","vascular",6,0.1
+47,"Genista tinctoria","vascular",6,0.1
+47,"Hieracium lachenalii","vascular",6,0.5
+47,"Hieracium murorum","vascular",6,3
+47,"Hieracium sabaudum s.lat.","vascular",6,0.5
+47,"Lathyrus niger","vascular",6,3
+47,"Loranthus europaeus","vascular",1,0.5
+47,"Poa nemoralis","vascular",6,10
+47,"Prunus avium","vascular",7,0.1
+47,"Quercus petraea agg.","vascular",1,87.5
+47,"Quercus petraea agg.","vascular",7,10
+47,"Rosa","vascular",7,0.1
+81,"Achillea millefolium agg.","vascular",6,0.5
+81,"Ajuga genevensis","vascular",6,3
+81,"Allium flavum","vascular",6,3
+81,"Arabidopsis thaliana","vascular",6,0.5
+81,"Asplenium septentrionale","vascular",6,0.5
+81,"Carex humilis","vascular",6,4
+81,"Carex praecox","vascular",6,0.5
+81,"Carpinus betulus","vascular",7,0.1
+81,"Euphorbia cyparissias","vascular",6,0.5
+81,"Festuca ovina","vascular",6,20
+81,"Galeopsis","vascular",6,0.1
+81,"Galium aparine","vascular",6,0.1
+81,"Galium pumilum agg.","vascular",6,0.5
+81,"Genista pilosa","vascular",6,0.5
+81,"Genista tinctoria","vascular",6,0.1
+81,"Hieracium murorum","vascular",6,0.5
+81,"Pilosella officinarum","vascular",6,3
+81,"Hypericum perforatum","vascular",6,0.5
+81,"Koeleria macrantha","vascular",6,0.5
+81,"Luzula campestris agg.","vascular",6,0.1
+81,"Viscaria vulgaris","vascular",6,4
+81,"Melica nutans","vascular",6,0.5
+81,"Myosotis ramosissima","vascular",6,0.5
+81,"Myosotis sylvatica","vascular",6,3
+81,"Poa nemoralis","vascular",6,3
+81,"Polypodium vulgare agg.","vascular",6,0.1
+81,"Quercus petraea agg.","vascular",1,37.5
+81,"Quercus petraea agg.","vascular",7,3
+81,"Rosa","vascular",7,0.1
+81,"Scleranthus perennis","vascular",6,3
+81,"Hylotelephium telephium agg.","vascular",6,0.1
+81,"Sedum rupestre agg.","vascular",6,0.1
+81,"Senecio viscosus","vascular",6,3
+81,"Thymus pulegioides","vascular",6,3
+81,"Trifolium arvense","vascular",6,3
+81,"Verbascum chaixii subsp. austriacum","vascular",6,3
+81,"Veronica dillenii","vascular",6,0.5
+81,"Veronica officinalis","vascular",6,0.1
+82,"Acer pseudoplatanus","vascular",7,0.1
+82,"Achillea millefolium agg.","vascular",6,0.1
+82,"Alliaria petiolata","vascular",6,0.1
+82,"Anthericum ramosum","vascular",6,3
+82,"Campanula persicifolia","vascular",6,0.5
+82,"Cardamine impatiens","vascular",6,0.1
+82,"Carex humilis","vascular",6,4
+82,"Carpinus betulus","vascular",7,0.5
+82,"Clinopodium vulgare","vascular",6,0.1
+82,"Dactylis polygama","vascular",6,4
+82,"Epilobium","vascular",6,0.1
+82,"Euphorbia cyparissias","vascular",6,0.5
+82,"Fallopia convolvulus","vascular",6,0.1
+82,"Festuca ovina","vascular",6,4
+82,"Fraxinus excelsior","vascular",7,0.1
+82,"Galium aparine","vascular",6,0.1
+82,"Galium mollugo agg.","vascular",6,0.1
+82,"Genista tinctoria","vascular",6,0.1
+82,"Hieracium murorum","vascular",6,3
+82,"Hieracium sabaudum s.lat.","vascular",6,3
+82,"Hieracium schmidtii","vascular",6,3
+82,"Lapsana communis","vascular",6,0.1
+82,"Ligustrum vulgare","vascular",4,3
+82,"Ligustrum vulgare","vascular",7,3
+82,"Luzula campestris agg.","vascular",6,0.1
+82,"Myosotis sylvatica","vascular",6,0.5
+82,"Poa nemoralis","vascular",6,4
+82,"Polygonatum multiflorum","vascular",6,0.1
+82,"Prunus avium","vascular",7,0.1
+82,"Quercus petraea agg.","vascular",1,62.5
+82,"Quercus petraea agg.","vascular",7,4
+82,"Rosa","vascular",7,0.1
+82,"Hylotelephium telephium agg.","vascular",6,0.5
+82,"Silene nutans","vascular",6,4
+82,"Sorbus torminalis","vascular",1,3
+82,"Sorbus torminalis","vascular",7,0.1
+82,"Stellaria holostea","vascular",6,3
+82,"Tanacetum corymbosum","vascular",6,3
+82,"Trifolium alpestre","vascular",6,0.5
+82,"Verbascum chaixii subsp. austriacum","vascular",6,0.5
+82,"Veronica chamaedrys agg.","vascular",6,0.5
+82,"Vincetoxicum hirundinaria","vascular",6,3
+83,"Acer platanoides","vascular",7,0.5
+83,"Acer pseudoplatanus","vascular",7,3
+83,"Calamagrostis arundinacea","vascular",6,3
+83,"Carpinus betulus","vascular",1,20
+83,"Carpinus betulus","vascular",7,0.5
+83,"Convallaria majalis","vascular",6,10
+83,"Cyclamen purpurascens","vascular",6,0.5
+83,"Fagus sylvatica","vascular",7,0.5
+83,"Hieracium sabaudum s.lat.","vascular",6,0.1
+83,"Impatiens parviflora","vascular",6,0.1
+83,"Luzula luzuloides","vascular",6,37.5
+83,"Poa nemoralis","vascular",6,0.5
+83,"Quercus petraea agg.","vascular",1,62.5
+83,"Quercus petraea agg.","vascular",7,3
+83,"Sorbus torminalis","vascular",7,0.1
+83,"Stellaria holostea","vascular",6,4
+83,"Vaccinium myrtillus","vascular",6,3
+86,"Acer campestre","vascular",7,0.1
+86,"Acer platanoides","vascular",7,0.1
+86,"Ajuga genevensis","vascular",6,0.5
+86,"Alliaria petiolata","vascular",6,0.1
+86,"Asarum europaeum","vascular",6,0.5
+86,"Brachypodium sylvaticum","vascular",6,3
+86,"Calamagrostis arundinacea","vascular",6,3
+86,"Calamagrostis epigejos","vascular",6,0.1
+86,"Carex muricata agg.","vascular",6,3
+86,"Carex pallescens","vascular",6,3
+86,"Carpinus betulus","vascular",7,0.5
+86,"Chaerophyllum temulum","vascular",6,0.1
+86,"Chenopodium album agg.","vascular",6,0.1
+86,"Chenopodium polyspermum","vascular",6,0.1
+86,"Cyclamen purpurascens","vascular",6,0.5
+86,"Dactylis polygama","vascular",6,4
+86,"Euphorbia cyparissias","vascular",6,0.5
+86,"Fallopia convolvulus","vascular",6,0.5
+86,"Fragaria moschata","vascular",6,3
+86,"Galeopsis tetrahit agg.","vascular",6,3
+86,"Galium odoratum","vascular",6,3
+86,"Hieracium murorum","vascular",6,0.5
+86,"Hypericum perforatum","vascular",6,0.5
+86,"Impatiens parviflora","vascular",6,0.5
+86,"Luzula campestris agg.","vascular",6,0.1
+86,"Melica uniflora","vascular",6,4
+86,"Moehringia trinervia","vascular",6,0.5
+86,"Mycelis muralis","vascular",6,0.1
+86,"Poa nemoralis","vascular",6,37.5
+86,"Polygonatum multiflorum","vascular",6,0.5
+86,"Quercus petraea agg.","vascular",1,87.5
+86,"Quercus petraea agg.","vascular",4,3
+86,"Quercus petraea agg.","vascular",7,4
+86,"Scrophularia nodosa","vascular",6,0.1
+86,"Senecio nemorensis agg.","vascular",6,0.5
+86,"Sorbus torminalis","vascular",7,0.1
+86,"Symphytum tuberosum s.lat.","vascular",6,0.5
+86,"Tilia cordata","vascular",4,4
+86,"Veronica officinalis","vascular",6,0.5
+86,"Viola reichenbachiana","vascular",6,3
+87,"Acer campestre","vascular",7,0.5
+87,"Acer pseudoplatanus","vascular",7,0.1
+87,"Alliaria petiolata","vascular",6,4
+87,"Campanula persicifolia","vascular",6,0.5
+87,"Campanula rapunculoides","vascular",6,0.1
+87,"Carex muricata agg.","vascular",6,0.1
+87,"Carex digitata","vascular",6,0.1
+87,"Carpinus betulus","vascular",1,3
+87,"Carpinus betulus","vascular",7,0.5
+87,"Chaerophyllum temulum","vascular",6,0.1
+87,"Clinopodium vulgare","vascular",6,0.5
+87,"Cornus mas","vascular",4,4
+87,"Cornus mas","vascular",7,0.5
+87,"Crataegus laevigata","vascular",4,4
+87,"Cyclamen purpurascens","vascular",6,3
+87,"Dactylis polygama","vascular",6,4
+87,"Epilobium montanum","vascular",6,0.1
+87,"Euonymus verrucosus","vascular",7,3
+87,"Euphorbia cyparissias","vascular",6,0.5
+87,"Euphorbia dulcis","vascular",6,0.1
+87,"Fallopia convolvulus","vascular",6,0.5
+87,"Fragaria moschata","vascular",6,0.1
+87,"Geranium robertianum","vascular",6,0.5
+87,"Hieracium murorum","vascular",6,0.5
+87,"Hypericum perforatum","vascular",6,0.1
+87,"Impatiens parviflora","vascular",6,0.5
+87,"Lapsana communis","vascular",6,4
+87,"Lathyrus niger","vascular",6,0.5
+87,"Ligustrum vulgare","vascular",7,3
+87,"Luzula luzuloides","vascular",6,0.5
+87,"Viscaria vulgaris","vascular",6,3
+87,"Melica uniflora","vascular",6,10
+87,"Myosotis sylvatica","vascular",6,3
+87,"Poa nemoralis","vascular",6,20
+87,"Polygonatum odoratum","vascular",6,0.5
+87,"Primula veris","vascular",6,0.1
+87,"Pulmonaria officinalis agg.","vascular",6,0.5
+87,"Quercus petraea agg.","vascular",1,62.5
+87,"Quercus petraea agg.","vascular",7,0.5
+87,"Hylotelephium telephium agg.","vascular",6,0.5
+87,"Silene nutans","vascular",6,0.5
+87,"Sorbus torminalis","vascular",7,0.1
+87,"Tanacetum corymbosum","vascular",6,0.1
+87,"Tilia cordata","vascular",1,3
+87,"Tilia cordata","vascular",7,0.5
+87,"Veronica chamaedrys agg.","vascular",6,0.5
+87,"Veronica officinalis","vascular",6,0.1
+87,"Vicia pisiformis","vascular",6,0.1
+89,"Acer pseudoplatanus","vascular",7,0.1
+89,"Alliaria petiolata","vascular",6,0.5
+89,"Anthericum ramosum","vascular",6,0.5
+89,"Carex muricata agg.","vascular",6,3
+89,"Carex humilis","vascular",6,4
+89,"Carex praecox","vascular",6,0.5
+89,"Carpinus betulus","vascular",1,3
+89,"Carpinus betulus","vascular",7,0.1
+89,"Chaerophyllum temulum","vascular",6,0.1
+89,"Crataegus monogyna s.lat.","vascular",4,3
+89,"Crataegus monogyna s.lat.","vascular",7,0.1
+89,"Fallopia convolvulus","vascular",6,3
+89,"Festuca ovina","vascular",6,0.5
+89,"Galeopsis tetrahit agg.","vascular",6,4
+89,"Galeopsis pubescens","vascular",6,3
+89,"Galium aparine","vascular",6,3
+89,"Impatiens parviflora","vascular",6,3
+89,"Luzula campestris agg.","vascular",6,0.5
+89,"Poa nemoralis","vascular",6,4
+89,"Prunus avium","vascular",7,0.5
+89,"Prunus spinosa","vascular",7,0.1
+89,"Quercus petraea agg.","vascular",1,62.5
+89,"Quercus petraea agg.","vascular",7,3
+89,"Ribes uva-crispa","vascular",6,0.1
+89,"Rosa","vascular",7,0.5
+98,"Astragalus glycyphyllos","vascular",6,0.1
+98,"Campanula persicifolia","vascular",6,0.1
+98,"Carex digitata","vascular",6,4
+98,"Carex montana","vascular",6,10
+98,"Carex muricata agg.","vascular",6,0.5
+98,"Carpinus betulus","vascular",7,0.1
+98,"Convallaria majalis","vascular",6,3
+98,"Digitalis grandiflora","vascular",6,0.5
+98,"Festuca ovina","vascular",6,0.5
+98,"Fragaria moschata","vascular",6,0.1
+98,"Galium aparine","vascular",6,0.1
+98,"Galium odoratum","vascular",6,0.1
+98,"Galium pumilum agg.","vascular",6,0.5
+98,"Genista tinctoria","vascular",6,0.1
+98,"Hieracium lachenalii","vascular",6,0.5
+98,"Hieracium murorum","vascular",6,0.5
+98,"Hieracium sabaudum s.lat.","vascular",6,3
+98,"Impatiens parviflora","vascular",6,0.5
+98,"Lathyrus niger","vascular",6,3
+98,"Lathyrus vernus","vascular",6,0.5
+98,"Loranthus europaeus","vascular",1,0.5
+98,"Luzula luzuloides","vascular",6,3
+98,"Melittis melissophyllum","vascular",6,0.1
+98,"Poa nemoralis","vascular",6,10
+98,"Prunus avium","vascular",7,0.1
+98,"Quercus petraea agg.","vascular",1,62.5
+98,"Quercus petraea agg.","vascular",4,3
+98,"Quercus petraea agg.","vascular",7,10
+98,"Rosa","vascular",7,0.5
+98,"Scrophularia nodosa","vascular",6,0.1
+98,"Senecio viscosus","vascular",6,0.1
+98,"Tanacetum corymbosum","vascular",6,0.5
+98,"Tilia cordata","vascular",7,0.1
+98,"Vicia sepium","vascular",6,0.1
+98,"Viola reichenbachiana","vascular",6,0.5
+99,"Carex montana","vascular",6,4
+99,"Carex pilosa","vascular",6,37.5
+99,"Carpinus betulus","vascular",7,3
+99,"Convallaria majalis","vascular",6,37.5
+99,"Crataegus monogyna s.lat.","vascular",7,0.1
+99,"Festuca ovina","vascular",6,0.5
+99,"Galium aparine","vascular",6,0.5
+99,"Galium odoratum","vascular",6,3
+99,"Genista tinctoria","vascular",6,0.5
+99,"Hieracium lachenalii","vascular",6,3
+99,"Hieracium murorum","vascular",6,3
+99,"Impatiens parviflora","vascular",6,0.5
+99,"Lathyrus niger","vascular",6,3
+99,"Lathyrus vernus","vascular",6,3
+99,"Loranthus europaeus","vascular",1,0.1
+99,"Luzula luzuloides","vascular",6,3
+99,"Melampyrum arvense","vascular",6,3
+99,"Melica uniflora","vascular",6,3
+99,"Poa pratensis agg.","vascular",6,0.5
+99,"Poa nemoralis","vascular",6,4
+99,"Prunus spinosa","vascular",7,0.1
+99,"Quercus petraea agg.","vascular",1,62.5
+99,"Quercus petraea agg.","vascular",7,10
+99,"Rosa","vascular",7,0.5
+99,"Sorbus torminalis","vascular",7,0.1
+99,"Tilia cordata","vascular",4,3
+99,"Trifolium alpestre","vascular",6,0.1
+100,"Acer platanoides","vascular",7,0.1
+100,"Allium senescens subsp. montanum","vascular",6,3
+100,"Anthericum ramosum","vascular",6,3
+100,"Calamagrostis arundinacea","vascular",6,0.1
+100,"Digitalis grandiflora","vascular",6,0.5
+100,"Festuca ovina","vascular",6,4
+100,"Galium aparine","vascular",6,0.1
+100,"Genista tinctoria","vascular",6,0.5
+100,"Hieracium lachenalii","vascular",6,0.5
+100,"Hieracium murorum","vascular",6,0.5
+100,"Hieracium sabaudum s.lat.","vascular",6,3
+100,"Loranthus europaeus","vascular",1,0.5
+100,"Luzula luzuloides","vascular",6,3
+100,"Melica uniflora","vascular",6,3
+100,"Poa nemoralis","vascular",6,3
+100,"Polygonatum odoratum","vascular",6,4
+100,"Quercus petraea agg.","vascular",1,62.5
+100,"Secale cereale","vascular",6,0.1
+100,"Hylotelephium telephium agg.","vascular",6,0.5
+100,"Senecio viscosus","vascular",6,0.5
+100,"Vincetoxicum hirundinaria","vascular",6,4
+101,"Acer campestre","vascular",7,0.5
+101,"Acer pseudoplatanus","vascular",7,0.5
+101,"Aegopodium podagraria","vascular",6,37.5
+101,"Ajuga reptans","vascular",6,0.5
+101,"Alliaria petiolata","vascular",6,0.1
+101,"Alnus glutinosa","vascular",1,37.5
+101,"Anemone nemorosa","vascular",6,0.5
+101,"Asarum europaeum","vascular",6,20
+101,"Brachypodium sylvaticum","vascular",6,0.5
+101,"Bromus ramosus agg.","vascular",6,0.5
+101,"Campanula rapunculoides","vascular",6,3
+101,"Corylus avellana","vascular",4,3
+101,"Equisetum arvense","vascular",6,0.5
+101,"Euonymus europaeus","vascular",7,0.5
+101,"Fragaria moschata","vascular",6,0.5
+101,"Fraxinus excelsior","vascular",1,37.5
+101,"Fraxinus excelsior","vascular",4,0.5
+101,"Fraxinus excelsior","vascular",7,0.5
+101,"Galeobdolon luteum agg.","vascular",6,0.5
+101,"Galium aparine","vascular",6,0.1
+101,"Galium odoratum","vascular",6,0.5
+101,"Geum urbanum","vascular",6,4
+101,"Heracleum sphondylium","vascular",6,0.1
+101,"Impatiens parviflora","vascular",6,3
+101,"Lysimachia nummularia","vascular",6,0.1
+101,"Maianthemum bifolium","vascular",6,0.5
+101,"Melica uniflora","vascular",6,0.1
+101,"Mercurialis perennis","vascular",6,0.1
+101,"Milium effusum","vascular",6,0.1
+101,"Polygonatum odoratum","vascular",6,0.1
+101,"Populus x canadensis","vascular",1,3
+101,"Populus x canadensis","vascular",4,0.5
+101,"Pulmonaria officinalis agg.","vascular",6,4
+101,"Ranunculus acris","vascular",6,0.5
+101,"Rhamnus cathartica","vascular",7,0.1
+101,"Stellaria holostea","vascular",6,3
+101,"Tilia cordata","vascular",4,0.5
+101,"Urtica dioica","vascular",6,0.5
+101,"Veronica chamaedrys agg.","vascular",6,0.5
+101,"Viburnum opulus","vascular",7,0.1
+101,"Vicia sylvatica","vascular",6,0.5
+101,"Viola mirabilis","vascular",6,0.5
+102,"Acer campestre","vascular",1,0.1
+102,"Acer campestre","vascular",7,0.5
+102,"Acer platanoides","vascular",7,0.5
+102,"Acer pseudoplatanus","vascular",7,0.1
+102,"Aegopodium podagraria","vascular",6,0.5
+102,"Alliaria petiolata","vascular",6,0.5
+102,"Anemone nemorosa","vascular",6,0.5
+102,"Asarum europaeum","vascular",6,4
+102,"Brachypodium sylvaticum","vascular",6,0.5
+102,"Campanula persicifolia","vascular",6,0.1
+102,"Campanula rapunculoides","vascular",6,0.5
+102,"Campanula trachelium","vascular",6,0.5
+102,"Carex digitata","vascular",6,3
+102,"Carex pilosa","vascular",6,20
+102,"Carpinus betulus","vascular",1,62.5
+102,"Carpinus betulus","vascular",4,3
+102,"Carpinus betulus","vascular",7,3
+102,"Clinopodium vulgare","vascular",6,0.5
+102,"Convallaria majalis","vascular",6,0.5
+102,"Corylus avellana","vascular",7,0.5
+102,"Crataegus monogyna s.lat.","vascular",7,0.1
+102,"Cyclamen purpurascens","vascular",6,0.5
+102,"Dactylis polygama","vascular",6,0.5
+102,"Euonymus europaeus","vascular",7,0.1
+102,"Euphorbia dulcis","vascular",6,0.5
+102,"Fragaria moschata","vascular",6,0.5
+102,"Galeobdolon luteum agg.","vascular",6,3
+102,"Galium aparine","vascular",6,0.5
+102,"Galium odoratum","vascular",6,0.5
+102,"Geranium robertianum","vascular",6,0.5
+102,"Geum urbanum","vascular",6,0.5
+102,"Hepatica nobilis","vascular",6,4
+102,"Hieracium murorum","vascular",6,0.1
+102,"Impatiens parviflora","vascular",6,0.5
+102,"Lapsana communis","vascular",6,0.5
+102,"Lathyrus vernus","vascular",6,0.5
+102,"Lysimachia nummularia","vascular",6,0.5
+102,"Melica uniflora","vascular",6,20
+102,"Moehringia trinervia","vascular",6,0.5
+102,"Mycelis muralis","vascular",6,0.5
+102,"Poa nemoralis","vascular",6,3
+102,"Pulmonaria officinalis agg.","vascular",6,3
+102,"Quercus petraea agg.","vascular",7,10
+102,"Quercus robur","vascular",1,20
+102,"Ribes uva-crispa","vascular",7,0.1
+102,"Rosa","vascular",7,0.1
+102,"Sambucus nigra","vascular",7,0.1
+102,"Stellaria holostea","vascular",6,0.5
+102,"Tilia cordata","vascular",7,0.5
+102,"Ulmus glabra","vascular",7,0.1
+102,"Veronica chamaedrys agg.","vascular",6,0.5
+102,"Veronica officinalis","vascular",6,0.1
+102,"Vicia sylvatica","vascular",6,0.1
+102,"Viola hirta","vascular",6,0.5
+102,"Viola reichenbachiana","vascular",6,0.5
+103,"Agrostis stolonifera","vascular",6,0.5
+103,"Alnus glutinosa","vascular",1,62.5
+103,"Arctium lappa","vascular",6,0.1
+103,"Berula erecta","vascular",6,10
+103,"Bidens frondosa","vascular",6,10
+103,"Brachypodium sylvaticum","vascular",6,0.1
+103,"Caltha palustris","vascular",6,10
+103,"Calystegia sepium","vascular",6,0.1
+103,"Carex acutiformis","vascular",6,3
+103,"Crataegus monogyna s.lat.","vascular",7,0.1
+103,"Deschampsia cespitosa","vascular",6,0.5
+103,"Euonymus europaeus","vascular",7,0.1
+103,"Galium aparine","vascular",6,0.1
+103,"Galium palustre agg.","vascular",6,0.5
+103,"Geum urbanum","vascular",6,0.1
+103,"Impatiens parviflora","vascular",6,0.5
+103,"Iris pseudacorus","vascular",6,3
+103,"Lactuca serriola","vascular",6,0.1
+103,"Lycopus europaeus","vascular",6,3
+103,"Lysimachia vulgaris","vascular",6,10
+103,"Mentha aquatica","vascular",6,3
+103,"Moehringia trinervia","vascular",6,0.1
+103,"Myosoton aquaticum","vascular",6,0.5
+103,"Phalaris arundinacea","vascular",6,0.1
+103,"Poa palustris","vascular",6,0.5
+103,"Poa trivialis","vascular",6,0.1
+103,"Ficaria verna","vascular",6,0.5
+103,"Ranunculus repens","vascular",6,10
+103,"Ribes rubrum agg.","vascular",7,0.1
+103,"Rosa","vascular",7,0.1
+103,"Rumex obtusifolius","vascular",6,0.1
+103,"Sambucus nigra","vascular",7,0.1
+103,"Solanum dulcamara","vascular",6,3
+103,"Solidago canadensis","vascular",6,0.1
+103,"Sonchus oleraceus","vascular",6,0.1
+103,"Symphytum officinale agg.","vascular",6,0.1
+103,"Urtica dioica","vascular",6,3
+103,"Veronica beccabunga","vascular",6,0.5
+103,"Myosotis palustris agg.","vascular",6,3
+103,"Ranunculus auricomus agg.","vascular",6,0.1
+103,"Persicaria mitis","vascular",6,0.5
+104,"Acer campestre","vascular",7,0.5
+104,"Acer pseudoplatanus","vascular",4,3
+104,"Acer pseudoplatanus","vascular",7,0.5
+104,"Aegopodium podagraria","vascular",6,0.1
+104,"Alnus glutinosa","vascular",1,62.5
+104,"Alnus glutinosa","vascular",4,4
+104,"Alnus glutinosa","vascular",7,0.1
+104,"Angelica sylvestris","vascular",6,0.5
+104,"Caltha palustris","vascular",6,0.5
+104,"Calystegia sepium","vascular",6,0.1
+104,"Carex acutiformis","vascular",6,4
+104,"Cirsium oleraceum","vascular",6,0.5
+104,"Clematis vitalba","vascular",6,0.1
+104,"Equisetum arvense","vascular",6,3
+104,"Euonymus europaeus","vascular",4,0.5
+104,"Euonymus europaeus","vascular",7,0.5
+104,"Fraxinus excelsior","vascular",4,0.5
+104,"Fraxinus excelsior","vascular",7,0.5
+104,"Galeopsis","vascular",6,0.1
+104,"Galium aparine","vascular",6,0.1
+104,"Geranium robertianum","vascular",6,0.1
+104,"Geum urbanum","vascular",6,0.1
+104,"Impatiens parviflora","vascular",6,3
+104,"Lycopus europaeus","vascular",6,0.1
+104,"Lysimachia vulgaris","vascular",6,0.5
+104,"Mentha longifolia","vascular",6,0.5
+104,"Mycelis muralis","vascular",6,0.1
+104,"Prunus avium","vascular",7,0.1
+104,"Pulmonaria officinalis agg.","vascular",6,0.5
+104,"Ficaria verna","vascular",6,0.1
+104,"Ranunculus repens","vascular",6,0.5
+104,"Ribes rubrum agg.","vascular",4,0.5
+104,"Ribes rubrum agg.","vascular",7,0.5
+104,"Rosa","vascular",7,0.1
+104,"Rubus caesius","vascular",6,0.5
+104,"Sambucus nigra","vascular",7,0.1
+104,"Scirpus sylvaticus","vascular",6,62.5
+104,"Solanum dulcamara","vascular",6,3
+104,"Sorbus aucuparia","vascular",7,0.1
+104,"Urtica dioica","vascular",6,0.5
+104,"Veronica beccabunga","vascular",6,0.1
+104,"Viburnum opulus","vascular",7,0.1
+105,"Acer campestre","vascular",1,3
+105,"Acer campestre","vascular",7,0.1
+105,"Acer platanoides","vascular",7,0.5
+105,"Acer pseudoplatanus","vascular",1,37.5
+105,"Acer pseudoplatanus","vascular",4,3
+105,"Acer pseudoplatanus","vascular",7,0.5
+105,"Asarum europaeum","vascular",6,20
+105,"Carpinus betulus","vascular",1,37.5
+105,"Chaerophyllum temulum","vascular",6,4
+105,"Cornus mas","vascular",4,0.5
+105,"Cornus mas","vascular",7,0.5
+105,"Crataegus monogyna s.lat.","vascular",7,0.5
+105,"Euonymus europaeus","vascular",7,0.5
+105,"Euonymus verrucosus","vascular",7,0.1
+105,"Fraxinus excelsior","vascular",4,0.5
+105,"Fraxinus excelsior","vascular",7,0.5
+105,"Galeobdolon luteum agg.","vascular",6,10
+105,"Galium aparine","vascular",6,0.1
+105,"Geranium robertianum","vascular",6,0.1
+105,"Geum urbanum","vascular",6,0.5
+105,"Impatiens parviflora","vascular",6,4
+105,"Lamium maculatum","vascular",6,10
+105,"Lonicera xylosteum","vascular",4,3
+105,"Moehringia trinervia","vascular",6,0.1
+105,"Polygonatum multiflorum","vascular",6,10
+105,"Pulmonaria officinalis agg.","vascular",6,10
+105,"Sambucus nigra","vascular",4,0.5
+105,"Sambucus nigra","vascular",7,3
+105,"Ulmus glabra","vascular",4,0.5
+105,"Ulmus glabra","vascular",7,0.5
+105,"Viola hirta","vascular",6,0.5
+106,"Acer campestre","vascular",1,62.5
+106,"Acer campestre","vascular",4,0.5
+106,"Acer platanoides","vascular",4,0.5
+106,"Adoxa moschatellina","vascular",6,0.1
+106,"Aegopodium podagraria","vascular",6,0.1
+106,"Alliaria petiolata","vascular",6,0.1
+106,"Asarum europaeum","vascular",6,0.5
+106,"Carpinus betulus","vascular",1,0.5
+106,"Dryopteris filix-mas","vascular",6,0.5
+106,"Fagus sylvatica","vascular",4,0.1
+106,"Fraxinus excelsior","vascular",4,0.5
+106,"Galeobdolon luteum agg.","vascular",6,37.5
+106,"Geranium robertianum","vascular",6,0.1
+106,"Impatiens noli-tangere","vascular",6,37.5
+106,"Impatiens parviflora","vascular",6,0.1
+106,"Moehringia trinervia","vascular",6,0.1
+106,"Oxalis acetosella","vascular",6,0.5
+106,"Pulmonaria officinalis agg.","vascular",6,0.5
+106,"Quercus petraea agg.","vascular",1,0.5
+106,"Sambucus nigra","vascular",4,0.5
+106,"Stachys sylvatica","vascular",6,0.5
+106,"Stellaria holostea","vascular",6,3
+106,"Symphytum tuberosum","vascular",6,3
+106,"Ulmus glabra","vascular",4,3
+106,"Urtica dioica","vascular",6,0.5
+107,"Acer campestre","vascular",7,0.5
+107,"Acer pseudoplatanus","vascular",1,3
+107,"Acer pseudoplatanus","vascular",7,0.5
+107,"Aegopodium podagraria","vascular",6,0.5
+107,"Ajuga reptans","vascular",6,0.5
+107,"Anemone nemorosa","vascular",6,0.1
+107,"Asarum europaeum","vascular",6,0.5
+107,"Carpinus betulus","vascular",1,62.5
+107,"Carpinus betulus","vascular",7,0.5
+107,"Circaea lutetiana","vascular",6,0.5
+107,"Cyclamen purpurascens","vascular",6,0.1
+107,"Dryopteris filix-mas","vascular",6,0.1
+107,"Euphorbia dulcis","vascular",6,0.5
+107,"Festuca gigantea","vascular",6,0.1
+107,"Fragaria vesca","vascular",6,0.1
+107,"Galeobdolon luteum agg.","vascular",6,10
+107,"Galium aparine","vascular",6,0.5
+107,"Galium odoratum","vascular",6,20
+107,"Galium sylvaticum","vascular",6,0.1
+107,"Geranium robertianum","vascular",6,0.5
+107,"Geum urbanum","vascular",6,0.1
+107,"Impatiens noli-tangere","vascular",6,0.1
+107,"Impatiens parviflora","vascular",6,0.1
+107,"Melica uniflora","vascular",6,10
+107,"Oxalis acetosella","vascular",6,0.5
+107,"Paris quadrifolia","vascular",6,0.5
+107,"Primula veris","vascular",6,0.5
+107,"Pulmonaria officinalis agg.","vascular",6,3
+107,"Senecio nemorensis agg.","vascular",6,0.1
+107,"Silene latifolia","vascular",6,0.5
+107,"Stachys sylvatica","vascular",6,0.1
+107,"Stellaria holostea","vascular",6,20
+107,"Symphytum tuberosum","vascular",6,3
+107,"Tilia cordata","vascular",4,4
+107,"Tilia cordata","vascular",7,0.5
+107,"Ulmus glabra","vascular",7,3
+107,"Urtica dioica","vascular",6,0.1
+107,"Viola reichenbachiana","vascular",6,0.5
+107,"Viola riviniana","vascular",6,0.5
+108,"Acer campestre","vascular",7,0.1
+108,"Acer platanoides","vascular",1,10
+108,"Acer platanoides","vascular",4,0.1
+108,"Acer platanoides","vascular",7,0.5
+108,"Acer pseudoplatanus","vascular",1,10
+108,"Acer pseudoplatanus","vascular",7,0.5
+108,"Actaea spicata","vascular",6,0.5
+108,"Anemone nemorosa","vascular",6,0.5
+108,"Asarum europaeum","vascular",6,3
+108,"Carex montana","vascular",6,0.1
+108,"Carpinus betulus","vascular",1,37.5
+108,"Carpinus betulus","vascular",7,0.1
+108,"Circaea lutetiana","vascular",6,0.5
+108,"Cyclamen purpurascens","vascular",6,0.1
+108,"Cystopteris fragilis","vascular",6,0.1
+108,"Dentaria bulbifera","vascular",6,0.1
+108,"Dryopteris filix-mas","vascular",6,37.5
+108,"Epilobium adenocaulon","vascular",6,0.5
+108,"Fagus sylvatica","vascular",7,0.5
+108,"Galeobdolon luteum agg.","vascular",6,3
+108,"Galium aparine","vascular",6,0.5
+108,"Geranium robertianum","vascular",6,3
+108,"Impatiens noli-tangere","vascular",6,0.5
+108,"Impatiens parviflora","vascular",6,0.5
+108,"Luzula luzuloides","vascular",6,0.5
+108,"Melica nutans","vascular",6,0.1
+108,"Melica uniflora","vascular",6,0.5
+108,"Moehringia trinervia","vascular",6,0.1
+108,"Mycelis muralis","vascular",6,0.5
+108,"Oxalis acetosella","vascular",6,0.5
+108,"Paris quadrifolia","vascular",6,0.5
+108,"Poa nemoralis","vascular",6,10
+108,"Pulmonaria officinalis agg.","vascular",6,0.5
+108,"Scrophularia nodosa","vascular",6,0.5
+108,"Senecio nemorensis agg.","vascular",6,0.5
+108,"Stellaria holostea","vascular",6,10
+108,"Tilia platyphyllos","vascular",4,0.5
+108,"Tilia platyphyllos","vascular",7,0.1
+108,"Ulmus glabra","vascular",4,0.1
+108,"Ulmus glabra","vascular",7,0.5
+108,"Viola mirabilis","vascular",6,0.1
+108,"Viola reichenbachiana","vascular",6,0.5
+109,"Acer campestre","vascular",7,0.5
+109,"Acer pseudoplatanus","vascular",7,0.5
+109,"Asarum europaeum","vascular",6,0.5
+109,"Brachypodium sylvaticum","vascular",6,0.5
+109,"Carex digitata","vascular",6,0.5
+109,"Carex pilosa","vascular",6,10
+109,"Carpinus betulus","vascular",1,37.5
+109,"Carpinus betulus","vascular",7,0.1
+109,"Cyclamen purpurascens","vascular",6,0.5
+109,"Cystopteris fragilis","vascular",6,0.5
+109,"Dryopteris filix-mas","vascular",6,3
+109,"Fraxinus excelsior","vascular",7,3
+109,"Galeobdolon luteum agg.","vascular",6,10
+109,"Galium aparine","vascular",6,0.5
+109,"Galium sylvaticum","vascular",6,3
+109,"Geranium robertianum","vascular",6,3
+109,"Hepatica nobilis","vascular",6,3
+109,"Hieracium lachenalii","vascular",6,0.1
+109,"Impatiens noli-tangere","vascular",6,0.5
+109,"Impatiens parviflora","vascular",6,0.1
+109,"Lonicera xylosteum","vascular",4,0.1
+109,"Luzula luzuloides","vascular",6,0.5
+109,"Maianthemum bifolium","vascular",6,0.5
+109,"Melica nutans","vascular",6,0.5
+109,"Mycelis muralis","vascular",6,0.5
+109,"Poa nemoralis","vascular",6,0.5
+109,"Polygonatum multiflorum","vascular",6,0.1
+109,"Prunus avium","vascular",7,0.5
+109,"Pulmonaria officinalis agg.","vascular",6,0.5
+109,"Quercus petraea agg.","vascular",1,20
+109,"Quercus petraea agg.","vascular",7,0.1
+109,"Sambucus nigra","vascular",7,0.5
+109,"Sorbus aucuparia","vascular",7,0.5
+109,"Stellaria holostea","vascular",6,3
+109,"Symphytum tuberosum","vascular",6,0.5
+109,"Tilia cordata","vascular",7,0.5
+109,"Viola reichenbachiana","vascular",6,0.5
+110,"Acer campestre","vascular",1,10
+110,"Acer campestre","vascular",7,0.1
+110,"Aegopodium podagraria","vascular",6,62.5
+110,"Ajuga reptans","vascular",6,0.5
+110,"Alliaria petiolata","vascular",6,0.5
+110,"Allium ursinum","vascular",6,0.5
+110,"Alnus glutinosa","vascular",1,37.5
+110,"Anemone","vascular",6,0.5
+110,"Anthriscus sylvestris","vascular",6,0.5
+110,"Arctium lappa","vascular",6,0.1
+110,"Arctium tomentosum","vascular",6,0.1
+110,"Bidens frondosa","vascular",6,0.1
+110,"Brachypodium sylvaticum","vascular",6,0.5
+110,"Cardamine impatiens","vascular",6,0.1
+110,"Chaerophyllum bulbosum","vascular",6,10
+110,"Cirsium oleraceum","vascular",6,0.5
+110,"Crataegus monogyna s.lat.","vascular",4,10
+110,"Dactylis polygama","vascular",6,0.1
+110,"Elymus caninus","vascular",6,0.5
+110,"Festuca gigantea","vascular",6,0.1
+110,"Galeobdolon luteum agg.","vascular",6,0.5
+110,"Galium aparine","vascular",6,0.5
+110,"Geum urbanum","vascular",6,0.5
+110,"Humulus lupulus","vascular",6,0.5
+110,"Impatiens noli-tangere","vascular",6,10
+110,"Impatiens parviflora","vascular",6,0.5
+110,"Lamium maculatum","vascular",6,0.1
+110,"Lysimachia nummularia","vascular",6,0.1
+110,"Moehringia trinervia","vascular",6,0.1
+110,"Myosoton aquaticum","vascular",6,0.5
+110,"Oxalis acetosella","vascular",6,0.1
+110,"Poa nemoralis","vascular",6,0.1
+110,"Prunus insititia","vascular",4,0.5
+110,"Prunus insititia","vascular",7,0.5
+110,"Pulmonaria officinalis agg.","vascular",6,0.5
+110,"Ficaria verna","vascular",6,0.1
+110,"Ranunculus repens","vascular",6,0.5
+110,"Salix alba","vascular",7,0.1
+110,"Salix euxina","vascular",1,10
+110,"Sambucus nigra","vascular",4,0.5
+110,"Sambucus nigra","vascular",7,0.1
+110,"Scrophularia nodosa","vascular",6,0.5
+110,"Solanum dulcamara","vascular",6,0.5
+110,"Stachys sylvatica","vascular",6,0.5
+110,"Stellaria holostea","vascular",6,0.5
+110,"Symphytum officinale agg.","vascular",6,0.5
+110,"Symphytum tuberosum","vascular",6,0.5
+110,"Urtica dioica","vascular",6,10
+111,"Acer campestre","vascular",7,0.1
+111,"Acer platanoides","vascular",1,0.5
+111,"Acer platanoides","vascular",7,0.1
+111,"Acer pseudoplatanus","vascular",1,0.5
+111,"Acer pseudoplatanus","vascular",7,0.5
+111,"Adoxa moschatellina","vascular",6,0.1
+111,"Aegopodium podagraria","vascular",6,37.5
+111,"Alnus glutinosa","vascular",1,37.5
+111,"Asarum europaeum","vascular",6,20
+111,"Carex sylvatica","vascular",6,0.1
+111,"Carpinus betulus","vascular",7,0.1
+111,"Circaea lutetiana","vascular",6,0.5
+111,"Corylus avellana","vascular",7,0.1
+111,"Crepis paludosa","vascular",6,0.5
+111,"Euonymus europaeus","vascular",7,0.5
+111,"Festuca gigantea","vascular",6,0.5
+111,"Fraxinus excelsior","vascular",1,3
+111,"Fraxinus excelsior","vascular",7,0.5
+111,"Galeobdolon luteum agg.","vascular",6,3
+111,"Galium aparine","vascular",6,0.1
+111,"Geranium phaeum","vascular",6,0.5
+111,"Geranium robertianum","vascular",6,0.5
+111,"Geum urbanum","vascular",6,0.5
+111,"Glechoma hirsuta","vascular",6,0.5
+111,"Impatiens noli-tangere","vascular",6,0.5
+111,"Impatiens parviflora","vascular",6,0.5
+111,"Lilium martagon","vascular",6,0.1
+111,"Melica uniflora","vascular",6,0.1
+111,"Mercurialis perennis","vascular",6,3
+111,"Myosoton aquaticum","vascular",6,0.5
+111,"Oxalis acetosella","vascular",6,0.5
+111,"Paris quadrifolia","vascular",6,10
+111,"Primula elatior","vascular",6,0.5
+111,"Pulmonaria officinalis agg.","vascular",6,0.5
+111,"Quercus petraea agg.","vascular",1,0.1
+111,"Ranunculus lanuginosus","vascular",6,0.5
+111,"Ribes uva-crispa","vascular",7,0.5
+111,"Sambucus nigra","vascular",7,0.5
+111,"Stachys sylvatica","vascular",6,10
+111,"Ulmus glabra","vascular",1,10
+111,"Ulmus glabra","vascular",7,0.5
+111,"Urtica dioica","vascular",6,0.5
+112,"Acer campestre","vascular",7,0.5
+112,"Acer platanoides","vascular",7,0.5
+112,"Acer pseudoplatanus","vascular",7,0.5
+112,"Ajuga reptans","vascular",6,0.5
+112,"Anemone nemorosa","vascular",6,0.5
+112,"Asarum europaeum","vascular",6,0.5
+112,"Brachypodium sylvaticum","vascular",6,0.1
+112,"Bromus ramosus agg.","vascular",6,0.1
+112,"Campanula rapunculoides","vascular",6,0.5
+112,"Carex digitata","vascular",6,4
+112,"Carex pilosa","vascular",6,37.5
+112,"Carpinus betulus","vascular",1,62.5
+112,"Carpinus betulus","vascular",4,0.5
+112,"Carpinus betulus","vascular",7,0.5
+112,"Convallaria majalis","vascular",6,0.5
+112,"Crataegus monogyna s.lat.","vascular",7,0.5
+112,"Euonymus europaeus","vascular",7,0.1
+112,"Euonymus verrucosus","vascular",7,0.5
+112,"Euphorbia dulcis","vascular",6,0.5
+112,"Fagus sylvatica","vascular",7,0.5
+112,"Fragaria moschata","vascular",6,0.5
+112,"Fraxinus excelsior","vascular",7,0.5
+112,"Galium sylvaticum","vascular",6,0.5
+112,"Hepatica nobilis","vascular",6,10
+112,"Hieracium murorum","vascular",6,0.5
+112,"Hieracium sabaudum s.lat.","vascular",6,0.5
+112,"Knautia drymeia","vascular",6,4
+112,"Lathyrus niger","vascular",6,0.5
+112,"Lathyrus vernus","vascular",6,0.5
+112,"Melampyrum pratense","vascular",6,0.1
+112,"Melica nutans","vascular",6,0.5
+112,"Melittis melissophyllum","vascular",6,0.5
+112,"Phyteuma spicatum","vascular",6,3
+112,"Pimpinella major","vascular",6,0.5
+112,"Poa nemoralis","vascular",6,0.5
+112,"Polygonatum multiflorum","vascular",6,0.5
+112,"Primula veris","vascular",6,0.1
+112,"Prunus avium","vascular",7,0.5
+112,"Prunus spinosa","vascular",7,0.1
+112,"Pulmonaria officinalis agg.","vascular",6,3
+112,"Quercus petraea agg.","vascular",1,3
+112,"Quercus petraea agg.","vascular",7,0.5
+112,"Ranunculus lanuginosus","vascular",6,0.5
+112,"Rosa","vascular",7,0.1
+112,"Stellaria holostea","vascular",6,0.5
+112,"Tanacetum corymbosum","vascular",6,0.1
+112,"Tilia cordata","vascular",1,3
+112,"Tilia cordata","vascular",4,0.5
+112,"Tilia cordata","vascular",7,0.1
+112,"Viola mirabilis","vascular",6,0.5
+112,"Viola reichenbachiana","vascular",6,0.5
+112,"Ranunculus auricomus agg.","vascular",6,0.5
+113,"Acer pseudoplatanus","vascular",4,10
+113,"Acer pseudoplatanus","vascular",7,0.5
+113,"Aegopodium podagraria","vascular",6,4
+113,"Ajuga reptans","vascular",6,3
+113,"Alnus glutinosa","vascular",1,62.5
+113,"Alnus glutinosa","vascular",7,0.5
+113,"Anemone nemorosa","vascular",6,0.1
+113,"Asarum europaeum","vascular",6,0.5
+113,"Brachypodium sylvaticum","vascular",6,0.1
+113,"Caltha palustris","vascular",6,0.5
+113,"Cardamine amara subsp. amara","vascular",6,0.5
+113,"Cardamine impatiens","vascular",6,0.1
+113,"Carex remota","vascular",6,3
+113,"Carex sylvatica","vascular",6,3
+113,"Carpinus betulus","vascular",7,0.5
+113,"Cirsium oleraceum","vascular",6,0.5
+113,"Cornus sanguinea","vascular",4,0.5
+113,"Crataegus monogyna s.lat.","vascular",7,0.1
+113,"Crepis paludosa","vascular",6,10
+113,"Euonymus europaeus","vascular",4,0.5
+113,"Euonymus europaeus","vascular",7,0.5
+113,"Filipendula ulmaria","vascular",6,0.1
+113,"Fragaria moschata","vascular",6,0.1
+113,"Fraxinus excelsior","vascular",7,0.5
+113,"Galeobdolon luteum agg.","vascular",6,3
+113,"Galium aparine","vascular",6,0.1
+113,"Galium odoratum","vascular",6,10
+113,"Geranium phaeum","vascular",6,0.1
+113,"Geranium robertianum","vascular",6,0.1
+113,"Geum urbanum","vascular",6,0.5
+113,"Glechoma hirsuta","vascular",6,3
+113,"Impatiens parviflora","vascular",6,0.5
+113,"Lysimachia nummularia","vascular",6,0.5
+113,"Oxalis acetosella","vascular",6,0.5
+113,"Polygonatum multiflorum","vascular",6,0.1
+113,"Prunus padus subsp. padus","vascular",1,10
+113,"Prunus padus subsp. padus","vascular",4,10
+113,"Prunus padus subsp. padus","vascular",7,3
+113,"Pulmonaria officinalis agg.","vascular",6,0.5
+113,"Ranunculus lanuginosus","vascular",6,0.5
+113,"Ranunculus repens","vascular",6,0.5
+113,"Ribes uva-crispa","vascular",7,0.1
+113,"Rubus caesius","vascular",6,0.1
+113,"Rumex obtusifolius","vascular",6,0.1
+113,"Rumex sanguineus","vascular",6,0.5
+113,"Salix triandra","vascular",1,0.5
+113,"Sambucus nigra","vascular",4,10
+113,"Sambucus nigra","vascular",7,0.5
+113,"Scrophularia umbrosa","vascular",6,0.5
+113,"Solanum dulcamara","vascular",6,3
+113,"Stachys sylvatica","vascular",6,10
+113,"Tilia cordata","vascular",1,0.5
+113,"Urtica dioica","vascular",6,0.5
+113,"Veronica beccabunga","vascular",6,0.5
+113,"Viburnum opulus","vascular",7,0.5
+113,"Viola reichenbachiana","vascular",6,0.1
+113,"Myosotis palustris agg.","vascular",6,20
+114,"Acer campestre","vascular",7,0.1
+114,"Acer platanoides","vascular",1,10
+114,"Acer platanoides","vascular",7,0.1
+114,"Acer pseudoplatanus","vascular",1,10
+114,"Actaea spicata","vascular",6,0.5
+114,"Asarum europaeum","vascular",6,0.5
+114,"Asplenium trichomanes","vascular",6,0.1
+114,"Corylus avellana","vascular",4,20
+114,"Cystopteris fragilis","vascular",6,0.5
+114,"Dryopteris filix-mas","vascular",6,10
+114,"Euonymus europaeus","vascular",7,0.5
+114,"Fraxinus excelsior","vascular",7,0.5
+114,"Galeobdolon luteum agg.","vascular",6,20
+114,"Impatiens noli-tangere","vascular",6,0.5
+114,"Impatiens parviflora","vascular",6,0.1
+114,"Lilium martagon","vascular",6,0.1
+114,"Polypodium vulgare agg.","vascular",6,0.1
+114,"Pulmonaria officinalis agg.","vascular",6,0.5
+114,"Ribes uva-crispa","vascular",7,4
+114,"Sambucus nigra","vascular",4,0.5
+114,"Sambucus nigra","vascular",7,0.1
+114,"Staphylea pinnata","vascular",4,20
+114,"Tilia cordata","vascular",1,0.5
+114,"Tilia platyphyllos","vascular",1,10
+114,"Ulmus glabra","vascular",1,37.5
+114,"Ulmus glabra","vascular",4,0.5
+114,"Urtica dioica","vascular",6,10
+115,"Acer campestre","vascular",1,3
+115,"Acer campestre","vascular",4,0.1
+115,"Acer pseudoplatanus","vascular",1,37.5
+115,"Acer pseudoplatanus","vascular",4,3
+115,"Actaea spicata","vascular",6,0.5
+115,"Aegopodium podagraria","vascular",6,3
+115,"Alliaria petiolata","vascular",6,0.1
+115,"Asarum europaeum","vascular",6,0.5
+115,"Dryopteris filix-mas","vascular",6,3
+115,"Epilobium","vascular",6,0.1
+115,"Galeobdolon luteum agg.","vascular",6,4
+115,"Galium odoratum","vascular",6,10
+115,"Geranium robertianum","vascular",6,10
+115,"Geum urbanum","vascular",6,0.5
+115,"Glechoma hirsuta","vascular",6,0.1
+115,"Impatiens noli-tangere","vascular",6,10
+115,"Impatiens parviflora","vascular",6,10
+115,"Lamium maculatum","vascular",6,10
+115,"Mycelis muralis","vascular",6,0.5
+115,"Oxalis acetosella","vascular",6,0.5
+115,"Poa nemoralis","vascular",6,0.1
+115,"Polypodium vulgare agg.","vascular",6,3
+115,"Pulmonaria officinalis agg.","vascular",6,3
+115,"Sambucus nigra","vascular",4,10
+115,"Stellaria holostea","vascular",6,0.5
+115,"Symphytum tuberosum","vascular",6,0.5
+115,"Tilia platyphyllos","vascular",1,10
+115,"Tilia platyphyllos","vascular",4,0.5
+115,"Tilia platyphyllos","vascular",7,0.5
+115,"Ulmus glabra","vascular",4,10
+115,"Ulmus glabra","vascular",7,0.5
+115,"Urtica dioica","vascular",6,4
+115,"Viola mirabilis","vascular",6,0.5
+116,"Acer platanoides","vascular",1,20
+116,"Acer platanoides","vascular",4,3
+116,"Acer platanoides","vascular",7,0.1
+116,"Acer pseudoplatanus","vascular",1,20
+116,"Acer pseudoplatanus","vascular",4,3
+116,"Acer pseudoplatanus","vascular",7,0.1
+116,"Aegopodium podagraria","vascular",6,3
+116,"Ajuga reptans","vascular",6,0.1
+116,"Asarum europaeum","vascular",6,0.5
+116,"Athyrium filix-femina","vascular",6,3
+116,"Carpinus betulus","vascular",1,0.5
+116,"Dryopteris filix-mas","vascular",6,3
+116,"Galeobdolon luteum agg.","vascular",6,20
+116,"Geranium robertianum","vascular",6,0.5
+116,"Impatiens noli-tangere","vascular",6,0.5
+116,"Impatiens parviflora","vascular",6,3
+116,"Lamium maculatum","vascular",6,4
+116,"Myosoton aquaticum","vascular",6,0.1
+116,"Oxalis acetosella","vascular",6,0.5
+116,"Poa nemoralis","vascular",6,0.1
+116,"Polypodium vulgare agg.","vascular",6,0.5
+116,"Pulmonaria officinalis agg.","vascular",6,0.5
+116,"Sambucus nigra","vascular",4,3
+116,"Sambucus nigra","vascular",7,0.5
+116,"Tilia cordata","vascular",1,37.5
+116,"Tilia platyphyllos","vascular",4,0.5
+116,"Ulmus glabra","vascular",1,3
+116,"Ulmus glabra","vascular",4,0.1
+116,"Urtica dioica","vascular",6,0.5
+117,"Acer campestre","vascular",7,0.5
+117,"Acer platanoides","vascular",7,0.5
+117,"Actaea spicata","vascular",6,0.1
+117,"Bromus ramosus agg.","vascular",6,0.5
+117,"Calamagrostis arundinacea","vascular",6,0.5
+117,"Campanula persicifolia","vascular",6,0.1
+117,"Campanula rapunculoides","vascular",6,0.5
+117,"Cardamine impatiens","vascular",6,0.5
+117,"Carex digitata","vascular",6,0.5
+117,"Carex muricata agg.","vascular",6,0.1
+117,"Carpinus betulus","vascular",7,3
+117,"Cystopteris fragilis","vascular",6,0.1
+117,"Dentaria bulbifera","vascular",6,3
+117,"Dryopteris filix-mas","vascular",6,4
+117,"Fragaria moschata","vascular",6,0.5
+117,"Fraxinus excelsior","vascular",7,0.5
+117,"Galeobdolon luteum agg.","vascular",6,3
+117,"Galium odoratum","vascular",6,10
+117,"Galium sylvaticum","vascular",6,0.5
+117,"Geranium robertianum","vascular",6,0.5
+117,"Hedera helix","vascular",6,0.5
+117,"Hepatica nobilis","vascular",6,0.5
+117,"Hieracium murorum","vascular",6,0.5
+117,"Impatiens parviflora","vascular",6,3
+117,"Knautia drymeia","vascular",6,0.1
+117,"Lathyrus vernus","vascular",6,0.5
+117,"Lonicera xylosteum","vascular",7,0.5
+117,"Luzula luzuloides","vascular",6,4
+117,"Melica nutans","vascular",6,4
+117,"Mercurialis perennis","vascular",6,10
+117,"Moehringia trinervia","vascular",6,0.5
+117,"Myosotis sylvatica","vascular",6,0.1
+117,"Poa nemoralis","vascular",6,0.5
+117,"Quercus petraea agg.","vascular",1,37.5
+117,"Quercus petraea agg.","vascular",7,3
+117,"Stellaria holostea","vascular",6,0.5
+117,"Tilia cordata","vascular",1,37.5
+117,"Tilia cordata","vascular",4,10
+117,"Tilia cordata","vascular",7,0.5
+117,"Urtica dioica","vascular",6,0.5
+117,"Viola reichenbachiana","vascular",6,0.5
+118,"Acer campestre","vascular",1,3
+118,"Acer platanoides","vascular",1,20
+118,"Acer platanoides","vascular",7,3
+118,"Acer pseudoplatanus","vascular",7,0.5
+118,"Carpinus betulus","vascular",1,20
+118,"Carpinus betulus","vascular",7,0.5
+118,"Dentaria bulbifera","vascular",6,4
+118,"Dryopteris filix-mas","vascular",6,10
+118,"Galium odoratum","vascular",6,4
+118,"Impatiens noli-tangere","vascular",6,0.1
+118,"Impatiens parviflora","vascular",6,4
+118,"Melica uniflora","vascular",6,4
+118,"Poa nemoralis","vascular",6,3
+118,"Polypodium vulgare agg.","vascular",6,0.5
+118,"Quercus petraea agg.","vascular",1,0.5
+118,"Quercus petraea agg.","vascular",7,0.5
+118,"Ribes uva-crispa","vascular",7,0.5
+118,"Tilia cordata","vascular",1,10
+118,"Tilia cordata","vascular",4,4
+119,"Acer campestre","vascular",1,3
+119,"Acer campestre","vascular",7,0.5
+119,"Acer platanoides","vascular",1,0.5
+119,"Acer platanoides","vascular",7,0.5
+119,"Acer pseudoplatanus","vascular",7,0.1
+119,"Anemone nemorosa","vascular",6,0.5
+119,"Arabis pauciflora","vascular",6,0.5
+119,"Asplenium trichomanes","vascular",6,0.5
+119,"Brachypodium sylvaticum","vascular",6,4
+119,"Bromus ramosus agg.","vascular",6,0.1
+119,"Bupleurum falcatum","vascular",6,0.5
+119,"Calamagrostis arundinacea","vascular",6,0.5
+119,"Campanula persicifolia","vascular",6,0.5
+119,"Campanula rapunculoides","vascular",6,0.5
+119,"Campanula rotundifolia agg.","vascular",6,0.1
+119,"Campanula trachelium","vascular",6,0.1
+119,"Carex digitata","vascular",6,3
+119,"Carex michelii","vascular",6,3
+119,"Carex muricata agg.","vascular",6,0.5
+119,"Carpinus betulus","vascular",1,37.5
+119,"Carpinus betulus","vascular",4,0.5
+119,"Carpinus betulus","vascular",7,0.1
+119,"Cephalanthera longifolia","vascular",6,0.1
+119,"Clinopodium vulgare","vascular",6,0.1
+119,"Convallaria majalis","vascular",6,10
+119,"Cornus mas","vascular",4,3
+119,"Corylus avellana","vascular",4,0.5
+119,"Corylus avellana","vascular",7,0.1
+119,"Crataegus monogyna s.lat.","vascular",7,0.1
+119,"Dactylis polygama","vascular",6,0.5
+119,"Daphne mezereum","vascular",6,0.1
+119,"Digitalis grandiflora","vascular",6,0.5
+119,"Euonymus verrucosus","vascular",4,3
+119,"Euonymus verrucosus","vascular",7,0.5
+119,"Euphorbia cyparissias","vascular",6,0.5
+119,"Euphorbia dulcis","vascular",6,0.1
+119,"Fagus sylvatica","vascular",7,0.5
+119,"Fragaria vesca","vascular",6,0.5
+119,"Fraxinus excelsior","vascular",7,0.5
+119,"Galium mollugo agg.","vascular",6,0.5
+119,"Galium sylvaticum","vascular",6,0.1
+119,"Genista tinctoria","vascular",6,0.1
+119,"Glechoma hirsuta","vascular",6,0.5
+119,"Hepatica nobilis","vascular",6,3
+119,"Hieracium murorum","vascular",6,0.5
+119,"Pilosella officinarum","vascular",6,0.5
+119,"Hieracium sabaudum s.lat.","vascular",6,0.1
+119,"Hypericum montanum","vascular",6,0.1
+119,"Lathyrus niger","vascular",6,0.1
+119,"Lathyrus vernus","vascular",6,0.5
+119,"Ligustrum vulgare","vascular",7,0.5
+119,"Lilium martagon","vascular",6,0.5
+119,"Lonicera xylosteum","vascular",7,0.5
+119,"Melampyrum nemorosum","vascular",6,0.5
+119,"Melica nutans","vascular",6,3
+119,"Melittis melissophyllum","vascular",6,0.1
+119,"Mercurialis perennis","vascular",6,0.5
+119,"Myosotis sylvatica","vascular",6,0.1
+119,"Neottia nidus-avis","vascular",6,0.1
+119,"Peucedanum cervaria","vascular",6,0.1
+119,"Pimpinella major","vascular",6,0.5
+119,"Poa nemoralis","vascular",6,3
+119,"Poa pratensis agg.","vascular",6,0.5
+119,"Polygonatum odoratum","vascular",6,0.5
+119,"Polypodium vulgare agg.","vascular",6,4
+119,"Primula veris","vascular",6,3
+119,"Pulmonaria mollis","vascular",6,0.5
+119,"Quercus petraea agg.","vascular",7,0.5
+119,"Ranunculus bulbosus","vascular",6,0.5
+119,"Rhamnus cathartica","vascular",6,0.5
+119,"Rosa","vascular",7,0.1
+119,"Securigera varia","vascular",6,0.1
+119,"Hylotelephium telephium agg.","vascular",6,0.5
+119,"Silene nutans","vascular",6,0.5
+119,"Sorbus aucuparia","vascular",7,0.1
+119,"Sorbus torminalis","vascular",1,4
+119,"Sorbus torminalis","vascular",6,0.5
+119,"Stellaria holostea","vascular",6,0.5
+119,"Tanacetum corymbosum","vascular",6,0.5
+119,"Taraxacum sect. Taraxacum","vascular",6,0.1
+119,"Teucrium chamaedrys","vascular",6,0.5
+119,"Tilia cordata","vascular",1,20
+119,"Tilia cordata","vascular",4,3
+119,"Veronica chamaedrys agg.","vascular",6,3
+119,"Vicia pisiformis","vascular",6,0.1
+119,"Vincetoxicum hirundinaria","vascular",6,0.5
+119,"Viola hirta","vascular",6,0.5
+119,"Viola mirabilis","vascular",6,0.5
+120,"Acer campestre","vascular",1,4
+120,"Acer platanoides","vascular",7,0.1
+120,"Acer pseudoplatanus","vascular",7,0.5
+120,"Aegopodium podagraria","vascular",6,3
+120,"Ajuga reptans","vascular",6,0.1
+120,"Anemone nemorosa","vascular",6,0.5
+120,"Asarum europaeum","vascular",6,10
+120,"Brachypodium sylvaticum","vascular",6,0.5
+120,"Bromus ramosus agg.","vascular",6,0.1
+120,"Campanula rapunculoides","vascular",6,0.5
+120,"Carex digitata","vascular",6,0.1
+120,"Carex pilosa","vascular",6,37.5
+120,"Carex sylvatica","vascular",6,0.5
+120,"Carpinus betulus","vascular",1,37.5
+120,"Carpinus betulus","vascular",7,0.5
+120,"Chaerophyllum aromaticum","vascular",6,0.1
+120,"Convallaria majalis","vascular",6,0.5
+120,"Elymus caninus","vascular",6,0.5
+120,"Euonymus europaeus","vascular",7,0.5
+120,"Euphorbia dulcis","vascular",6,0.5
+120,"Fraxinus excelsior","vascular",1,10
+120,"Fraxinus excelsior","vascular",7,0.5
+120,"Galeobdolon luteum agg.","vascular",6,3
+120,"Galium odoratum","vascular",6,3
+120,"Geranium phaeum","vascular",6,0.5
+120,"Geum urbanum","vascular",6,0.1
+120,"Hepatica nobilis","vascular",6,3
+120,"Heracleum sphondylium","vascular",6,0.1
+120,"Lamium maculatum","vascular",6,0.5
+120,"Lathyrus vernus","vascular",6,0.5
+120,"Lilium martagon","vascular",6,0.5
+120,"Maianthemum bifolium","vascular",6,0.5
+120,"Oxalis acetosella","vascular",6,3
+120,"Paris quadrifolia","vascular",6,3
+120,"Peucedanum cervaria","vascular",6,0.1
+120,"Polygonatum multiflorum","vascular",6,3
+120,"Populus tremula","vascular",7,0.5
+120,"Primula elatior","vascular",6,0.5
+120,"Pulmonaria officinalis agg.","vascular",6,10
+120,"Ranunculus lanuginosus","vascular",6,0.5
+120,"Stellaria holostea","vascular",6,0.5
+120,"Symphytum tuberosum","vascular",6,0.5
+120,"Vicia sylvatica","vascular",6,0.1
+120,"Viola hirta","vascular",6,0.1
+120,"Viola mirabilis","vascular",6,0.5
+120,"Viola reichenbachiana","vascular",6,0.5
+121,"Acer campestre","vascular",1,10
+121,"Acer campestre","vascular",7,4
+121,"Acer platanoides","vascular",1,0.5
+121,"Acer platanoides","vascular",7,0.1
+121,"Alliaria petiolata","vascular",6,0.1
+121,"Allium oleraceum","vascular",6,0.1
+121,"Anthericum ramosum","vascular",6,3
+121,"Brachypodium sylvaticum","vascular",6,0.5
+121,"Bromus ramosus agg.","vascular",6,0.5
+121,"Bupleurum falcatum","vascular",6,0.5
+121,"Campanula rapunculoides","vascular",6,0.1
+121,"Carex digitata","vascular",6,4
+121,"Carex michelii","vascular",6,20
+121,"Carpinus betulus","vascular",1,37.5
+121,"Carpinus betulus","vascular",4,3
+121,"Carpinus betulus","vascular",7,0.1
+121,"Cephalanthera damasonium","vascular",6,0.1
+121,"Cephalanthera rubra","vascular",6,0.1
+121,"Clinopodium vulgare","vascular",6,0.5
+121,"Convallaria majalis","vascular",6,20
+121,"Crataegus monogyna s.lat.","vascular",7,0.1
+121,"Elymus caninus","vascular",6,0.5
+121,"Euonymus verrucosus","vascular",7,0.5
+121,"Fragaria moschata","vascular",6,0.1
+121,"Fragaria vesca","vascular",6,0.5
+121,"Fraxinus excelsior","vascular",4,0.5
+121,"Fraxinus excelsior","vascular",7,0.5
+121,"Galium aparine","vascular",6,0.1
+121,"Galium odoratum","vascular",6,0.5
+121,"Geum urbanum","vascular",6,0.5
+121,"Hedera helix","vascular",6,0.1
+121,"Hepatica nobilis","vascular",6,0.5
+121,"Lonicera xylosteum","vascular",4,0.5
+121,"Lonicera xylosteum","vascular",7,0.5
+121,"Melica nutans","vascular",6,3
+121,"Melica uniflora","vascular",6,3
+121,"Neottia nidus-avis","vascular",6,0.1
+121,"Polygonatum odoratum","vascular",6,10
+121,"Prunus avium","vascular",7,0.1
+121,"Quercus petraea agg.","vascular",1,3
+121,"Quercus petraea agg.","vascular",7,0.5
+121,"Rhamnus cathartica","vascular",7,0.1
+121,"Hylotelephium telephium agg.","vascular",6,0.5
+121,"Sorbus torminalis","vascular",7,0.1
+121,"Stellaria holostea","vascular",6,3
+121,"Tilia platyphyllos","vascular",7,0.1
+121,"Vincetoxicum hirundinaria","vascular",6,0.5
+121,"Viola hirta","vascular",6,0.5
+121,"Viola mirabilis","vascular",6,0.5
+122,"Acer campestre","vascular",1,4
+122,"Acer platanoides","vascular",1,3
+122,"Acer platanoides","vascular",7,0.5
+122,"Acer pseudoplatanus","vascular",1,20
+122,"Actaea spicata","vascular",6,10
+122,"Aegopodium podagraria","vascular",6,0.1
+122,"Asarum europaeum","vascular",6,3
+122,"Asplenium trichomanes","vascular",6,0.5
+122,"Campanula rapunculoides","vascular",6,0.1
+122,"Campanula trachelium","vascular",6,0.1
+122,"Carpinus betulus","vascular",1,3
+122,"Carpinus betulus","vascular",4,3
+122,"Corylus avellana","vascular",4,0.5
+122,"Cystopteris fragilis","vascular",6,0.5
+122,"Euonymus europaeus","vascular",7,0.5
+122,"Euonymus verrucosus","vascular",4,3
+122,"Fraxinus excelsior","vascular",1,37.5
+122,"Fraxinus excelsior","vascular",4,3
+122,"Fraxinus excelsior","vascular",7,0.5
+122,"Galeobdolon luteum agg.","vascular",6,3
+122,"Galeopsis pubescens","vascular",6,0.1
+122,"Galium sylvaticum","vascular",6,0.5
+122,"Geranium robertianum","vascular",6,0.1
+122,"Hepatica nobilis","vascular",6,3
+122,"Heracleum sphondylium","vascular",6,0.1
+122,"Impatiens noli-tangere","vascular",6,0.1
+122,"Impatiens parviflora","vascular",6,0.5
+122,"Lathyrus vernus","vascular",6,0.5
+122,"Lilium martagon","vascular",6,0.1
+122,"Lonicera xylosteum","vascular",4,0.5
+122,"Lonicera xylosteum","vascular",7,0.5
+122,"Lunaria rediviva","vascular",6,37.5
+122,"Maianthemum bifolium","vascular",6,0.1
+122,"Mercurialis perennis","vascular",6,3
+122,"Mycelis muralis","vascular",6,0.1
+122,"Oxalis acetosella","vascular",6,0.5
+122,"Paris quadrifolia","vascular",6,0.1
+122,"Polygonatum multiflorum","vascular",6,3
+122,"Polypodium vulgare agg.","vascular",6,0.5
+122,"Pulmonaria officinalis agg.","vascular",6,0.5
+122,"Ranunculus lanuginosus","vascular",6,0.1
+122,"Ribes uva-crispa","vascular",4,3
+122,"Ribes uva-crispa","vascular",7,0.5
+122,"Stellaria holostea","vascular",6,0.1
+122,"Ulmus glabra","vascular",1,3
+122,"Ulmus glabra","vascular",7,0.5
+122,"Viola mirabilis","vascular",6,0.1
+123,"Acer campestre","vascular",4,0.5
+123,"Acer campestre","vascular",7,0.5
+123,"Acer platanoides","vascular",1,0.5
+123,"Acer platanoides","vascular",7,0.5
+123,"Acer pseudoplatanus","vascular",1,20
+123,"Acer pseudoplatanus","vascular",4,0.5
+123,"Acer pseudoplatanus","vascular",7,0.1
+123,"Aconitum lycoctonum","vascular",6,4
+123,"Alliaria petiolata","vascular",6,0.5
+123,"Asplenium trichomanes","vascular",6,0.1
+123,"Campanula persicifolia","vascular",6,0.1
+123,"Cardamine impatiens","vascular",6,0.1
+123,"Carex digitata","vascular",6,0.5
+123,"Carex muricata agg.","vascular",6,0.5
+123,"Carpinus betulus","vascular",7,0.1
+123,"Chaerophyllum temulum","vascular",6,0.5
+123,"Convallaria majalis","vascular",6,0.5
+123,"Corylus avellana","vascular",4,0.1
+123,"Dentaria bulbifera","vascular",6,3
+123,"Epipactis","vascular",6,0.1
+123,"Euonymus europaeus","vascular",7,0.5
+123,"Fagus sylvatica","vascular",1,37.5
+123,"Fagus sylvatica","vascular",4,10
+123,"Fagus sylvatica","vascular",7,0.5
+123,"Fraxinus excelsior","vascular",1,37.5
+123,"Fraxinus excelsior","vascular",7,3
+123,"Galeobdolon luteum agg.","vascular",6,3
+123,"Galium aparine","vascular",6,0.1
+123,"Galium odoratum","vascular",6,10
+123,"Galium sylvaticum","vascular",6,0.5
+123,"Geranium robertianum","vascular",6,0.5
+123,"Geum urbanum","vascular",6,0.1
+123,"Hepatica nobilis","vascular",6,0.5
+123,"Impatiens parviflora","vascular",6,4
+123,"Lamium maculatum","vascular",6,10
+123,"Lathyrus vernus","vascular",6,0.5
+123,"Maianthemum bifolium","vascular",6,0.5
+123,"Mercurialis perennis","vascular",6,3
+123,"Moehringia trinervia","vascular",6,0.5
+123,"Myosotis sylvatica","vascular",6,0.1
+123,"Omphalodes scorpioides","vascular",6,0.5
+123,"Poa nemoralis","vascular",6,0.1
+123,"Polygonatum multiflorum","vascular",6,0.5
+123,"Prunus avium","vascular",7,0.5
+123,"Pulmonaria officinalis agg.","vascular",6,0.5
+123,"Ranunculus lanuginosus","vascular",6,0.1
+123,"Ribes uva-crispa","vascular",7,0.5
+123,"Sambucus nigra","vascular",4,3
+123,"Sambucus nigra","vascular",7,0.1
+123,"Stellaria holostea","vascular",6,10
+123,"Ulmus glabra","vascular",4,10
+123,"Ulmus glabra","vascular",7,0.5
+123,"Urtica dioica","vascular",6,0.5
+123,"Viola hirta","vascular",6,0.5
+123,"Viola mirabilis","vascular",6,0.1
+124,"Acer campestre","vascular",1,3
+124,"Acer campestre","vascular",7,0.5
+124,"Acer platanoides","vascular",7,0.5
+124,"Acer pseudoplatanus","vascular",1,3
+124,"Acer pseudoplatanus","vascular",7,0.5
+124,"Anemone nemorosa","vascular",6,0.5
+124,"Brachypodium sylvaticum","vascular",6,3
+124,"Bromus ramosus agg.","vascular",6,0.5
+124,"Campanula persicifolia","vascular",6,0.5
+124,"Campanula trachelium","vascular",6,0.5
+124,"Carex digitata","vascular",6,4
+124,"Carex pilosa","vascular",6,37.5
+124,"Carpinus betulus","vascular",1,37.5
+124,"Carpinus betulus","vascular",7,0.5
+124,"Clinopodium vulgare","vascular",6,0.5
+124,"Cornus sanguinea","vascular",7,0.5
+124,"Crataegus monogyna s.lat.","vascular",4,0.1
+124,"Crataegus monogyna s.lat.","vascular",7,0.1
+124,"Dactylis polygama","vascular",6,0.5
+124,"Dentaria bulbifera","vascular",6,0.5
+124,"Digitalis grandiflora","vascular",6,0.5
+124,"Elymus caninus","vascular",6,0.5
+124,"Euonymus europaeus","vascular",7,0.5
+124,"Euonymus verrucosus","vascular",7,3
+124,"Fagus sylvatica","vascular",4,0.1
+124,"Fagus sylvatica","vascular",7,0.5
+124,"Fragaria vesca","vascular",6,0.5
+124,"Fraxinus excelsior","vascular",1,3
+124,"Fraxinus excelsior","vascular",7,3
+124,"Galium odoratum","vascular",6,0.5
+124,"Galium sylvaticum","vascular",6,3
+124,"Geum urbanum","vascular",6,0.1
+124,"Hepatica nobilis","vascular",6,3
+124,"Hieracium murorum","vascular",6,0.1
+124,"Lathyrus niger","vascular",6,0.5
+124,"Lathyrus vernus","vascular",6,0.5
+124,"Lilium martagon","vascular",6,0.1
+124,"Lonicera xylosteum","vascular",7,0.1
+124,"Melampyrum nemorosum","vascular",6,3
+124,"Melica nutans","vascular",6,0.5
+124,"Melica uniflora","vascular",6,10
+124,"Melittis melissophyllum","vascular",6,0.5
+124,"Mercurialis perennis","vascular",6,3
+124,"Neottia nidus-avis","vascular",6,0.1
+124,"Poa nemoralis","vascular",6,4
+124,"Prunus avium","vascular",7,0.5
+124,"Pulmonaria officinalis agg.","vascular",6,0.5
+124,"Sanicula europaea","vascular",6,0.5
+124,"Sorbus torminalis","vascular",7,3
+124,"Stellaria holostea","vascular",6,0.5
+124,"Tilia platyphyllos","vascular",7,0.5
+124,"Ulmus glabra","vascular",7,0.5
+124,"Veronica chamaedrys agg.","vascular",6,0.1
+124,"Vincetoxicum hirundinaria","vascular",6,0.5
+124,"Viola mirabilis","vascular",6,0.1
+124,"Viola riviniana","vascular",6,0.5
+125,"Acer campestre","vascular",4,0.5
+125,"Acer campestre","vascular",7,0.5
+125,"Acer platanoides","vascular",7,0.5
+125,"Acer pseudoplatanus","vascular",1,4
+125,"Acer pseudoplatanus","vascular",4,20
+125,"Acer pseudoplatanus","vascular",7,0.5
+125,"Aegopodium podagraria","vascular",6,37.5
+125,"Ajuga reptans","vascular",6,0.5
+125,"Alliaria petiolata","vascular",6,0.5
+125,"Alnus glutinosa","vascular",1,37.5
+125,"Alnus glutinosa","vascular",7,0.1
+125,"Asarum europaeum","vascular",6,3
+125,"Brachypodium sylvaticum","vascular",6,0.1
+125,"Campanula trachelium","vascular",6,0.5
+125,"Carpinus betulus","vascular",1,4
+125,"Carpinus betulus","vascular",7,0.1
+125,"Chaerophyllum aromaticum","vascular",6,0.1
+125,"Equisetum arvense","vascular",6,0.1
+125,"Euonymus europaeus","vascular",4,0.5
+125,"Euonymus europaeus","vascular",7,0.1
+125,"Festuca gigantea","vascular",6,0.1
+125,"Filipendula ulmaria","vascular",6,0.5
+125,"Fraxinus excelsior","vascular",1,4
+125,"Fraxinus excelsior","vascular",4,0.5
+125,"Galeobdolon luteum agg.","vascular",6,20
+125,"Galium aparine","vascular",6,0.1
+125,"Geum urbanum","vascular",6,0.5
+125,"Impatiens noli-tangere","vascular",6,10
+125,"Impatiens parviflora","vascular",6,3
+125,"Lamium maculatum","vascular",6,20
+125,"Moehringia trinervia","vascular",6,0.1
+125,"Myosoton aquaticum","vascular",6,37.5
+125,"Pulmonaria officinalis agg.","vascular",6,3
+125,"Ranunculus repens","vascular",6,0.1
+125,"Rubus caesius","vascular",6,0.1
+125,"Sambucus nigra","vascular",4,0.5
+125,"Sambucus nigra","vascular",7,0.1
+125,"Stachys sylvatica","vascular",6,10
+125,"Stellaria holostea","vascular",6,0.5
+125,"Ulmus glabra","vascular",4,0.5
+125,"Ulmus glabra","vascular",7,0.5
+125,"Urtica dioica","vascular",6,10
+125,"Viola reichenbachiana","vascular",6,0.1
+126,"Abies alba","vascular",7,0.1
+126,"Acer campestre","vascular",1,0.5
+126,"Acer campestre","vascular",7,0.5
+126,"Acer pseudoplatanus","vascular",1,37.5
+126,"Acer pseudoplatanus","vascular",7,4
+126,"Ajuga reptans","vascular",6,0.5
+126,"Alliaria petiolata","vascular",6,0.5
+126,"Anemone","vascular",6,0.1
+126,"Asarum europaeum","vascular",6,3
+126,"Athyrium filix-femina","vascular",6,0.5
+126,"Campanula persicifolia","vascular",6,0.1
+126,"Campanula trachelium","vascular",6,0.5
+126,"Cardamine impatiens","vascular",6,0.5
+126,"Carex digitata","vascular",6,3
+126,"Carpinus betulus","vascular",1,37.5
+126,"Carpinus betulus","vascular",7,0.5
+126,"Dactylis polygama","vascular",6,0.5
+126,"Dryopteris filix-mas","vascular",6,10
+126,"Fraxinus excelsior","vascular",7,0.5
+126,"Galeobdolon luteum agg.","vascular",6,20
+126,"Galium odoratum","vascular",6,10
+126,"Geranium robertianum","vascular",6,3
+126,"Geum urbanum","vascular",6,0.1
+126,"Impatiens noli-tangere","vascular",6,0.1
+126,"Impatiens parviflora","vascular",6,4
+126,"Melica nutans","vascular",6,0.5
+126,"Moehringia trinervia","vascular",6,0.5
+126,"Mycelis muralis","vascular",6,0.5
+126,"Myosotis sylvatica","vascular",6,0.1
+126,"Oxalis acetosella","vascular",6,0.5
+126,"Poa nemoralis","vascular",6,0.5
+126,"Pulmonaria officinalis agg.","vascular",6,3
+126,"Quercus petraea agg.","vascular",1,0.5
+126,"Quercus petraea agg.","vascular",7,0.5
+126,"Rubus caesius","vascular",6,0.5
+126,"Sambucus nigra","vascular",7,0.5
+126,"Senecio nemorensis agg.","vascular",6,0.1
+126,"Urtica dioica","vascular",6,0.5
+126,"Viola reichenbachiana","vascular",6,0.5
+127,"Aegopodium podagraria","vascular",6,0.5
+127,"Aesculus hippocastanum","vascular",7,0.1
+127,"Ajuga reptans","vascular",6,0.5
+127,"Alliaria petiolata","vascular",6,0.5
+127,"Alnus glutinosa","vascular",1,62.5
+127,"Alnus glutinosa","vascular",4,10
+127,"Anemone","vascular",6,0.1
+127,"Athyrium filix-femina","vascular",6,3
+127,"Bidens frondosa","vascular",6,0.5
+127,"Brachypodium sylvaticum","vascular",6,3
+127,"Caltha palustris","vascular",6,0.5
+127,"Cardamine amara subsp. amara","vascular",6,0.5
+127,"Carex acutiformis","vascular",6,20
+127,"Carex remota","vascular",6,3
+127,"Carpinus betulus","vascular",4,0.1
+127,"Carpinus betulus","vascular",7,0.5
+127,"Chrysosplenium alternifolium","vascular",6,0.1
+127,"Circaea x intermedia","vascular",6,3
+127,"Corylus avellana","vascular",4,0.1
+127,"Crepis paludosa","vascular",6,0.5
+127,"Epilobium roseum","vascular",6,0.5
+127,"Equisetum arvense","vascular",6,0.5
+127,"Euonymus europaeus","vascular",4,0.1
+127,"Eupatorium cannabinum","vascular",6,0.5
+127,"Fagus sylvatica","vascular",7,0.5
+127,"Festuca gigantea","vascular",6,3
+127,"Filipendula ulmaria","vascular",6,0.5
+127,"Fragaria moschata","vascular",6,0.5
+127,"Frangula alnus","vascular",4,0.5
+127,"Fraxinus excelsior","vascular",4,0.5
+127,"Galeobdolon luteum agg.","vascular",6,0.1
+127,"Galeopsis speciosa","vascular",6,0.1
+127,"Galium aparine","vascular",6,0.1
+127,"Geranium palustre","vascular",6,0.5
+127,"Geranium robertianum","vascular",6,0.5
+127,"Geum urbanum","vascular",6,0.5
+127,"Glechoma hederacea","vascular",6,0.5
+127,"Impatiens noli-tangere","vascular",6,3
+127,"Impatiens parviflora","vascular",6,0.5
+127,"Juncus effusus","vascular",6,0.5
+127,"Lycopus europaeus","vascular",6,0.5
+127,"Lysimachia nummularia","vascular",6,0.5
+127,"Lysimachia vulgaris","vascular",6,4
+127,"Maianthemum bifolium","vascular",6,0.1
+127,"Mentha longifolia","vascular",6,0.5
+127,"Moehringia trinervia","vascular",6,0.5
+127,"Mycelis muralis","vascular",6,0.5
+127,"Oxalis acetosella","vascular",6,0.5
+127,"Persicaria lapathifolia","vascular",6,0.5
+127,"Prunus avium","vascular",4,0.5
+127,"Quercus petraea agg.","vascular",7,0.1
+127,"Ranunculus acris","vascular",6,0.1
+127,"Ranunculus lanuginosus","vascular",6,0.1
+127,"Ranunculus repens","vascular",6,3
+127,"Rubus fruticosus agg.","vascular",6,3
+127,"Rubus idaeus","vascular",6,10
+127,"Rumex sanguineus","vascular",6,0.5
+127,"Sambucus nigra","vascular",4,10
+127,"Scirpus sylvaticus","vascular",6,20
+127,"Solanum dulcamara","vascular",6,3
+127,"Sorbus aucuparia","vascular",7,0.1
+127,"Stachys sylvatica","vascular",6,3
+127,"Taraxacum sect. Palustria","vascular",6,0.1
+127,"Urtica dioica","vascular",6,0.5
+127,"Veronica beccabunga","vascular",6,0.5
+127,"Viburnum opulus","vascular",4,0.5
+127,"Viburnum opulus","vascular",7,0.5
+127,"Vicia sepium","vascular",6,0.1
+127,"Viola riviniana","vascular",6,0.5
+127,"Myosotis palustris agg.","vascular",6,4
+128,"Acer pseudoplatanus","vascular",1,37.5
+128,"Acer pseudoplatanus","vascular",7,0.5
+128,"Actaea spicata","vascular",6,0.5
+128,"Asarum europaeum","vascular",6,3
+128,"Asplenium trichomanes","vascular",6,0.5
+128,"Campanula rapunculoides","vascular",6,0.5
+128,"Corylus avellana","vascular",1,37.5
+128,"Corylus avellana","vascular",4,4
+128,"Cystopteris fragilis","vascular",6,0.1
+128,"Dryopteris filix-mas","vascular",6,0.5
+128,"Fagus sylvatica","vascular",1,20
+128,"Fagus sylvatica","vascular",4,0.5
+128,"Fagus sylvatica","vascular",7,0.5
+128,"Fraxinus excelsior","vascular",7,0.1
+128,"Galeobdolon luteum agg.","vascular",6,0.5
+128,"Galium odoratum","vascular",6,3
+128,"Galium sylvaticum","vascular",6,0.1
+128,"Geranium robertianum","vascular",6,0.1
+128,"Hepatica nobilis","vascular",6,0.5
+128,"Impatiens noli-tangere","vascular",6,0.5
+128,"Impatiens parviflora","vascular",6,0.1
+128,"Lathyrus vernus","vascular",6,0.5
+128,"Lilium martagon","vascular",6,0.1
+128,"Lunaria rediviva","vascular",6,62.5
+128,"Mercurialis perennis","vascular",6,0.5
+128,"Oxalis acetosella","vascular",6,0.5
+128,"Pulmonaria officinalis agg.","vascular",6,0.5
+128,"Ribes uva-crispa","vascular",7,0.5
+128,"Sambucus nigra","vascular",4,4
+128,"Tilia platyphyllos","vascular",1,3
+128,"Ulmus glabra","vascular",4,0.5
+128,"Urtica dioica","vascular",6,0.5
+129,"Abies alba","vascular",7,0.1
+129,"Acer campestre","vascular",4,0.5
+129,"Acer campestre","vascular",7,0.5
+129,"Acer platanoides","vascular",7,0.5
+129,"Acer pseudoplatanus","vascular",1,10
+129,"Acer pseudoplatanus","vascular",4,0.1
+129,"Adoxa moschatellina","vascular",6,0.1
+129,"Aegopodium podagraria","vascular",6,37.5
+129,"Aesculus hippocastanum","vascular",4,4
+129,"Agrostis stolonifera","vascular",6,0.1
+129,"Ajuga reptans","vascular",6,0.5
+129,"Alliaria petiolata","vascular",6,0.1
+129,"Alnus glutinosa","vascular",1,37.5
+129,"Athyrium filix-femina","vascular",6,3
+129,"Brachypodium sylvaticum","vascular",6,0.5
+129,"Cardamine amara subsp. amara","vascular",6,0.1
+129,"Carex sylvatica","vascular",6,0.1
+129,"Carpinus betulus","vascular",1,0.1
+129,"Chaerophyllum hirsutum","vascular",6,4
+129,"Chelidonium majus","vascular",6,0.1
+129,"Corylus avellana","vascular",4,0.1
+129,"Crepis paludosa","vascular",6,3
+129,"Cystopteris fragilis","vascular",6,0.1
+129,"Dentaria bulbifera","vascular",6,0.1
+129,"Dryopteris filix-mas","vascular",6,0.5
+129,"Equisetum arvense","vascular",6,0.5
+129,"Festuca gigantea","vascular",6,0.1
+129,"Filipendula ulmaria","vascular",6,3
+129,"Fraxinus excelsior","vascular",1,37.5
+129,"Fraxinus excelsior","vascular",4,0.1
+129,"Fraxinus excelsior","vascular",7,3
+129,"Galeobdolon luteum agg.","vascular",6,3
+129,"Geranium phaeum","vascular",6,0.5
+129,"Geum urbanum","vascular",6,0.5
+129,"Glechoma hederacea","vascular",6,3
+129,"Impatiens noli-tangere","vascular",6,0.5
+129,"Impatiens parviflora","vascular",6,0.1
+129,"Myosoton aquaticum","vascular",6,20
+129,"Oxalis acetosella","vascular",6,0.5
+129,"Primula elatior","vascular",6,4
+129,"Pulmonaria officinalis agg.","vascular",6,0.5
+129,"Ranunculus lanuginosus","vascular",6,3
+129,"Sambucus nigra","vascular",7,0.5
+129,"Stachys sylvatica","vascular",6,0.5
+129,"Ulmus glabra","vascular",1,3
+129,"Ulmus glabra","vascular",4,4
+129,"Ulmus glabra","vascular",7,0.5
+129,"Urtica dioica","vascular",6,0.5
+129,"Viburnum opulus","vascular",7,0.5
+130,"Acer campestre","vascular",1,0.1
+130,"Acer platanoides","vascular",1,10
+130,"Acer platanoides","vascular",7,0.1
+130,"Acer pseudoplatanus","vascular",1,37.5
+130,"Acer pseudoplatanus","vascular",4,3
+130,"Alliaria petiolata","vascular",6,0.5
+130,"Asarum europaeum","vascular",6,0.5
+130,"Cardamine impatiens","vascular",6,0.1
+130,"Carpinus betulus","vascular",1,3
+130,"Corylus avellana","vascular",4,3
+130,"Dryopteris filix-mas","vascular",6,0.5
+130,"Euonymus verrucosus","vascular",7,0.5
+130,"Fraxinus excelsior","vascular",1,37.5
+130,"Fraxinus excelsior","vascular",7,0.1
+130,"Galeobdolon luteum agg.","vascular",6,0.1
+130,"Galium odoratum","vascular",6,0.1
+130,"Geranium robertianum","vascular",6,0.1
+130,"Glechoma hederacea","vascular",6,0.5
+130,"Impatiens noli-tangere","vascular",6,3
+130,"Impatiens parviflora","vascular",6,3
+130,"Lamium maculatum","vascular",6,10
+130,"Lunaria rediviva","vascular",6,62.5
+130,"Melica uniflora","vascular",6,0.1
+130,"Oxalis acetosella","vascular",6,0.1
+130,"Polypodium vulgare agg.","vascular",6,0.5
+130,"Pulmonaria officinalis agg.","vascular",6,0.5
+130,"Ribes uva-crispa","vascular",7,0.5
+130,"Sambucus nigra","vascular",4,0.5
+130,"Sambucus racemosa","vascular",4,0.5
+130,"Stellaria holostea","vascular",6,3
+130,"Tilia platyphyllos","vascular",1,3
+130,"Ulmus glabra","vascular",1,10
+130,"Ulmus glabra","vascular",4,3
+130,"Ulmus glabra","vascular",7,0.5
+130,"Urtica dioica","vascular",6,3
+131,"Aegopodium podagraria","vascular",6,0.5
+131,"Agrostis stolonifera","vascular",6,3
+131,"Ajuga reptans","vascular",6,0.5
+131,"Alnus glutinosa","vascular",1,37.5
+131,"Alnus glutinosa","vascular",7,0.5
+131,"Alnus incana","vascular",1,37.5
+131,"Alnus incana","vascular",4,3
+131,"Alnus incana","vascular",7,0.1
+131,"Angelica sylvestris","vascular",6,0.5
+131,"Athyrium filix-femina","vascular",6,0.5
+131,"Brachypodium sylvaticum","vascular",6,10
+131,"Caltha palustris","vascular",6,0.5
+131,"Cardamine amara subsp. amara","vascular",6,0.5
+131,"Carduus crispus","vascular",6,0.1
+131,"Carex muricata agg.","vascular",6,4
+131,"Carex remota","vascular",6,20
+131,"Chaerophyllum hirsutum","vascular",6,20
+131,"Chrysosplenium alternifolium","vascular",6,0.5
+131,"Cirsium palustre","vascular",6,0.1
+131,"Crepis paludosa","vascular",6,3
+131,"Daphne mezereum","vascular",6,0.1
+131,"Deschampsia cespitosa","vascular",6,4
+131,"Dryopteris dilatata","vascular",6,3
+131,"Epilobium roseum","vascular",6,0.5
+131,"Equisetum arvense","vascular",6,0.5
+131,"Equisetum sylvaticum","vascular",6,0.5
+131,"Fagus sylvatica","vascular",7,0.1
+131,"Festuca gigantea","vascular",6,3
+131,"Filipendula ulmaria","vascular",6,0.1
+131,"Galeopsis pubescens","vascular",6,0.1
+131,"Galium palustre agg.","vascular",6,0.5
+131,"Geranium robertianum","vascular",6,0.1
+131,"Geum urbanum","vascular",6,0.5
+131,"Glyceria fluitans","vascular",6,0.5
+131,"Impatiens noli-tangere","vascular",6,3
+131,"Impatiens parviflora","vascular",6,0.1
+131,"Juncus effusus","vascular",6,0.5
+131,"Lycopus europaeus","vascular",6,0.5
+131,"Lysimachia nummularia","vascular",6,0.5
+131,"Lysimachia vulgaris","vascular",6,3
+131,"Mentha aquatica","vascular",6,3
+131,"Oxalis acetosella","vascular",6,0.5
+131,"Persicaria lapathifolia","vascular",6,0.5
+131,"Poa palustris","vascular",6,0.5
+131,"Ranunculus repens","vascular",6,0.5
+131,"Rubus fruticosus agg.","vascular",6,0.5
+131,"Rubus idaeus","vascular",6,0.1
+131,"Rumex obtusifolius","vascular",6,3
+131,"Scrophularia nodosa","vascular",6,0.5
+131,"Scutellaria galericulata","vascular",6,0.5
+131,"Senecio nemorensis agg.","vascular",6,0.5
+131,"Silene nutans","vascular",6,0.5
+131,"Solanum dulcamara","vascular",6,37.5
+131,"Stachys sylvatica","vascular",6,0.5
+131,"Stellaria alsine","vascular",6,0.5
+131,"Stellaria holostea","vascular",6,0.5
+131,"Taraxacum sect. Palustria","vascular",6,0.5
+131,"Urtica dioica","vascular",6,3
+131,"Valeriana dioica","vascular",6,3
+131,"Veronica beccabunga","vascular",6,0.5
+131,"Veronica chamaedrys agg.","vascular",6,0.1
+131,"Viola riviniana","vascular",6,0.1
+131,"Myosotis palustris agg.","vascular",6,3
+131,"Ranunculus auricomus agg.","vascular",6,0.1
+131,"Ficaria calthifolia","vascular",6,0.1
+132,"Acer pseudoplatanus","vascular",4,0.5
+132,"Acer pseudoplatanus","vascular",7,0.5
+132,"Aegopodium podagraria","vascular",6,0.5
+132,"Agrostis stolonifera","vascular",6,0.5
+132,"Ajuga reptans","vascular",6,3
+132,"Alchemilla vulgaris s.lat.","vascular",6,0.1
+132,"Alnus glutinosa","vascular",1,37.5
+132,"Alnus glutinosa","vascular",4,0.5
+132,"Alnus incana","vascular",1,10
+132,"Alnus incana","vascular",7,0.1
+132,"Athyrium filix-femina","vascular",6,3
+132,"Caltha palustris","vascular",6,0.5
+132,"Cardamine amara subsp. amara","vascular",6,0.5
+132,"Carex acutiformis","vascular",6,20
+132,"Carex muricata agg.","vascular",6,0.5
+132,"Carex remota","vascular",6,3
+132,"Carpinus betulus","vascular",7,0.1
+132,"Chaerophyllum hirsutum","vascular",6,3
+132,"Chrysosplenium alternifolium","vascular",6,0.5
+132,"Crepis paludosa","vascular",6,0.5
+132,"Dryopteris dilatata","vascular",6,0.5
+132,"Epilobium roseum","vascular",6,0.5
+132,"Equisetum arvense","vascular",6,0.5
+132,"Euonymus europaeus","vascular",4,0.5
+132,"Eupatorium cannabinum","vascular",6,0.5
+132,"Euphorbia dulcis","vascular",6,0.5
+132,"Festuca gigantea","vascular",6,0.5
+132,"Filipendula ulmaria","vascular",6,3
+132,"Fraxinus excelsior","vascular",4,0.5
+132,"Fraxinus excelsior","vascular",7,0.5
+132,"Galeobdolon luteum agg.","vascular",6,0.1
+132,"Galeopsis pubescens","vascular",6,0.5
+132,"Galium aparine","vascular",6,0.5
+132,"Galium palustre agg.","vascular",6,0.5
+132,"Galium palustre agg.","vascular",6,0.5
+132,"Geranium palustre","vascular",6,0.5
+132,"Geranium robertianum","vascular",6,0.5
+132,"Geum urbanum","vascular",6,0.1
+132,"Impatiens noli-tangere","vascular",6,3
+132,"Impatiens parviflora","vascular",6,0.5
+132,"Juncus effusus","vascular",6,10
+132,"Knautia drymeia","vascular",6,0.1
+132,"Lonicera xylosteum","vascular",7,0.1
+132,"Lycopus europaeus","vascular",6,3
+132,"Lysimachia nummularia","vascular",6,0.5
+132,"Lysimachia vulgaris","vascular",6,4
+132,"Lythrum salicaria","vascular",6,3
+132,"Mentha aquatica","vascular",6,0.5
+132,"Myosoton aquaticum","vascular",6,4
+132,"Oxalis acetosella","vascular",6,0.5
+132,"Paris quadrifolia","vascular",6,0.1
+132,"Persicaria lapathifolia","vascular",6,0.1
+132,"Picea abies","vascular",1,0.1
+132,"Picea abies","vascular",7,0.1
+132,"Poa nemoralis","vascular",6,0.5
+132,"Poa palustris","vascular",6,0.5
+132,"Primula elatior","vascular",6,0.5
+132,"Pulmonaria officinalis agg.","vascular",6,0.5
+132,"Ranunculus repens","vascular",6,3
+132,"Rubus fruticosus agg.","vascular",6,0.5
+132,"Rubus idaeus","vascular",4,3
+132,"Rubus idaeus","vascular",6,3
+132,"Rumex obtusifolius","vascular",6,0.5
+132,"Salix caprea","vascular",1,0.5
+132,"Sambucus nigra","vascular",4,3
+132,"Sambucus racemosa","vascular",4,0.1
+132,"Scirpus sylvaticus","vascular",6,0.5
+132,"Scutellaria galericulata","vascular",6,3
+132,"Silene nutans","vascular",6,0.5
+132,"Solanum dulcamara","vascular",6,10
+132,"Sorbus aucuparia","vascular",7,0.1
+132,"Stachys sylvatica","vascular",6,3
+132,"Stellaria holostea","vascular",6,0.5
+132,"Taraxacum sect. Palustria","vascular",6,0.5
+132,"Urtica dioica","vascular",6,10
+132,"Veronica beccabunga","vascular",6,3
+132,"Viburnum opulus","vascular",4,0.5
+132,"Viola reichenbachiana","vascular",6,0.1
+132,"Myosotis palustris agg.","vascular",6,3

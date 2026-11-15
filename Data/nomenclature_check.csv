@@ -1,0 +1,348 @@
+"","species_nr","lettercode","synonym","turboveg_czechia_slovakia","kaplan","expert_system","nonvascular","n"
+"1",83,"ACERPLA",FALSE,"Acer platanoides","Acer platanoides","Acer platanoides",0,3
+"2",84,"ACERPSE",FALSE,"Acer pseudoplatanus","Acer pseudoplatanus","Acer pseudoplatanus",0,2
+"3",89,"ACER-SP",FALSE,"Acer species","Acer species","Acer species",0,1
+"4",106,"ACHI#MI",FALSE,"Achillea millefolium agg.","Achillea millefolium agg.","Achillea millefolium agg.",0,29
+"5",98,"ACHICOL",FALSE,"Achillea collina","Achillea collina","Achillea millefolium agg.",0,6
+"6",119,"ACHISET",FALSE,"Achillea setacea","Achillea setacea","Achillea setacea",0,3
+"7",210,"AGRIEUP",FALSE,"Agrimonia eupatoria","Agrimonia eupatoria","Agrimonia eupatoria",0,1
+"8",227,"AGRTCAP",FALSE,"Agrostis capillaris","Agrostis capillaris","Agrostis capillaris",0,33
+"9",229,"AGRTGIG",FALSE,"Agrostis gigantea","Agrostis gigantea","Agrostis gigantea",0,1
+"10",440,"ALLUCAR",FALSE,"Allium carinatum","Allium carinatum","Allium carinatum",0,1
+"11",446,"ALLUFLA",FALSE,"Allium flavum","Allium flavum","Allium flavum",0,1
+"12",457,"ALLUS-M",FALSE,"Allium senescens ssp. montanum","Allium senescens subsp. montanum","Allium senescens subsp. montanum",0,7
+"13",500,"ALYSMON",FALSE,"Alyssum montanum","Alyssum montanum","Alyssum montanum",0,2
+"14",603,"ANCHOFF",FALSE,"Anchusa officinalis","Anchusa officinalis","Anchusa officinalis",0,2
+"15",705,"ANTRRAM",FALSE,"Anthericum ramosum","Anthericum ramosum","Anthericum ramosum",0,18
+"16",714,"ANTXODO",FALSE,"Anthoxanthum odoratum","Anthoxanthum odoratum","Anthoxanthum odoratum s.lat.",0,6
+"17",826,"ARENSER",FALSE,"Arenaria serpyllifolia","Arenaria serpyllifolia","Arenaria serpyllifolia agg.",0,3
+"18",836,"ARMEELO",FALSE,"Armeria elongata","Armeria elongata","Armeria elongata",0,2
+"19",847,"ARNIMON",FALSE,"Arnica montana","Arnica montana","Arnica montana",0,2
+"20",851,"ARRHELA",FALSE,"Arrhenatherum elatius","Arrhenatherum elatius","Arrhenatherum elatius",0,16
+"21",1033,"ASPLADU",FALSE,"Asplenium adulterinum","Asplenium adulterinum","Asplenium adulterinum",0,15
+"22",1038,"ASPLCUN",FALSE,"Asplenium cuneifolium","Asplenium cuneifolium","Asplenium cuneifolium",0,39
+"23",1042,"ASPLRUT",FALSE,"Asplenium ruta-muraria","Asplenium ruta-muraria","Asplenium ruta-muraria",0,1
+"24",1047,"ASPLSEP",FALSE,"Asplenium septentrionale","Asplenium septentrionale","Asplenium septentrionale",0,5
+"25",1048,"ASPLTRI",FALSE,"Asplenium trichomanes","Asplenium trichomanes","Asplenium trichomanes",0,2
+"26",977,"ASPRCYN",FALSE,"Asperula cynanchica","Asperula cynanchica","Asperula cynanchica",0,11
+"27",1128,"ATHYFIL",FALSE,"Athyrium filix-femina","Athyrium filix-femina","Athyrium filix-femina",0,2
+"28",1174,"AVEEFLE",FALSE,"Avenella flexuosa","Avenella flexuosa","Avenella flexuosa",0,28
+"29",1184,"AVEUP-H",FALSE,"Avenula pratensis ssp. hirtifolia","Helictotrichon pratense subsp. hirtifolium","Helictotrichon pratense subsp. hirtifolium",0,2
+"30",1183,"AVEUPRT",FALSE,"Avenula pratensis","Helictotrichon pratense","Helictotrichon pratense",0,12
+"31",1187,"AVEUPUB",FALSE,"Avenula pubescens","Avenula pubescens","Avenula pubescens",0,3
+"32",1340,"BERBVUL",FALSE,"Berberis vulgaris","Berberis vulgaris","Berberis vulgaris",0,5
+"33",1361,"BETUPEN",FALSE,"Betula pendula","Betula pendula","Betula pendula",0,1
+"34",1399,"BISCLAE",FALSE,"Biscutella laevigata","Biscutella laevigata","Biscutella laevigata ssp. varia",0,8
+"35",1447,"BRAYPIN",FALSE,"Brachypodium pinnatum","Brachypodium pinnatum","Brachypodium pinnatum",0,9
+"36",1451,"BRAYSYL",FALSE,"Brachypodium sylvaticum","Brachypodium sylvaticum","Brachypodium sylvaticum",0,2
+"37",1499,"BRIZMED",FALSE,"Briza media","Briza media","Briza media",0,4
+"38",1532,"BROMTEC",FALSE,"Bromus tectorum","Bromus tectorum","Bromus tectorum",0,1
+"39",1748,"BUPLFAL",FALSE,"Bupleurum falcatum","Bupleurum falcatum","Bupleurum falcatum",0,8
+"40",1775,"CALAARU",FALSE,"Calamagrostis arundinacea","Calamagrostis arundinacea","Calamagrostis arundinacea",0,31
+"41",1778,"CALAEPI",FALSE,"Calamagrostis epigejos","Calamagrostis epigejos","Calamagrostis epigejos",0,1
+"42",1847,"CALBVUL",FALSE,"Calluna vulgaris","Calluna vulgaris","Calluna vulgaris",0,12
+"43",2003,"CAMPGLO",FALSE,"Campanula glomerata","Campanula glomerata","Campanula glomerata",0,7
+"44",2013,"CAMPPER",FALSE,"Campanula persicifolia","Campanula persicifolia","Campanula persicifolia",0,5
+"45",2022,"CAMPROT",FALSE,"Campanula rotundifolia","Campanula rotundifolia","Campanula rotundifolia agg.",0,26
+"46",2195,"CARECAR",FALSE,"Carex caryophyllea","Carex caryophyllea","Carex caryophyllea",0,14
+"47",2206,"CAREDIG",FALSE,"Carex digitata","Carex digitata var. digitata","Carex digitata",0,8
+"48",2212,"CAREECH",FALSE,"Carex echinata","Carex echinata","Carex echinata",0,1
+"49",2235,"CAREHUM",FALSE,"Carex humilis","Carex humilis","Carex humilis",0,6
+"50",2248,"CAREMON",FALSE,"Carex montana","Carex montana","Carex montana",0,1
+"51",2262,"CAREPAE",FALSE,"Carex pallescens","Carex pallescens","Carex pallescens",0,1
+"52",2274,"CAREPRA",FALSE,"Carex praecox","Carex praecox","Carex praecox",0,1
+"53",2310,"CARL#VU",FALSE,"Carlina vulgaris agg.","Carlina vulgaris agg.","Carlina vulgaris agg.",0,1
+"54",2136,"CARMARE",FALSE,"Cardaminopsis arenosa","Arabidopsis arenosa","Arabidopsis arenosa",0,1
+"55",2147,"CARUACA",FALSE,"Carduus acanthoides","Carduus acanthoides","Carduus acanthoides",0,3
+"56",2161,"CARUNUT",FALSE,"Carduus nutans","Carduus nutans","Carduus nutans",0,2
+"57",2391,"CENTJAC",FALSE,"Centaurea jacea","Centaurea jacea","Centaurea jacea",0,1
+"58",2414,"CENTSCA",FALSE,"Centaurea scabiosa","Centaurea scabiosa","Centaurea scabiosa",0,25
+"59",2427,"CENTS-O",FALSE,"Centaurea stoebe ssp. stoebe","Centaurea stoebe","Centaurea stoebe",0,6
+"60",2536,"CERA#PU",FALSE,"Cerastium pumilum agg.","Cerastium pumilum agg.","Cerastium pumilum s.lat.",0,2
+"61",2511,"CERAALS",FALSE,"Cerastium alsinifolium","Cerastium alsinifolium","Cerastium alsinifolium",0,2
+"62",2512,"CERAARV",FALSE,"Cerastium arvense","Cerastium arvense","Cerastium arvense",0,9
+"63",2530,"CERAHOL",FALSE,"Cerastium holosteoides","Cerastium holosteoides","Cerastium holosteoides",0,2
+"64",2650,"CHAARAT",FALSE,"Chamaecytisus ratisbonensis","Chamaecytisus ratisbonensis","Chamaecytisus ratisbonensis",0,1
+"65",2651,"CHAASUP",FALSE,"Chamaecytisus supinus","Chamaecytisus supinus","Chamaecytisus supinus",0,1
+"66",2815,"CIRSVUL",FALSE,"Cirsium vulgare","Cirsium vulgare","Cirsium vulgare",0,1
+"67",3069,"CONAARV",FALSE,"Convolvulus arvensis","Convolvulus arvensis","Convolvulus arvensis",0,6
+"68",3067,"CONVMAJ",FALSE,"Convallaria majalis","Convallaria majalis var. majalis","Convallaria majalis",0,2
+"69",3123,"CORLAVE",FALSE,"Corylus avellana","Corylus avellana","Corylus avellana",0,5
+"70",3230,"CRUCGLA",FALSE,"Cruciata glabra","Cruciata verna","Cruciata verna",0,1
+"71",3282,"CYCLPUR",FALSE,"Cyclamen purpurascens","Cyclamen purpurascens","Cyclamen purpurascens",0,1
+"72",3354,"CYTISCO",FALSE,"Cytisus scoparius","Cytisus scoparius","Cytisus scoparius",0,3
+"73",3364,"DACYGLO",FALSE,"Dactylis glomerata","Dactylis glomerata","Dactylis glomerata",0,3
+"74",3420,"DANTDEC",FALSE,"Danthonia decumbens","Danthonia decumbens","Danthonia decumbens",0,6
+"75",3473,"DESCCES",FALSE,"Deschampsia cespitosa","Deschampsia cespitosa","Deschampsia cespitosa",0,1
+"76",3497,"DIANCAR",FALSE,"Dianthus carthusianorum","Dianthus carthusianorum","Dianthus carthusianorum s.lat.",0,16
+"77",3498,"DIANC-C",FALSE,"Dianthus carthusianorum ssp. capillifrons","Dianthus carthusianorum subsp. capillifrons","Dianthus carthusianorum subsp. capillifrons",0,3
+"78",3504,"DIANDEL",FALSE,"Dianthus deltoides","Dianthus deltoides","Dianthus deltoides",0,2
+"79",3507,"DIANGRA",FALSE,"Dianthus gratianopolitanus","Dianthus gratianopolitanus","Dianthus gratianopolitanus",0,5
+"80",3524,"DIANSYL",FALSE,"Dianthus sylvaticus","Dianthus sylvaticus","Dianthus sylvaticus",0,2
+"81",3711,"DORYGER",FALSE,"Dorycnium germanicum","Dorycnium germanicum","Dorycnium pentaphyllum s.lat.",0,17
+"82",3792,"DRYODIL",FALSE,"Dryopteris dilatata","Dryopteris dilatata","Dryopteris dilatata",0,1
+"83",3794,"DRYOFIL",FALSE,"Dryopteris filix-mas","Dryopteris filix-mas","Dryopteris filix-mas",0,3
+"84",3827,"ECHUVUL",FALSE,"Echium vulgare","Echium vulgare","Echium vulgare",0,1
+"85",3869,"ELYMHIS",FALSE,"Elymus hispidus","Elymus hispidus","Elymus hispidus",0,3
+"86",3872,"ELYMREP",FALSE,"Elymus repens","Elymus repens","Elymus repens",0,1
+"87",4020,"ERICCAR",FALSE,"Erica carnea","Erica carnea","Erica carnea",0,11
+"88",4073,"ERYNCAM",FALSE,"Eryngium campestre","Eryngium campestre","Eryngium campestre",0,1
+"89",4122,"EUPHCYP",FALSE,"Euphorbia cyparissias","Euphorbia cyparissias","Euphorbia cyparissias",0,16
+"90",12264,"EUPHS-M",FALSE,"Euphorbia seguieriana ssp. minor","Euphorbia seguieriana subsp. minor","Euphorbia seguieriana subsp. minor",0,3
+"91",4153,"EUPH-SP",FALSE,"Euphorbia species","Euphorbia species","Euphorbia species",0,1
+"92",4227,"FALLCON",FALSE,"Fallopia convolvulus","Fallopia convolvulus","Fallopia convolvulus",0,1
+"93",4261,"FESTBRE",FALSE,"Festuca brevipila","Festuca brevipila","Festuca brevipila",0,1
+"94",4283,"FESTOVI",FALSE,"Festuca ovina","Festuca ovina","Festuca ovina",0,70
+"95",4289,"FESTPAA",FALSE,"Festuca pallens s.lat.","Festuca pallens s.lat.","Festuca pallens",0,19
+"96",4299,"FESTPSD",FALSE,"Festuca pseudovina","Festuca pulchra","Festuca pulchra",0,1
+"97",4306,"FESTRUB",FALSE,"Festuca rubra","Festuca rubra","Festuca rubra agg.",0,2
+"98",4310,"FESTRUI",FALSE,"Festuca rupicola","Festuca rupicola","Festuca rupicola",0,2
+"99",4331,"FEST-SP",FALSE,"Festuca species","Festuca species","Festuca species",0,5
+"100",4317,"FESTVAL",FALSE,"Festuca valesiaca","Festuca valesiaca","Festuca valesiaca",0,5
+"101",4345,"FILIVUL",FALSE,"Filipendula vulgaris","Filipendula vulgaris","Filipendula vulgaris",0,2
+"102",4420,"FRAGVES",FALSE,"Fragaria vesca","Fragaria vesca","Fragaria vesca",0,6
+"103",4426,"FRANALN",FALSE,"Frangula alnus","Frangula alnus","Frangula alnus",0,12
+"104",4430,"FRAXEXC",FALSE,"Fraxinus excelsior","Fraxinus excelsior","Fraxinus excelsior",0,3
+"105",4541,"GALP#TE",FALSE,"Galeopsis tetrahit agg.","Galeopsis tetrahit agg.","Galeopsis tetrahit s.lat.",0,1
+"106",4595,"GALU*PO",FALSE,"Galium x pomeranicum (G. album x verum)","Galium x pomeranicum","Galium x pomeranicum",0,1
+"107",4549,"GALUALU",FALSE,"Galium album s.str.","Galium album subsp. album","Galium album subsp. album",0,1
+"108",4573,"GALUPUM",FALSE,"Galium pumilum","Galium pumilum","Galium pumilum s.lat.",0,4
+"109",4579,"GALUSAX",FALSE,"Galium saxatile","Galium saxatile","Galium saxatile",0,7
+"110",4582,"GALUSUD",FALSE,"Galium sudeticum","Galium sudeticum","Galium pumilum s.lat.",0,3
+"111",4584,"GALUSYL",FALSE,"Galium sylvaticum","Galium sylvaticum","Galium sylvaticum",0,1
+"112",4589,"GALUVAL",FALSE,"Galium valdepilosum","Galium valdepilosum","Galium pumilum s.lat.",0,10
+"113",4592,"GALUVEU",FALSE,"Galium verum","Galium verum","Galium verum agg.",0,46
+"114",4610,"GENIGER",FALSE,"Genista germanica","Genista germanica","Genista germanica",0,1
+"115",4611,"GENIPIL",FALSE,"Genista pilosa","Genista pilosa","Genista pilosa",0,16
+"116",4614,"GENITIN",FALSE,"Genista tinctoria","Genista tinctoria","Genista tinctoria",0,9
+"117",4922,"HEDEHEL",FALSE,"Hedera helix","Hedera helix","Hedera helix",0,3
+"118",5127,"HIERLAC",FALSE,"Hieracium lachenalii","Hieracium lachenalii","Hieracium lachenalii",0,8
+"119",5130,"HIERLAV",FALSE,"Hieracium laevigatum","Hieracium laevigatum","Hieracium laevigatum",0,1
+"120",5137,"HIERMUR",FALSE,"Hieracium murorum","Hieracium murorum","Hieracium murorum",0,2
+"121",5148,"HIERPIL",FALSE,"Hieracium pilosella","Pilosella officinarum","Pilosella officinarum",0,10
+"122",5149,"HIERPIO",FALSE,"Hieracium piloselloides","Pilosella piloselloides","Pilosella piloselloides",0,1
+"123",5165,"HIERSAB",FALSE,"Hieracium sabaudum","Hieracium sabaudum","Hieracium sabaudum s.lat.",0,3
+"124",5195,"HIER-SP",FALSE,"Hieracium species","Hieracium species","Hieracium species",0,5
+"125",5224,"HOLCMOL",FALSE,"Holcus mollis","Holcus mollis","Holcus mollis",0,3
+"126",5226,"HOLOUMB",FALSE,"Holosteum umbellatum","Holosteum umbellatum","Holosteum umbellatum",0,1
+"127",10021,"HYLTMAX",FALSE,"Hylotelephium maximum","Hylotelephium maximum","Hylotelephium telephium agg.",0,10
+"128",5398,"HYPCRAD",FALSE,"Hypochaeris radicata","Hypochaeris radicata","Hypochaeris radicata",0,1
+"129",5352,"HYPEMON",FALSE,"Hypericum montanum","Hypericum montanum","Hypericum montanum",0,4
+"130",5353,"HYPEPER",FALSE,"Hypericum perforatum","Hypericum perforatum","Hypericum perforatum",0,7
+"131",5575,"JUNICOM",FALSE,"Juniperus communis","Juniperus communis","Juniperus communis",0,3
+"132",5607,"KNAUA-A",FALSE,"Knautia arvensis ssp. arvensis","Knautia arvensis subsp. arvensis","Knautia arvensis subsp. arvensis",0,2
+"133",13623,"KNAUARA",FALSE,"Knautia arvensis ssp. serpentinicola","Knautia serpentinicola","Knautia serpentinicola",0,11
+"134",5629,"KOELMAC",FALSE,"Koeleria macrantha","Koeleria macrantha","Koeleria macrantha",0,6
+"135",5652,"LACTSER",FALSE,"Lactuca serriola","Lactuca serriola","Lactuca serriola",0,2
+"136",5725,"LATYPRA",FALSE,"Lathyrus pratensis","Lathyrus pratensis","Lathyrus pratensis",0,3
+"137",6086,"LEONHIS",FALSE,"Leontodon hispidus","Leontodon hispidus","Leontodon hispidus",0,4
+"138",6303,"LINAGEN",FALSE,"Linaria genistifolia","Linaria genistifolia","Linaria genistifolia",0,2
+"139",6442,"LOTUCOR",FALSE,"Lotus corniculatus","Lotus corniculatus","Lotus corniculatus",0,19
+"140",6471,"LUZU#CA",FALSE,"Luzula campestris agg.","Luzula campestris agg.","Luzula campestris agg.",0,5
+"141",6470,"LUZUCAM",FALSE,"Luzula campestris","Luzula campestris","Luzula campestris agg.",0,6
+"142",6477,"LUZULUU",FALSE,"Luzula luzuloides","Luzula luzuloides","Luzula luzuloides",0,4
+"143",6481,"LUZUMUT",FALSE,"Luzula multiflora s.str.","Luzula multiflora","Luzula campestris agg.",0,5
+"144",6484,"LUZUPIL",FALSE,"Luzula pilosa","Luzula pilosa","Luzula pilosa",0,3
+"145",6493,"LUZU-SP",FALSE,"Luzula species","Luzula species","Luzula species",0,1
+"146",6499,"LYCHVIS",FALSE,"Lychnis viscaria","Viscaria vulgaris","Viscaria vulgaris",0,6
+"147",6556,"MALUDOM",FALSE,"Malus domestica","Malus domestica","Malus species",0,1
+"148",6640,"MEDIFAL",FALSE,"Medicago falcata","Medicago falcata","Medicago falcata",0,1
+"149",6667,"MELAARV",FALSE,"Melampyrum arvense","Melampyrum arvense","Melampyrum arvense",0,1
+"150",6674,"MELAPRA",FALSE,"Melampyrum pratense","Melampyrum pratense","Melampyrum pratense",0,13
+"151",6689,"MELICIL",FALSE,"Melica ciliata","Melica ciliata","Melica ciliata",0,1
+"152",6693,"MELINUT",FALSE,"Melica nutans","Melica nutans","Melica nutans",0,5
+"153",6695,"MELITRA",FALSE,"Melica transsilvanica","Melica transsilvanica","Melica transsilvanica",0,3
+"154",6847,"MINUSME",FALSE,"Minuartia smejkalii","Minuartia smejkalii","Minuartia smejkalii",0,2
+"155",6899,"MOLI#CA",FALSE,"Molinia caerulea agg.","Molinia caerulea agg.","Molinia caerulea agg.",0,10
+"156",6941,"MYCEMUR",FALSE,"Mycelis muralis","Mycelis muralis","Mycelis muralis",0,2
+"157",6996,"MYOSSTE",FALSE,"Myosotis stenophylla","Myosotis stenophylla","Myosotis stenophylla",0,1
+"158",7047,"NARUSTR",FALSE,"Nardus stricta","Nardus stricta","Nardus stricta",0,1
+"159",7135,"NOTHMAR",FALSE,"Notholaena marantae","Notholaena marantae","Notholaena marantae",0,1
+"160",13719,"OPUNPHA",FALSE,"Opuntia phaeacantha","Opuntia phaeacantha","Opuntia phaeacantha",0,1
+"161",7389,"ORTHSEC",FALSE,"Orthilia secunda","Orthilia secunda","Orthilia secunda",0,2
+"162",7447,"OXALACE",FALSE,"Oxalis acetosella","Oxalis acetosella","Oxalis acetosella",0,5
+"163",7916,"PHLEPHL",FALSE,"Phleum phleoides","Phleum phleoides","Phleum phleoides",0,7
+"164",8026,"PICEABI",FALSE,"Picea abies","Picea abies","Picea abies",0,8
+"165",8042,"PIMPSAX",FALSE,"Pimpinella saxifraga s.str.","Pimpinella saxifraga subsp. saxifraga","Pimpinella saxifraga subsp. saxifraga",0,32
+"166",8058,"PINUSYL",FALSE,"Pinus sylvestris","Pinus sylvestris","Pinus sylvestris",0,32
+"167",8150,"PLAALAN",FALSE,"Plantago lanceolata","Plantago lanceolata","Plantago lanceolata",0,5
+"168",8158,"PLAAMED",FALSE,"Plantago media","Plantago media","Plantago media",0,2
+"169",8201,"POA ANG",FALSE,"Poa angustifolia","Poa angustifolia","Poa pratensis s.lat.",0,16
+"170",8209,"POA COM",FALSE,"Poa compressa","Poa compressa","Poa compressa",0,2
+"171",8218,"POA NEM",FALSE,"Poa nemoralis","Poa nemoralis","Poa nemoralis",0,2
+"172",8229,"POA PAU",FALSE,"Poa palustris ""xerotica""","Poa palustris","Poa palustris",0,1
+"173",8222,"POA PRA",FALSE,"Poa pratensis","Poa pratensis","Poa pratensis s.lat.",0,2
+"174",8376,"POLAVER",FALSE,"Polygonatum verticillatum","Polygonatum verticillatum","Polygonatum verticillatum",0,1
+"175",8365,"POLGCHA",FALSE,"Polygala chamaebuxus","Polygala chamaebuxus","Polygala chamaebuxus",0,16
+"176",8366,"POLGCOM",FALSE,"Polygala comosa","Polygala comosa","Polygala comosa",0,2
+"177",8369,"POLGVUL",FALSE,"Polygala vulgaris","Polygala vulgaris","Polygala vulgaris",0,5
+"178",8388,"POLPVUL",FALSE,"Polypodium vulgare","Polypodium vulgare","Polypodium vulgare s.lat.",0,4
+"179",8559,"POTE#VE",FALSE,"Potentilla verna agg.","Potentilla verna agg.","Potentilla tabernaemontani",0,1
+"180",8520,"POTEARG",FALSE,"Potentilla argentea","Potentilla argentea","Potentilla argentea",0,1
+"181",8529,"POTECRA",FALSE,"Potentilla crantzii","Potentilla crantzii","Potentilla crantzii",0,4
+"182",8530,"POTEERE",FALSE,"Potentilla erecta","Potentilla erecta","Potentilla erecta",0,10
+"183",8536,"POTEINC",FALSE,"Potentilla incana","Potentilla incana","Potentilla incana",0,16
+"184",50017,"POTEINC",TRUE,"Potentilla arenaria","Potentilla incana","Potentilla incana",0,3
+"185",8648,"PRUNGRA",FALSE,"Prunella grandiflora","Prunella grandiflora","Prunella grandiflora",0,1
+"186",8653,"PRUUAVI",FALSE,"Prunus avium","Prunus avium","Prunus avium",0,3
+"187",8662,"PRUUMAH",FALSE,"Prunus mahaleb","Prunus mahaleb","Prunus mahaleb",0,2
+"188",8675,"PRUU-SP",FALSE,"Prunus species","Prunus species","Prunus species",0,3
+"189",8669,"PRUUSPI",FALSE,"Prunus spinosa","Prunus spinosa subsp. spinosa","Prunus spinosa",0,1
+"190",8704,"PSEYSPI",FALSE,"Pseudolysimachion spicatum","Veronica spicata","Veronica spicata",0,3
+"191",8738,"PTERAQU",FALSE,"Pteridium aquilinum","Pteridium aquilinum","Pteridium aquilinum",0,3
+"192",8850,"QUERPET",FALSE,"Quercus petraea","Quercus petraea","Quercus petraea agg.",0,30
+"193",8855,"QUERROB",FALSE,"Quercus robur","Quercus robur","Quercus robur",0,11
+"194",8860,"QUER-SP",FALSE,"Quercus species","Quercus species","Quercus species",0,1
+"195",9049,"RHAMCAT",FALSE,"Rhamnus cathartica","Rhamnus cathartica","Rhamnus cathartica",0,2
+"196",9067,"RHINMIN",FALSE,"Rhinanthus minor","Rhinanthus minor","Rhinanthus minor",0,1
+"197",9370,"ROSA#CN",FALSE,"Rosa canina agg.","Rosa canina agg.","Rosa canina s.lat.",0,3
+"198",9459,"RUBU#FR",FALSE,"Rubus fruticosus agg.","Rubus fruticosus agg.","Rubus fruticosus agg.",0,3
+"199",9437,"RUBUCAE",FALSE,"Rubus caesius","Rubus caesius","Rubus caesius",0,1
+"200",9441,"RUBUCAS",FALSE,"Rubus canescens","Rubus canescens","Rubus fruticosus agg.",0,2
+"201",9476,"RUBUIDA",FALSE,"Rubus idaeus","Rubus idaeus","Rubus idaeus",0,24
+"202",9533,"RUBU-SP",FALSE,"Rubus species","Rubus species","Rubus fruticosus agg.",0,2
+"203",9539,"RUMEACE",FALSE,"Rumex acetosa","Rumex acetosa","Rumex acetosa",0,13
+"204",9540,"RUMEACT",FALSE,"Rumex acetosella s.lat.","Rumex acetosella","Rumex acetosella",0,11
+"205",9681,"SALVPRA",FALSE,"Salvia pratensis","Salvia pratensis","Salvia pratensis",0,2
+"206",9703,"SANGOFF",FALSE,"Sanguisorba officinalis","Sanguisorba officinalis","Sanguisorba officinalis",0,1
+"207",9806,"SAXI-SP",FALSE,"Saxifraga species","Saxifraga species","Saxifraga species",0,1
+"208",9789,"SAXISPO",FALSE,"Saxifraga sponhemica","Saxifraga rosacea subsp. sponhemica","Saxifraga rosacea subsp. sponhemica",0,2
+"209",9809,"SCABCOL",FALSE,"Scabiosa columbaria","Scabiosa columbaria","Scabiosa columbaria",0,1
+"210",9811,"SCABOCH",FALSE,"Scabiosa ochroleuca","Scabiosa ochroleuca","Scabiosa ochroleuca",0,1
+"211",9927,"SCLEPER",FALSE,"Scleranthus perennis","Scleranthus perennis","Scleranthus perennis",0,1
+"212",10005,"SECUVAR",FALSE,"Securigera varia","Securigera varia","Securigera varia",0,3
+"213",10008,"SEDUACR",FALSE,"Sedum acre","Sedum acre","Sedum acre",0,6
+"214",10010,"SEDUALB",FALSE,"Sedum album","Sedum album","Sedum album",0,7
+"215",10026,"SEDUSEX",FALSE,"Sedum sexangulare","Sedum sexangulare","Sedum sexangulare",0,1
+"216",10075,"SEMPMON",FALSE,"Sempervivum montanum","Sempervivum montanum","Sempervivum montanum",0,1
+"217",10121,"SENE-SP",FALSE,"Senecio species","Senecio species","Senecio species",0,1
+"218",10113,"SENESYL",FALSE,"Senecio sylvaticus","Senecio sylvaticus","Senecio sylvaticus",0,2
+"219",10128,"SESEANN",FALSE,"Seseli annuum","Seseli annuum","Seseli annuum",0,2
+"220",10132,"SESEHIP",FALSE,"Seseli hippomarathrum","Seseli hippomarathrum","Seseli hippomarathrum",0,3
+"221",10133,"SESELIB",FALSE,"Seseli libanotis","Libanotis pyrenaica","Libanotis pyrenaica",0,1
+"222",10134,"SESEOSS",FALSE,"Seseli osseum","Seseli osseum","Seseli osseum",0,1
+"223",10141,"SESLALB",FALSE,"Sesleria albicans","Sesleria caerulea","Sesleria caerulea",0,3
+"224",10205,"SILENUT",FALSE,"Silene nutans s.lat.","Silene nutans","Silene nutans",0,5
+"225",10208,"SILEOTI",FALSE,"Silene otites","Silene otites","Silene otites s.lat.",0,4
+"226",10230,"SILE-SP",FALSE,"Silene species","Silene species","Silene species",0,1
+"227",10225,"SILEVUL",FALSE,"Silene vulgaris","Silene vulgaris","Silene vulgaris",0,56
+"228",10336,"SORU#AR",FALSE,"Sorbus aria agg.","Sorbus aria agg.","Sorbus aria s.lat.",0,2
+"229",10337,"SORUAUC",FALSE,"Sorbus aucuparia","Sorbus aucuparia","Sorbus aucuparia",0,15
+"230",10357,"SORU-SP",FALSE,"Sorbus species","Sorbus species","Sorbus species",0,2
+"231",10562,"STELGRA",FALSE,"Stellaria graminea","Stellaria graminea","Stellaria graminea",0,1
+"232",10563,"STELHOL",FALSE,"Stellaria holostea","Stellaria holostea","Stellaria holostea",0,1
+"233",10632,"STIPCAP",FALSE,"Stipa capillata","Stipa capillata","Stipa capillata",0,5
+"234",10634,"STIPDAS",FALSE,"Stipa dasyphylla","Stipa dasyphylla","Stipa dasyphylla",0,2
+"235",10638,"STIPPEN",FALSE,"Stipa pennata","Stipa pennata","Stipa pennata",0,4
+"236",10640,"STIPPUL",FALSE,"Stipa pulcherrima","Stipa pulcherrima","Stipa pulcherrima",0,2
+"237",10646,"STIP-SP",FALSE,"Stipa species","Stipa species","Stipa species",0,1
+"238",10643,"STIPTIR",FALSE,"Stipa tirsa","Stipa tirsa","Stipa tirsa",0,1
+"239",10966,"TARASEH",FALSE,"Taraxacum sect. Erythrosperma","Taraxacum sect. Erythrosperma","Taraxacum sect. Erythrosperma",0,1
+"240",10973,"TARASEO",FALSE,"Taraxacum sect. Ruderalia","Taraxacum sect. Taraxacum","Taraxacum sect. Taraxacum",0,3
+"241",11028,"TARA-SP",FALSE,"Taraxacum species","Taraxacum species","Taraxacum sect. Ruderalia",0,1
+"242",11035,"TAXUBAC",FALSE,"Taxus baccata","Taxus baccata","Taxus baccata",0,1
+"243",11102,"TEUCCHA",FALSE,"Teucrium chamaedrys","Teucrium chamaedrys","Teucrium chamaedrys",0,1
+"244",11215,"THESALP",FALSE,"Thesium alpinum","Thesium alpinum","Thesium alpinum",0,1
+"245",11219,"THESLIN",FALSE,"Thesium linophyllon","Thesium linophyllon","Thesium linophyllon",0,1
+"246",11236,"THLSMON",FALSE,"Thlaspi montanum","Noccaea montana","Noccaea montana",0,6
+"247",11237,"THLSPER",FALSE,"Thlaspi perfoliatum","Microthlaspi perfoliatum","Microthlaspi perfoliatum",0,1
+"248",50075,"THYUKOS",TRUE,"Thymus pannonicus","Thymus pannonicus","Thymus pannonicus",0,1
+"249",11268,"THYUPRA",FALSE,"Thymus praecox","Thymus praecox","Thymus praecox",0,23
+"250",11273,"THYUPUE",FALSE,"Thymus pulegioides","Thymus pulegioides","Thymus pulegioides",0,14
+"251",11287,"TILICOR",FALSE,"Tilia cordata","Tilia cordata","Tilia cordata",0,1
+"252",11477,"TRIFALP",FALSE,"Trifolium alpestre","Trifolium alpestre","Trifolium alpestre",0,2
+"253",11480,"TRIFARV",FALSE,"Trifolium arvense","Trifolium arvense","Trifolium arvense",0,5
+"254",11484,"TRIFCAM",FALSE,"Trifolium campestre","Trifolium campestre","Trifolium campestre",0,2
+"255",11496,"TRIFMED",FALSE,"Trifolium medium","Trifolium medium","Trifolium medium",0,1
+"256",11500,"TRIFMON",FALSE,"Trifolium montanum","Trifolium montanum","Trifolium montanum",0,3
+"257",11508,"TRIFPRA",FALSE,"Trifolium pratense","Trifolium pratense","Trifolium pratense",0,1
+"258",11735,"VACIMYR",FALSE,"Vaccinium myrtillus","Vaccinium myrtillus","Vaccinium myrtillus",0,22
+"259",11739,"VACIULI",FALSE,"Vaccinium uliginosum","Vaccinium uliginosum","Vaccinium uliginosum",0,2
+"260",11740,"VACIVIT",FALSE,"Vaccinium vitis-idaea","Vaccinium vitis-idaea","Vaccinium vitis-idaea",0,22
+"261",11783,"VERBC-A",FALSE,"Verbascum chaixii ssp. austriacum","Verbascum chaixii subsp. austriacum","Verbascum chaixii subsp. austriacum",0,4
+"262",11786,"VERBLYC",FALSE,"Verbascum lychnitis","Verbascum lychnitis","Verbascum lychnitis",0,3
+"263",11787,"VERBNIG",FALSE,"Verbascum nigrum","Verbascum nigrum","Verbascum nigrum",0,1
+"264",11822,"VEROCHA",FALSE,"Veronica chamaedrys","Veronica chamaedrys","Veronica chamaedrys agg.",0,4
+"265",11833,"VEROOFF",FALSE,"Veronica officinalis","Veronica officinalis","Veronica officinalis",0,4
+"266",11841,"VEROPRO",FALSE,"Veronica prostrata","Veronica prostrata","Veronica prostrata",0,1
+"267",12033,"VICI#CR",FALSE,"Vicia cracca agg.","Vicia cracca agg.","Vicia cracca",0,1
+"268",12034,"VICICRA",FALSE,"Vicia cracca","Vicia cracca","Vicia cracca",0,5
+"269",12072,"VINEHIR",FALSE,"Vincetoxicum hirundinaria","Vincetoxicum hirundinaria","Vincetoxicum hirundinaria",0,3
+"270",12081,"VIOLARV",FALSE,"Viola arvensis","Viola arvensis","Viola arvensis",0,1
+"271",12089,"VIOLCAI",FALSE,"Viola canina","Viola canina","Viola canina",0,3
+"272",12093,"VIOLCOL",FALSE,"Viola collina","Viola collina","Viola collina",0,3
+"273",12110,"VIOLRIV",FALSE,"Viola riviniana","Viola riviniana","Viola riviniana",0,11
+"274",12111,"VIOLRUP",FALSE,"Viola rupestris","Viola rupestris","Viola rupestris",0,1
+"275",12123,"VIOL-SP",FALSE,"Viola species","Viola species","Viola species",0,1
+"276",12127,"VISCA-X",FALSE,"Viscum album ssp. laxum","Viscum album subsp. austriacum","Viscum album subsp. austriacum",0,2
+"277",3,"ABITABI",FALSE,"Abietinella abietina","Abietinella abietina","Abietinella abietina",1,3
+"278",1280,"BARI-SP",FALSE,"Barbilophozia species","Barbilophozia species","Barbilophozia species",1,4
+"279",1314,"BAZZTRL",FALSE,"Bazzania trilobata","Bazzania trilobata","Bazzania trilobata",1,2
+"280",1454,"BRATALB",FALSE,"Brachythecium albicans","Brachythecium albicans","Brachythecium albicans",1,2
+"281",1483,"BRAT-SP",FALSE,"Brachythecium species","Brachythecium species","Brachythecium species",1,3
+"282",1601,"BRYUARG",FALSE,"Bryum argenteum","Bryum argenteum","Bryum argenteum",1,1
+"283",1674,"BRYU-SP",FALSE,"Bryum species","Bryum species","Bryum species",1,6
+"284",2094,"CANEVIT",FALSE,"Candelariella vitellina","Candelariella vitellina","Candelariella vitellina",1,1
+"285",2551,"CEROPUR",FALSE,"Ceratodon purpureus","Ceratodon purpureus","Ceratodon purpureus",1,10
+"286",2735,"CHIL-SP",FALSE,"Chiloscyphus species","Chiloscyphus species","Chiloscyphus species",1,6
+"287",2831,"CLAOARB",FALSE,"Cladonia arbuscula","Cladonia arbuscula","Cladonia arbuscula s.lat.",1,7
+"288",2846,"CLAOCHL",FALSE,"Cladonia chlorophaea","Cladonia chlorophaea","Cladonia chlorophaea s.lat.",1,5
+"289",2857,"CLAOCRY",FALSE,"Cladonia cryptochlorophaea","Cladonia cryptochlorophaea","Cladonia chlorophaea s.lat.",1,2
+"290",2859,"CLAODEC",FALSE,"Cladonia decorticata","Cladonia decorticata","Cladonia decorticata",1,1
+"291",2863,"CLAOFIM",FALSE,"Cladonia fimbriata","Cladonia fimbriata","Cladonia fimbriata",1,8
+"292",2866,"CLAOFUR",FALSE,"Cladonia furcata","Cladonia furcata","Cladonia furcata",1,16
+"293",2870,"CLAOGRA",FALSE,"Cladonia gracilis","Cladonia gracilis","Cladonia gracilis",1,1
+"294",2874,"CLAOMAC",FALSE,"Cladonia macilenta","Cladonia macilenta","Cladonia macilenta s.lat.",1,1
+"295",2887,"CLAOPHY",FALSE,"Cladonia phyllophora","Cladonia phyllophora","Cladonia phyllophora",1,2
+"296",2893,"CLAOPYX",FALSE,"Cladonia pyxidata","Cladonia pyxidata","Cladonia pyxidata s.lat.",1,6
+"297",2896,"CLAORAG",FALSE,"Cladonia rangiformis","Cladonia rangiformis","Cladonia rangiformis",1,7
+"298",2895,"CLAORAN",FALSE,"Cladonia rangiferina","Cladonia rangiferina","Cladonia rangiferina s.lat.",1,2
+"299",2897,"CLAOREI",FALSE,"Cladonia rei","Cladonia rei","Cladonia subulata s.lat.",1,1
+"300",2915,"CLAO-SP",FALSE,"Cladonia species","Cladonia species","Cladonia species",1,10
+"301",2909,"CLAOSUU",FALSE,"Cladonia subulata","Cladonia subulata","Cladonia subulata s.lat.",1,3
+"302",3586,"DICUPOL",FALSE,"Dicranum polysetum","Dicranum polysetum","Dicranum polysetum",1,26
+"303",3587,"DICUSCO",FALSE,"Dicranum scoparium","Dicranum scoparium","Dicranum scoparium",1,16
+"304",3593,"DICU-SP",FALSE,"Dicranum species","Dicranum species","Dicranum species",1,1
+"305",4203,"EURH-SP",FALSE,"Eurhynchium species","Eurhynchium species","Eurhynchium species",1,2
+"306",4384,"FISS-SP",FALSE,"Fissidens species","Fissidens species","Fissidens species",1,6
+"307",4460,"FRUL-SP",FALSE,"Frullania species","Frullania species","Frullania species",1,13
+"308",4794,"GRIM-SP",FALSE,"Grimmia species","Grimmia species","Grimmia species",1,9
+"309",4926,"HEDICIL",FALSE,"Hedwigia ciliata","Hedwigia ciliata","Hedwigia ciliata",1,7
+"310",4927,"HEDI-SP",FALSE,"Hedwigia species","Hedwigia species","Hedwigia species",1,3
+"311",5312,"HYLOSPL",FALSE,"Hylocomium splendens","Hylocomium splendens","Hylocomium splendens",1,19
+"312",5363,"HYPNCUP",FALSE,"Hypnum cupressiforme","Hypnum cupressiforme","Hypnum cupressiforme agg.",1,39
+"313",5387,"HYPN-SP",FALSE,"Hypnum species","Hypnum species","Hypnum species",1,6
+"314",6137,"LEPR-SP",FALSE,"Lepraria species","Lepraria species","Lepraria species",1,4
+"315",6231,"LEUD-SP",FALSE,"Leucodon species","Leucodon species","Leucodon species",1,1
+"316",6222,"LEUOGLA",FALSE,"Leucobryum glaucum","Leucobryum glaucum","Leucobryum glaucum",1,1
+"317",6224,"LEUO-SP",FALSE,"Leucobryum species","Leucobryum species","Leucobryum species",1,1
+"318",6401,"LOPH-SP",FALSE,"Lophocolea species","Lophocolea species","Lophocolea species",1,1
+"319",7442,"ORTR-SP",FALSE,"Orthotrichum species","Orthotrichum species","Orthotrichum species",1,3
+"320",7591,"PARMSAX",FALSE,"Parmelia saxatilis","Parmelia saxatilis","Parmelia saxatilis",1,1
+"321",7609,"PARM-SP",FALSE,"Parmelia species","Parmelia species","Parmelia species",1,1
+"322",7695,"PELIPOL",FALSE,"Peltigera polydactyla","Peltigera polydactyla","Peltigera polydactyla",1,3
+"323",7967,"PHYCDUB",FALSE,"Physcia dubia","Physcia dubia","Physcia dubia",1,1
+"324",7978,"PHYC-SP",FALSE,"Physcia species","Physcia species","Physcia species",1,1
+"325",8113,"PLAMAFF",FALSE,"Plagiomnium affine","Plagiomnium affine","Plagiomnium affine s.lat.",1,9
+"326",8124,"PLAM-SP",FALSE,"Plagiomnium species","Plagiomnium species","Plagiomnium species",1,6
+"327",8137,"PLAT-SP",FALSE,"Plagiothecium species","Plagiothecium species","Plagiothecium species",1,3
+"328",8198,"PLEISCH",FALSE,"Pleurozium schreberi","Pleurozium schreberi","Pleurozium schreberi",1,29
+"329",8419,"POLIFOR",FALSE,"Polytrichum formosum","Polytrichum formosum","Polytrichum formosum",1,2
+"330",8421,"POLIJUN",FALSE,"Polytrichum juniperinum","Polytrichum juniperinum","Polytrichum juniperinum",1,2
+"331",8424,"POLIPIL",FALSE,"Polytrichum piliferum","Polytrichum piliferum","Polytrichum piliferum",1,1
+"332",8426,"POLI-SP",FALSE,"Polytrichum species","Polytrichum species","Polytrichum species",1,9
+"333",8578,"POTT-SP",FALSE,"Pottia species","Pottia species","Pottia species",1,1
+"334",8881,"RACM-SP",FALSE,"Racomitrium species","Racomitrium species","Racomitrium species",1,1
+"335",8886,"RADUCOM",FALSE,"Radula complanata","Radula complanata","Radula complanata",1,1
+"336",8908,"RAMAPOL",FALSE,"Ramalina pollinaria","Ramalina pollinaria","Ramalina pollinaria",1,1
+"337",9156,"RHOOROS",FALSE,"Rhodobryum roseum","Rhodobryum roseum","Rhodobryum roseum",1,1
+"338",9192,"RHYIRUG",FALSE,"Rhytidium rugosum","Rhytidium rugosum","Rhytidium rugosum",1,8
+"339",9193,"RHYI-SP",FALSE,"Rhytidium species","Rhytidium species","Rhytidium species",1,1
+"340",9188,"RHYTSQU",FALSE,"Rhytidiadelphus squarrosus","Rhytidiadelphus squarrosus","Rhytidiadelphus squarrosus",1,4
+"341",9190,"RHYTTRI",FALSE,"Rhytidiadelphus triquetrus","Rhytidiadelphus triquetrus","Rhytidiadelphus triquetrus",1,4
+"342",9946,"SCLDPUR",FALSE,"Scleropodium purum","Scleropodium purum","Scleropodium purum",1,12
+"343",10458,"SPHG-SP",FALSE,"Sphagnum species","Sphagnum species","Sphagnum species",1,3
+"344",11364,"TORTTOR",FALSE,"Tortella tortuosa","Tortella tortuosa","Tortella tortuosa",1,1
+"345",11398,"TORURUA",FALSE,"Tortula ruralis","Tortula ruralis","Tortula ruralis",1,2
+"346",11407,"TORU-SP",FALSE,"Tortula species","Tortula species","Tortula species",1,14
+"347",12173,"WEIS-SP",FALSE,"Weissia species","Weissia species","Weissia species",1,2

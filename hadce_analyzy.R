@@ -1,3 +1,106 @@
-#HLAVNÍ SOUBOR PRO ANALÝZU DAT
+#MAIN DATA ANALYSIS BRANCH
 
-#komentujme změny a oddělujme kapitoly
+library(tidyverse)
+library(janitor)
+library(readxl)
+library(readr)
+
+
+# Data import -------------------------------------------------------------
+
+env <- read_delim("data/serp_env.csv", 
+                  delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+spe <- read_csv("data/serp_spe.csv") %>% 
+  clean_names()
+
+
+# Nomenclature check ------------------------------------------------------
+
+nomenclature <- read_csv("data/nomenclature_20251108.csv") %>%
+  clean_names()  
+
+nomenclature_check <-  nomenclature %>% 
+  left_join(spe %>% 
+              count(species_nr)) %>% 
+  filter(!is.na(n))
+
+write.csv(nomenclature_check, "data/nomenclature_check.csv")
+
+nomenclature <- read_csv("data/nomenclature_check.csv")
+
+spe <- spe %>% 
+  left_join(nomenclature) %>% 
+  select(releve_nr, cover_code, layer, kaplan, nonvascular) 
+
+# Cover -------------------------------------------------------------------
+
+cover <- read_csv("data/table_cover.csv") %>% clean_names()  
+cover
+
+cover %>% 
+  filter(str_starts(cover_scale_name, "Braun")) %>% 
+  print(n=20)
+
+#cover codes to percentages
+spe <- spe %>%
+  left_join(env %>% select(poradi), by = c("releve_nr" = "poradi")) %>% 
+  mutate(coverscale = "02") %>% 
+  left_join(cover %>% select(coverscale, cover_code, cover_perc))
+
+# Merging of species covers across layers ---------------------------------
+
+spe %>%    
+  group_by(releve_nr, kaplan, layer) %>%    
+  count() %>%   
+  filter(n>1)       # zero duplicates in one layer
+
+spe %>%    
+  group_by(releve_nr, kaplan) %>%    
+  count() %>%   
+  filter(n>1)       # 17 duplicates across layers
+
+combine_cover <- function(x){
+  while (length(x)>1){
+    x[2] <- x[1]+(100-x[1])*x[2]/100
+    x <- x[-1]
+  }
+  return(x)
+}
+
+spe <- spe %>%    
+  group_by(releve_nr, kaplan, layer, nonvascular) %>%    
+  summarize(cover_perc_new = combine_cover(cover_perc))
+
+spe %>% 
+  write_csv("data/spe_merged_covers.csv")
+
+spe_vas <- spe %>% 
+  filter(nonvascular == 0)      # only vascular plants
+
+spe_nonv <- spe %>% 
+  filter(nonvascular == 1)      # only nonvascular plants
+
+
+# Analysis ----------------------------------------------------------------
+
+richness <- spe %>%
+  ungroup() %>% 
+  group_by(releve_nr) %>%
+  summarise(n = n_distinct(kaplan))
+
+env %>%
+  left_join(richness, by = c("poradi" = "releve_nr")) %>%
+  ggplot(aes(x = s_ph_h2o, y = n)) +
+  geom_point() +
+  theme_minimal() +
+  labs(title = "Effect of Soil pH on Species Richness",
+       x = "Soil pH", 
+       y = "Number of Species per Relevé")
+
+env %>%
+  left_join(richness, by = c("poradi" = "releve_nr")) %>%
+  lm(n ~ s_ph_h2o, data = .) %>% 
+  summary() 
+# linear regression analysis showed no significant relationship between soil pH and species richness
+# R-squared:  0.0001469; F-statistic: 0.01469 on 1 and 100 DF;  p-value: 0.9038

@@ -17,21 +17,21 @@ spe <- read_csv("data/serp_spe.csv") %>%
 
 # Nomenclature check ------------------------------------------------------
 
-nomenclature <- read_csv("data/nomenclature_20251108.csv") %>%
-  clean_names()  
+#nomenclature <- read_csv("data/nomenclature_20251108.csv") %>%
+#  clean_names()  
 
-nomenclature_check <-  nomenclature %>% 
-  left_join(spe %>% 
-              count(species_nr)) %>% 
-  filter(!is.na(n))
+#nomenclature_check <-  nomenclature %>% 
+#  left_join(spe %>% 
+#              count(species_nr)) %>% 
+#  filter(!is.na(n))
 
-write.csv(nomenclature_check, "data/nomenclature_check.csv")
+#write.csv(nomenclature_check, "data/nomenclature_check.csv")
 
 nomenclature <- read_csv("data/nomenclature_check.csv")
 
 spe <- spe %>% 
   left_join(nomenclature) %>% 
-  select(releve_nr, cover_code, layer, kaplan, nonvascular) 
+  select(releve_nr, cover_code, layer, species, nonvascular) 
 
 # Cover -------------------------------------------------------------------
 
@@ -51,12 +51,12 @@ spe <- spe %>%
 # Merging of species covers across layers ---------------------------------
 
 spe %>%    
-  group_by(releve_nr, kaplan, layer) %>%    
+  group_by(releve_nr, species, layer) %>%    
   count() %>%   
   filter(n>1)       # zero duplicates in one layer
 
 spe %>%    
-  group_by(releve_nr, kaplan) %>%    
+  group_by(releve_nr, species) %>%    
   count() %>%   
   filter(n>1)       # 17 duplicates across layers
 
@@ -69,11 +69,13 @@ combine_cover <- function(x){
 }
 
 spe <- spe %>%    
-  group_by(releve_nr, kaplan, layer, nonvascular) %>%    
+  group_by(releve_nr, species, layer, nonvascular) %>%    
   summarize(cover_perc_new = combine_cover(cover_perc))
 
-spe %>% 
-  write_csv("data/spe_merged_covers.csv")
+#spe %>% 
+#  write_csv("data/spe_merged_covers.csv")
+
+spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
 
 spe_vas <- spe %>% 
   filter(nonvascular == 0)      # only vascular plants
@@ -87,7 +89,7 @@ spe_nonv <- spe %>%
 richness <- spe %>%
   ungroup() %>% 
   group_by(releve_nr) %>%
-  summarise(n = n_distinct(kaplan))
+  summarise(n = n_distinct(species))
 
 env %>%
   left_join(richness, by = c("poradi" = "releve_nr")) %>%

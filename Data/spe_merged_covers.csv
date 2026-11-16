@@ -1,4 +1,4 @@
-releve_nr,kaplan,layer,nonvascular,cover_perc_new
+releve_nr,species,layer,nonvascular,cover_perc_new
 1,Asperula cynanchica,6,0,0.5
 1,Biscutella laevigata,6,0,3
 1,Bupleurum falcatum,6,0,0.5
@@ -6,7 +6,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 1,Dorycnium germanicum,6,0,20
 1,Euphorbia cyparissias,6,0,3
 1,Festuca ovina,6,0,10
-1,Festuca pallens s.lat.,6,0,3
+1,Festuca pallens,6,0,3
 1,Hypnum species,9,1,0.5
 1,Potentilla incana,6,0,3
 1,Silene vulgaris,6,0,0.5
@@ -18,7 +18,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 2,Ceratodon purpureus,9,1,0.5
 2,Dorycnium germanicum,6,0,10
 2,Euphorbia cyparissias,6,0,0.5
-2,Festuca pallens s.lat.,6,0,10
+2,Festuca pallens,6,0,10
 2,Orthotrichum species,9,1,0.5
 2,Potentilla incana,6,0,10
 2,Sedum album,6,0,0.5
@@ -51,13 +51,13 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 4,Asplenium cuneifolium,6,0,3
 4,Berberis vulgaris,7,0,0.5
 4,Campanula glomerata,6,0,0.5
-4,Carex digitata var. digitata,6,0,0.5
+4,Carex digitata,6,0,0.5
 4,Ceratodon purpureus,9,1,3
 4,Cladonia furcata,9,1,3
 4,Cladonia species,9,1,3
 4,Dicranum polysetum,9,1,0.5
 4,Euphorbia cyparissias,6,0,3
-4,Festuca pallens s.lat.,6,0,0.5
+4,Festuca pallens,6,0,0.5
 4,Fissidens species,9,1,0.5
 4,Galium verum,6,0,0.5
 4,Genista pilosa,6,0,37.5
@@ -77,7 +77,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 5,Hypnum cupressiforme,9,1,37.5
 5,Juniperus communis,4,0,0.5
 5,Lotus corniculatus,6,0,0.5
-5,Luzula multiflora,6,0,0.5
+5,Luzula campestris agg.,6,0,0.5
 5,Molinia caerulea agg.,6,0,3
 5,Orthilia secunda,6,0,0.5
 5,Pinus sylvestris,1,0,10
@@ -110,7 +110,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 7,Asplenium septentrionale,6,0,0.5
 7,Ceratodon purpureus,9,1,0.5
 7,Dianthus gratianopolitanus,6,0,10
-7,Festuca pallens s.lat.,6,0,37.5
+7,Festuca pallens,6,0,37.5
 7,Galium verum,6,0,3
 7,Rhytidium rugosum,9,1,3
 7,Saxifraga rosacea subsp. sponhemica,6,0,0.1
@@ -129,13 +129,13 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 8,Festuca ovina,6,0,20
 8,Galium verum,6,0,3
 8,Plagiothecium species,9,1,3
-8,Poa angustifolia,6,0,0.5
 8,Poa compressa,6,0,3
+8,Poa pratensis agg.,6,0,0.5
 8,Polytrichum species,9,1,0.5
 8,Rhytidium rugosum,9,1,3
 8,Rumex acetosella,6,0,0.5
 8,Sedum acre,6,0,0.5
-8,Taraxacum sect. Erythrosperma,6,0,0.5
+8,Taraxacum species,6,0,0.5
 8,Tortula species,9,1,3
 8,Trifolium arvense,6,0,0.5
 9,Avenella flexuosa,6,0,37.5
@@ -197,7 +197,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 11,Pilosella officinarum,6,0,0.5
 11,Plagiomnium species,9,1,0.5
 11,Pleurozium schreberi,9,1,3
-11,Poa angustifolia,6,0,3
+11,Poa pratensis agg.,6,0,3
 11,Polygala chamaebuxus,6,0,0.5
 11,Polypodium vulgare,6,0,3
 11,Polytrichum species,9,1,0.5
@@ -240,7 +240,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 12,Pilosella officinarum,6,0,0.1
 12,Plagiomnium species,9,1,0.5
 12,Pleurozium schreberi,9,1,3
-12,Poa angustifolia,6,0,3
+12,Poa pratensis agg.,6,0,3
 12,Polygala chamaebuxus,6,0,0.5
 12,Polygala vulgaris,6,0,0.1
 12,Potentilla erecta,6,0,0.5
@@ -265,9 +265,9 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 13,Hedwigia species,9,1,3
 13,Hypnum cupressiforme,9,1,10
 13,Knautia serpentinicola,6,0,0.5
-13,Luzula multiflora,6,0,0.5
+13,Luzula campestris agg.,6,0,0.5
 13,Pleurozium schreberi,9,1,3
-13,Poa angustifolia,6,0,3
+13,Poa pratensis agg.,6,0,3
 13,Polygala chamaebuxus,6,0,10
 13,Potentilla erecta,6,0,0.5
 13,Rhytidiadelphus triquetrus,9,1,3
@@ -275,7 +275,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 13,Silene species,6,0,0.1
 13,Silene vulgaris,6,0,3
 13,Sorbus aucuparia,7,0,0.5
-13,Taraxacum sect. Taraxacum,6,0,0.1
+13,Taraxacum species,6,0,0.1
 13,Thymus pulegioides,6,0,0.5
 13,Tortula species,9,1,3
 13,Vaccinium uliginosum,6,0,0.5
@@ -322,7 +322,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 15,Polytrichum species,9,1,3
 15,Quercus robur,7,0,0.1
 15,Rubus idaeus,6,0,0.5
-15,Taraxacum sect. Taraxacum,6,0,0.1
+15,Taraxacum species,6,0,0.1
 15,Tortula species,9,1,0.5
 15,Viola riviniana,6,0,0.1
 16,Agrostis capillaris,6,0,3
@@ -357,7 +357,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 17,Luzula campestris agg.,6,0,0.5
 17,Malus domestica,7,0,0.1
 17,Pleurozium schreberi,9,1,3
-17,Poa angustifolia,6,0,3
+17,Poa pratensis agg.,6,0,3
 17,Polygala vulgaris,6,0,0.5
 17,Quercus robur,7,0,0.1
 17,Rhytidiadelphus triquetrus,9,1,3
@@ -422,7 +422,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 20,Dicranum polysetum,9,1,20
 20,Dorycnium germanicum,6,0,0.5
 20,Euphorbia seguieriana subsp. minor,6,0,0.5
-20,Festuca pallens s.lat.,6,0,0.5
+20,Festuca pallens,6,0,0.5
 20,Genista pilosa,6,0,10
 20,Hypnum cupressiforme,9,1,3
 20,Prunus mahaleb,7,0,0.1
@@ -440,7 +440,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 21,Dorycnium germanicum,6,0,0.5
 21,Euphorbia cyparissias,6,0,0.5
 21,Euphorbia seguieriana subsp. minor,6,0,0.5
-21,Festuca pallens s.lat.,6,0,20
+21,Festuca pallens,6,0,20
 21,Galium saxatile,6,0,0.5
 21,Grimmia species,9,1,0.5
 21,Holosteum umbellatum,6,0,0.5
@@ -462,7 +462,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 22,Carex humilis,6,0,3
 22,Dicranum polysetum,9,1,20
 22,Euphorbia cyparissias,6,0,0.5
-22,Festuca pallens s.lat.,6,0,0.5
+22,Festuca pallens,6,0,0.5
 22,Frangula alnus,4,0,3
 22,Frullania species,9,1,3
 22,Galium valdepilosum,6,0,0.5
@@ -502,7 +502,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 24,Dianthus carthusianorum,6,0,0.5
 24,Dorycnium germanicum,6,0,3
 24,Euphorbia cyparissias,6,0,0.5
-24,Festuca pallens s.lat.,6,0,37.5
+24,Festuca pallens,6,0,37.5
 24,Genista pilosa,6,0,3
 24,Pimpinella saxifraga subsp. saxifraga,6,0,0.5
 24,Pinus sylvestris,3,0,3
@@ -520,7 +520,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 25,Galium verum,6,0,3
 25,Helictotrichon pratense,6,0,3
 25,Phleum phleoides,6,0,37.5
-25,Poa angustifolia,6,0,0.5
+25,Poa pratensis agg.,6,0,0.5
 25,Rumex acetosella,6,0,3
 25,Sedum sexangulare,6,0,0.1
 25,Trifolium arvense,6,0,0.1
@@ -548,7 +548,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 27,Asplenium cuneifolium,6,0,0.5
 27,Campanula glomerata,6,0,0.5
 27,Campanula rotundifolia,6,0,0.5
-27,Carex digitata var. digitata,6,0,3
+27,Carex digitata,6,0,3
 27,Centaurea scabiosa,6,0,10
 27,Cladonia furcata,9,1,0.5
 27,Dianthus carthusianorum subsp. capillifrons,6,0,0.5
@@ -561,12 +561,12 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 27,Quercus petraea,7,0,0.5
 27,Rubus idaeus,6,0,0.5
 27,Silene vulgaris,6,0,3
-27,Taraxacum sect. Taraxacum,6,0,0.1
+27,Taraxacum species,6,0,0.1
 28,Achillea millefolium agg.,6,0,0.5
 28,Anthericum ramosum,6,0,37.5
 28,Avenella flexuosa,6,0,0.5
 28,Campanula rotundifolia,6,0,0.1
-28,Carex digitata var. digitata,6,0,0.5
+28,Carex digitata,6,0,0.5
 28,Centaurea scabiosa,6,0,10
 28,Cladonia arbuscula,9,1,0.5
 28,Cladonia furcata,9,1,0.5
@@ -605,10 +605,10 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 30,Anthericum ramosum,6,0,0.5
 30,Anthoxanthum odoratum,6,0,0.5
 30,Avenella flexuosa,6,0,3
-30,Convallaria majalis var. majalis,6,0,0.5
+30,Convallaria majalis,6,0,0.5
 30,Festuca ovina,6,0,10
 30,Lotus corniculatus,6,0,0.5
-30,Luzula multiflora,6,0,0.5
+30,Luzula campestris agg.,6,0,0.5
 30,Melampyrum pratense,6,0,0.5
 30,Pimpinella saxifraga subsp. saxifraga,6,0,0.5
 30,Potentilla erecta,6,0,0.5
@@ -650,7 +650,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 33,Cladonia rangiferina,9,1,3
 33,Cladonia rangiformis,9,1,0.5
 33,Dianthus gratianopolitanus,6,0,0.5
-33,Festuca pallens s.lat.,6,0,37.5
+33,Festuca pallens,6,0,37.5
 33,Galium verum,6,0,0.5
 33,Saxifraga rosacea subsp. sponhemica,6,0,0.5
 33,Sedum acre,6,0,0.5
@@ -667,7 +667,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 34,Festuca ovina,6,0,20
 34,Galium verum,6,0,3
 34,Hypericum perforatum,6,0,3
-34,Luzula campestris,6,0,0.5
+34,Luzula campestris agg.,6,0,0.5
 34,Peltigera polydactyla,9,1,3
 34,Pilosella officinarum,6,0,3
 34,Thymus pulegioides,6,0,20
@@ -675,7 +675,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 35,Campanula rotundifolia,6,0,0.5
 35,Cladonia cryptochlorophaea,9,1,0.5
 35,Cladonia furcata,9,1,0.5
-35,Festuca pallens s.lat.,6,0,10
+35,Festuca pallens,6,0,10
 35,Galium verum,6,0,0.5
 35,Hypericum montanum,6,0,0.5
 35,Molinia caerulea agg.,6,0,3
@@ -762,7 +762,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 39,Lathyrus pratensis,6,0,0.5
 39,Leontodon hispidus,6,0,0.5
 39,Lotus corniculatus,6,0,0.5
-39,Luzula campestris,6,0,0.5
+39,Luzula campestris agg.,6,0,0.5
 39,Pilosella officinarum,6,0,3
 39,Polygala chamaebuxus,6,0,0.5
 39,Polygala vulgaris,6,0,0.5
@@ -772,7 +772,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 39,Silene vulgaris,6,0,0.5
 39,Sorbus aucuparia,7,0,0.5
 39,Thymus pulegioides,6,0,0.1
-39,Vicia cracca,6,0,0.5
+39,Vicia cracca agg.,6,0,0.5
 39,Viola riviniana,6,0,0.5
 40,Achillea millefolium agg.,6,0,0.5
 40,Asplenium cuneifolium,6,0,0.5
@@ -780,11 +780,11 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 40,Cladonia furcata,9,1,10
 40,Cladonia rangiformis,9,1,0.5
 40,Festuca ovina,6,0,3
-40,Festuca pallens s.lat.,6,0,3
+40,Festuca pallens,6,0,3
 40,Galium verum,6,0,0.5
 40,Helictotrichon pratense,6,0,0.5
 40,Hylotelephium maximum,6,0,0.5
-40,Luzula campestris,6,0,0.5
+40,Luzula campestris agg.,6,0,0.5
 40,Minuartia smejkalii,6,0,0.5
 40,Myosotis stenophylla,6,0,0.5
 40,Noccaea montana,6,0,0.5
@@ -822,8 +822,8 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 43,Festuca ovina,6,0,0.5
 43,Galium verum,6,0,0.5
 43,Hypericum montanum,6,0,0.5
+43,Luzula campestris agg.,6,0,0.5
 43,Luzula luzuloides,6,0,0.5
-43,Luzula multiflora,6,0,0.5
 43,Oxalis acetosella,6,0,0.5
 43,Pimpinella saxifraga subsp. saxifraga,6,0,0.5
 43,Pinus sylvestris,7,0,0.1
@@ -858,7 +858,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 44,Thymus pulegioides,6,0,20
 44,Trifolium pratense,6,0,0.1
 44,Veronica officinalis,6,0,3
-44,Vicia cracca,6,0,0.5
+44,Vicia cracca agg.,6,0,0.5
 44,Viola arvensis,6,0,0.1
 44,Viola canina,6,0,0.5
 45,Avenella flexuosa,6,0,20
@@ -883,10 +883,10 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 47,Calamagrostis arundinacea,6,0,20
 47,Campanula persicifolia,6,0,0.5
 47,Campanula rotundifolia,6,0,0.5
-47,Carex digitata var. digitata,6,0,0.5
+47,Carex digitata,6,0,0.5
 47,Cladonia fimbriata,9,1,0.5
 47,Festuca ovina,6,0,10
-47,Festuca pallens s.lat.,6,0,0.5
+47,Festuca pallens,6,0,0.5
 47,Hieracium lachenalii,6,0,0.5
 47,Hylotelephium maximum,6,0,0.5
 47,Luzula luzuloides,6,0,0.5
@@ -899,8 +899,8 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 48,Elymus hispidus,6,0,0.5
 48,Festuca valesiaca,6,0,62.5
 48,Melica transsilvanica,6,0,0.5
-48,Poa angustifolia,6,0,0.5
-48,Prunus spinosa subsp. spinosa,7,0,0.5
+48,Poa pratensis agg.,6,0,0.5
+48,Prunus spinosa,7,0,0.5
 48,Silene otites,6,0,0.5
 48,Verbascum chaixii subsp. austriacum,6,0,0.5
 48,Verbascum lychnitis,6,0,3
@@ -910,13 +910,13 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 49,Galium verum,6,0,10
 49,Helictotrichon pratense,6,0,20
 49,Medicago falcata,6,0,0.5
-49,Poa angustifolia,6,0,0.5
+49,Poa pratensis agg.,6,0,0.5
 49,Potentilla incana,6,0,0.5
 49,Seseli hippomarathrum,6,0,0.1
 49,Silene otites,6,0,0.1
 49,Stipa capillata,6,0,3
 49,Thymus praecox,6,0,0.5
-50,Achillea collina,6,0,0.5
+50,Achillea millefolium agg.,6,0,0.5
 50,Allium senescens subsp. montanum,6,0,0.5
 50,Asperula cynanchica,6,0,0.5
 50,Asplenium cuneifolium,6,0,0.5
@@ -976,7 +976,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 51,Thymus praecox,6,0,0.5
 51,Viola collina,6,0,0.5
 52,Abietinella abietina,9,1,20
-52,Achillea collina,6,0,0.5
+52,Achillea millefolium agg.,6,0,0.5
 52,Asplenium cuneifolium,6,0,0.5
 52,Asplenium septentrionale,6,0,0.5
 52,Brachypodium pinnatum,6,0,0.5
@@ -993,14 +993,14 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 52,Opuntia phaeacantha,6,0,0.5
 52,Orthotrichum species,9,1,0.5
 52,Phleum phleoides,6,0,37.5
-52,Poa angustifolia,6,0,3
+52,Poa pratensis agg.,6,0,3
 52,Rumex acetosella,6,0,3
 52,Sedum acre,6,0,0.5
 52,Tortula species,9,1,0.5
 52,Trifolium arvense,6,0,0.5
 52,Trifolium montanum,6,0,0.5
 52,Viscaria vulgaris,6,0,3
-53,Achillea collina,6,0,0.5
+53,Achillea millefolium agg.,6,0,0.5
 53,Asplenium cuneifolium,6,0,0.1
 53,Biscutella laevigata,6,0,0.5
 53,Carex caryophyllea,6,0,0.5
@@ -1014,7 +1014,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 53,Hypnum cupressiforme,9,1,20
 53,Juniperus communis,7,0,0.5
 53,Knautia arvensis subsp. arvensis,6,0,0.5
-53,Luzula campestris,6,0,0.5
+53,Luzula campestris agg.,6,0,0.5
 53,Pimpinella saxifraga subsp. saxifraga,6,0,0.5
 53,Pinus sylvestris,7,0,0.5
 53,Pleurozium schreberi,9,1,62.5
@@ -1027,7 +1027,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 54,Asplenium cuneifolium,6,0,3
 54,Brachypodium pinnatum,6,0,10
 54,Campanula glomerata,6,0,0.5
-54,Carex digitata var. digitata,6,0,0.5
+54,Carex digitata,6,0,0.5
 54,Centaurea scabiosa,6,0,3
 54,Dicranum polysetum,9,1,3
 54,Festuca ovina,6,0,10
@@ -1045,7 +1045,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 55,Anthericum ramosum,6,0,10
 55,Brachypodium pinnatum,6,0,0.5
 55,Campanula glomerata,6,0,0.5
-55,Carex digitata var. digitata,6,0,0.5
+55,Carex digitata,6,0,0.5
 55,Centaurea scabiosa,6,0,3
 55,Cladonia furcata,9,1,0.5
 55,Dicranum polysetum,9,1,20
@@ -1095,9 +1095,9 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 57,Calamagrostis arundinacea,6,0,3
 57,Campanula glomerata,6,0,0.5
 57,Campanula persicifolia,6,0,0.5
-57,Carex digitata var. digitata,6,0,0.5
+57,Carex digitata,6,0,0.5
 57,Chiloscyphus species,9,1,0.5
-57,Convallaria majalis var. majalis,6,0,0.5
+57,Convallaria majalis,6,0,0.5
 57,Dicranum scoparium,9,1,10
 57,Dryopteris dilatata,6,0,0.5
 57,Dryopteris filix-mas,6,0,3
@@ -1126,7 +1126,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 58,Bryum species,9,1,0.5
 58,Calamagrostis arundinacea,6,0,0.5
 58,Campanula glomerata,6,0,0.5
-58,Carex digitata var. digitata,6,0,3
+58,Carex digitata,6,0,3
 58,Centaurea scabiosa,6,0,0.5
 58,Chiloscyphus species,9,1,0.5
 58,Corylus avellana,4,0,3
@@ -1157,7 +1157,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 58,Sorbus aucuparia,4,0,0.5
 58,Sorbus aucuparia,7,0,0.5
 58,Tortella tortuosa,9,1,0.5
-58,Vicia cracca,6,0,0.1
+58,Vicia cracca agg.,6,0,0.1
 59,Achillea millefolium agg.,6,0,0.1
 59,Agrostis capillaris,6,0,0.5
 59,Anthericum ramosum,6,0,0.1
@@ -1189,7 +1189,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 59,Vaccinium myrtillus,6,0,0.5
 59,Vaccinium vitis-idaea,6,0,0.5
 59,Viola riviniana,6,0,0.1
-60,Achillea collina,6,0,0.5
+60,Achillea millefolium agg.,6,0,0.5
 60,Agrostis capillaris,6,0,0.5
 60,Arrhenatherum elatius,6,0,0.5
 60,Avenella flexuosa,6,0,0.5
@@ -1199,7 +1199,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 60,Festuca ovina,6,0,37.5
 60,Galium verum,6,0,10
 60,Hypnum cupressiforme,9,1,10
-60,Luzula multiflora,6,0,0.5
+60,Luzula campestris agg.,6,0,0.5
 60,Melampyrum pratense,6,0,3
 60,Plagiomnium affine,9,1,0.5
 60,Pleurozium schreberi,9,1,37.5
@@ -1210,7 +1210,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 60,Silene vulgaris,6,0,10
 60,Thesium alpinum,6,0,0.5
 60,Vaccinium myrtillus,6,0,3
-61,Achillea collina,6,0,3
+61,Achillea millefolium agg.,6,0,3
 61,Agrostis capillaris,6,0,0.5
 61,Arrhenatherum elatius,6,0,3
 61,Avenella flexuosa,6,0,0.5
@@ -1232,7 +1232,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 61,Hypnum cupressiforme,9,1,10
 61,Plagiomnium affine,9,1,0.5
 61,Pleurozium schreberi,9,1,3
-61,Poa angustifolia,6,0,3
+61,Poa pratensis agg.,6,0,3
 61,Polytrichum piliferum,9,1,0.5
 61,Senecio sylvaticus,6,0,0.5
 61,Tortula species,9,1,0.5
@@ -1242,7 +1242,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 62,Campanula rotundifolia,6,0,0.5
 62,Cladonia pyxidata,9,1,0.5
 62,Dicranum scoparium,9,1,3
-62,Festuca pallens s.lat.,6,0,10
+62,Festuca pallens,6,0,10
 62,Frullania species,9,1,3
 62,Galium verum,6,0,0.5
 62,Grimmia species,9,1,3
@@ -1251,7 +1251,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 62,Hypnum cupressiforme,9,1,37.5
 62,Molinia caerulea agg.,6,0,0.5
 62,Pleurozium schreberi,9,1,0.5
-62,Poa pratensis,6,0,0.5
+62,Poa pratensis agg.,6,0,0.5
 62,Polygala comosa,6,0,0.1
 62,Rhytidiadelphus squarrosus,9,1,0.5
 62,Rubus species,6,0,0.1
@@ -1446,7 +1446,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 71,Hypnum cupressiforme,9,1,10
 71,Lepraria species,9,1,0.5
 71,Pleurozium schreberi,9,1,10
-71,Poa pratensis,6,0,10
+71,Poa pratensis agg.,6,0,10
 71,Polypodium vulgare,6,0,3
 71,Quercus petraea,7,0,0.5
 71,Silene vulgaris,6,0,0.5
@@ -1457,7 +1457,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 72,Cladonia pyxidata,9,1,0.5
 72,Fallopia convolvulus,6,0,0.1
 72,Festuca ovina,6,0,10
-72,Festuca pallens s.lat.,6,0,10
+72,Festuca pallens,6,0,10
 72,Frullania species,9,1,0.5
 72,Hedwigia ciliata,9,1,0.5
 72,Hylotelephium maximum,6,0,0.5
@@ -1504,7 +1504,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 74,Hedwigia ciliata,9,1,0.5
 74,Hypnum species,9,1,0.5
 74,Melica transsilvanica,6,0,0.5
-74,Poa angustifolia,6,0,3
+74,Poa pratensis agg.,6,0,3
 74,Potentilla incana,6,0,0.5
 74,Sedum album,6,0,0.5
 74,Silene otites,6,0,0.5
@@ -1622,14 +1622,14 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 82,Calluna vulgaris,6,0,0.5
 82,Campanula rotundifolia,6,0,0.5
 82,Festuca ovina,6,0,3
-82,Festuca pallens s.lat.,6,0,20
+82,Festuca pallens,6,0,20
 82,Pinus sylvestris,1,0,10
 82,Polygala chamaebuxus,6,0,0.5
 82,Saxifraga species,6,0,0.5
 82,Sedum acre,6,0,0.5
 82,Silene vulgaris,6,0,0.5
 82,Thymus praecox,6,0,0.5
-83,Achillea collina,6,0,0.5
+83,Achillea millefolium agg.,6,0,0.5
 83,Agrostis capillaris,6,0,20
 83,Allium carinatum,6,0,0.5
 83,Arrhenatherum elatius,6,0,0.5
@@ -1644,21 +1644,21 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 83,Pilosella officinarum,6,0,3
 83,Pimpinella saxifraga subsp. saxifraga,6,0,3
 83,Plantago lanceolata,6,0,0.5
-83,Poa angustifolia,6,0,3
+83,Poa pratensis agg.,6,0,3
 83,Potentilla verna agg.,6,0,0.5
 83,Sedum acre,6,0,0.5
 83,Taraxacum species,6,0,0.5
 83,Thymus pulegioides,6,0,37.5
 83,Trifolium medium,6,0,10
 83,Verbascum nigrum,6,0,0.5
-83,Vicia cracca,6,0,0.5
+83,Vicia cracca agg.,6,0,0.5
 84,Asplenium adulterinum,6,0,0.5
 84,Asplenium cuneifolium,6,0,0.5
 84,Avenella flexuosa,6,0,3
 84,Calamagrostis arundinacea,6,0,3
 84,Calluna vulgaris,6,0,37.5
 84,Festuca ovina,6,0,10
-84,Festuca pallens s.lat.,6,0,10
+84,Festuca pallens,6,0,10
 84,Galium verum,6,0,0.5
 84,Genista tinctoria,6,0,0.1
 84,Molinia caerulea agg.,6,0,10
@@ -1696,7 +1696,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 86,Knautia serpentinicola,6,0,0.1
 86,Lotus corniculatus,6,0,0.5
 86,Pilosella officinarum,6,0,3
-86,Poa angustifolia,6,0,0.5
+86,Poa pratensis agg.,6,0,0.5
 86,Polygala chamaebuxus,6,0,3
 86,Polypodium vulgare,6,0,0.5
 86,Rosa canina agg.,7,0,0.5
@@ -1734,7 +1734,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 88,Knautia serpentinicola,6,0,0.5
 88,Lathyrus pratensis,6,0,3
 88,Lotus corniculatus,6,0,0.5
-88,Poa angustifolia,6,0,3
+88,Poa pratensis agg.,6,0,3
 88,Potentilla erecta,6,0,0.5
 88,Rubus idaeus,6,0,0.1
 88,Rumex acetosa,6,0,0.5
@@ -1743,7 +1743,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 88,Stellaria graminea,6,0,0.5
 88,Thymus pulegioides,6,0,20
 88,Veronica chamaedrys,6,0,0.1
-88,Vicia cracca,6,0,0.5
+88,Vicia cracca agg.,6,0,0.5
 88,Viola riviniana,6,0,0.5
 89,Asplenium cuneifolium,6,0,0.5
 89,Calamagrostis arundinacea,6,0,20
@@ -1789,9 +1789,9 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 92,Galium verum,6,0,3
 92,Genista tinctoria,6,0,3
 92,Lotus corniculatus,6,0,0.5
-92,Luzula campestris,6,0,0.5
+92,Luzula campestris agg.,6,0,0.5
 92,Pinus sylvestris,7,0,0.1
-92,Poa angustifolia,6,0,0.5
+92,Poa pratensis agg.,6,0,0.5
 92,Quercus robur,1,0,10
 92,Quercus robur,7,0,0.5
 92,Thymus praecox,6,0,3
@@ -1811,7 +1811,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 93,Pimpinella saxifraga subsp. saxifraga,6,0,0.5
 93,Plantago lanceolata,6,0,0.5
 93,Plantago media,6,0,0.5
-93,Poa angustifolia,6,0,3
+93,Poa pratensis agg.,6,0,3
 93,Potentilla incana,6,0,3
 93,Seseli annuum,6,0,0.5
 93,Trifolium alpestre,6,0,0.5
@@ -1855,9 +1855,9 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 96,Asperula cynanchica,6,0,0.5
 96,Carex humilis,6,0,37.5
 96,Dorycnium germanicum,6,0,3
-96,Festuca pallens s.lat.,6,0,20
+96,Festuca pallens,6,0,20
 96,Genista pilosa,6,0,3
-96,Helictotrichon pratense subsp. hirtifolium,6,0,10
+96,Helictotrichon pratense,6,0,10
 96,Potentilla incana,6,0,10
 96,Stipa pennata,6,0,10
 96,Stipa pulcherrima,6,0,3
@@ -1878,7 +1878,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 98,Cladonia rangiformis,9,1,0.5
 98,Dorycnium germanicum,6,0,0.5
 98,Euphorbia species,6,0,0.5
-98,Festuca pallens s.lat.,6,0,37.5
+98,Festuca pallens,6,0,37.5
 98,Genista pilosa,6,0,3
 98,Grimmia species,9,1,0.5
 98,Hypnum cupressiforme,9,1,10
@@ -1899,7 +1899,7 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 99,Dorycnium germanicum,6,0,10
 99,Euphorbia cyparissias,6,0,0.5
 99,Euphorbia seguieriana subsp. minor,6,0,0.5
-99,Festuca pallens s.lat.,6,0,10
+99,Festuca pallens,6,0,10
 99,Genista tinctoria,6,0,0.1
 99,Grimmia species,9,1,0.5
 99,Hypnum cupressiforme,9,1,0.5
@@ -1928,13 +1928,13 @@ releve_nr,kaplan,layer,nonvascular,cover_perc_new
 100,Galium pumilum,6,0,3
 100,Galium verum,6,0,3
 100,Genista pilosa,6,0,20
-100,Helictotrichon pratense subsp. hirtifolium,6,0,3
+100,Helictotrichon pratense,6,0,3
 100,Hieracium species,6,0,0.1
 100,Hypnum cupressiforme,9,1,87.5
 100,Koeleria macrantha,6,0,0.5
 100,Leontodon hispidus,6,0,0.5
 100,Lotus corniculatus,6,0,0.5
-100,Luzula campestris,6,0,10
+100,Luzula campestris agg.,6,0,10
 100,Microthlaspi perfoliatum,6,0,0.1
 100,Pilosella officinarum,6,0,0.5
 100,Pimpinella saxifraga subsp. saxifraga,6,0,0.5

@@ -112,28 +112,30 @@ env %>%
 
 serp_spe <- read_excel("Data/hadcovi_specialisti.xlsx")
 spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) |> 
-  mutate(serpentine_affinity = replace_na(serpentine_affinity, 0)) |> 
-  count(releve_nr, serpentine_affinity) |>
+  mutate(serpentine_affinity = replace_na(serpentine_affinity, 0))-> spe_merged_covers
+
+spe_merged_covers |> count(releve_nr, serpentine_affinity) |>
   complete(releve_nr, serpentine_affinity, fill = list(n = 0)) |> 
   group_by(releve_nr) |> 
-  mutate(podil=n/sum(n)) |> 
+  mutate(podil=n/sum(n)) |>
+  ungroup() |> 
+  filter(serpentine_affinity != 0) |>
   mutate(
     affinity = factor(
       serpentine_affinity,
-      levels = c(2, 1, 0),
-      labels = c("Obligate (2)", "Facultative (1)", "Generalists (0)"))) |> 
-  ggplot(aes(x = factor(releve_nr), y = podil, fill = affinity)) +
+      levels = c(2, 1),
+      labels = c("Obligate", "Facultative"))) -> serp_spe_count
+
+serp_spe_count |> ggplot(aes(x = factor(releve_nr), y = podil, fill = affinity)) +
   geom_col() +
-  facet_wrap(~ affinity, ncol = 1, scales = "free_y") +
   scale_x_discrete(labels = function(x) {
     sapply(strsplit(x, ""), function(chars) paste(rev(chars), collapse = "\n"))
   })+
   scale_y_continuous(labels = scales::percent_format()) +
-  scale_fill_manual(
+  scale_fill_manual(name = NULL,
     values = c(
-      "Obligate (2)" = "#d95f02",
-      "Facultative (1)" = "#7570b3",
-      "Generalists (0)" = "#999999"
+      "Obligate" = "#d95f02",
+      "Facultative" = "#7570b3"
     )
   ) +
   labs(
@@ -143,6 +145,11 @@ spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) |>
   ) +
   theme_minimal() +
   theme(
-    legend.position = "none",
-    axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 1, size = 7),
-    panel.grid.major.x = element_blank())
+    legend.position = "top",
+    axis.text.x = element_text(angle = 0, vjust = 1, hjust = 0.5, size = 7, face="bold"))
+   # panel.grid.major.x = element_blank())
+
+spe_merged_covers |> 
+  group_by(releve_nr, serpentine_affinity) |>
+  summarise(cover_sum = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |> 
+  complete(releve_nr, serpentine_affinity, fill = list(cover_sum = 0))-> serp_cover_sum

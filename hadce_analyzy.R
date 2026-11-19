@@ -282,7 +282,7 @@ spe_merged_covers|> filter(nonvascular==0) |>
     panel.grid.major.y = element_blank()
   )
 
-#GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO CELKY
+#GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO LOKALITY
 
 spe_merged_covers|> filter(nonvascular==0) |> 
   group_by(releve_nr, locality_detail, serpentine_affinity) |> 

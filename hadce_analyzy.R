@@ -325,3 +325,26 @@ spe_merged_covers|> filter(nonvascular==0) |>
     axis.text.y = element_text(size = 8, face = "bold"),
     panel.grid.major.y = element_blank()
   )
+# Průměry lokality ----
+
+names(env)
+spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
+spe_merged_covers |> 
+  left_join(env, by=c("releve_nr"="poradi")) -> spe_merged_covers_env
+
+spe_merged_covers_env |>
+  group_by(locality_detail) |>
+  ggplot(aes(y = locality_detail, x = s_ph_h2o)) +
+  geom_boxplot()
+
+# 1. Výpočet průměrů na lokalitu
+env_averages_locality <- env |>
+  group_by(locality) |>
+  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) |> 
+  select(-c(poradi,deg_lat, deg_lon))
+
+# 1. Výpočet průměrů na lokalitu
+env_averages_detail <- env |>
+  group_by(locality_detail) |>
+  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) |> 
+  select(-c(poradi,deg_lat, deg_lon))

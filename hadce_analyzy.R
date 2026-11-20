@@ -110,10 +110,9 @@ env %>%
 
 # Serp. specialists -------------------------------------------------------
 
-serp_spe <- read_excel("Data/hadcovi_specialisti.xlsx")
+serp_spe <- read_excel("Data/hadcovi_specialisti_edit.xlsx")
 spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
 spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) |> 
-  mutate(serpentine_affinity = replace_na(serpentine_affinity, 0)) |> 
   left_join(env |> select(poradi, locality, locality_detail), by=c("releve_nr"="poradi"))-> spe_merged_covers
 
 spe_merged_covers |> count(releve_nr, serpentine_affinity) |>

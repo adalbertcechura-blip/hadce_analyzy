@@ -14,6 +14,7 @@ env <- read_delim("data/serp_env.csv",
 spe <- read_csv("data/serp_spe.csv") %>% 
   clean_names()
 
+localities <- read_excel("Data/Hadce-lokality-regiony-strucne-nazvy.xlsx", sheet = "List1") |> clean_names()
 
 # Nomenclature check ------------------------------------------------------
 
@@ -112,8 +113,12 @@ env %>%
 
 serp_spe <- read_excel("Data/hadcovi_specialisti_edit.xlsx")
 spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
-spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) |> 
-  left_join(env |> select(poradi, locality, locality_detail), by=c("releve_nr"="poradi"))-> spe_merged_covers
+env <- read_delim("data/serp_env.csv", 
+                  delim = ";", escape_double = FALSE, trim_ws = TRUE, locale = locale(encoding = "Windows-1250"))
+env |> left_join(localities, by = c("locality_detail" = "jmeno_od_vojty")) -> env
+spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) -> spe_merged_covers 
+spe_merged_covers |>
+left_join(env |> select(poradi, region, site), by=c("releve_nr"="poradi"))-> spe_merged_covers
 
 spe_merged_covers |> count(releve_nr, serpentine_affinity) |>
   complete(releve_nr, serpentine_affinity, fill = list(n = 0)) |> 
@@ -153,8 +158,8 @@ serp_spe_count |> ggplot(aes(x = factor(releve_nr), y = podil, fill = affinity))
 #GEOM_COL PRO POČTY DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO CELKY
 
 spe_merged_covers |> filter(nonvascular==0) |>
-  count(releve_nr, locality, serpentine_affinity) |> 
-  complete(nesting(releve_nr, locality), serpentine_affinity, fill = list(n = 0)) |> 
+  count(releve_nr, region, serpentine_affinity) |> 
+  complete(nesting(releve_nr, region), serpentine_affinity, fill = list(n = 0)) |> 
   mutate(
     affinity = factor(
       serpentine_affinity,
@@ -162,15 +167,15 @@ spe_merged_covers |> filter(nonvascular==0) |>
       labels = c("Obligate", "Facultative", "Generalists")
     )
   ) |> 
-  group_by(locality, affinity) |> 
+  group_by(region, affinity) |> 
   summarise(mean_n = mean(n), .groups = "drop") |> 
-  group_by(locality) |> 
+  group_by(region) |> 
   mutate(spec_celkem = sum(mean_n[affinity != "Generalists"])) |> 
   ungroup() |> 
   mutate(
-    locality = fct_reorder(locality, spec_celkem),
+    region = fct_reorder(region, spec_celkem),
     affinity = fct_rev(affinity)) |> 
-  ggplot(aes(x = mean_n, y = locality, fill = affinity)) +
+  ggplot(aes(x = mean_n, y = region, fill = affinity)) +
   geom_col(width = 0.75) +
   scale_fill_manual(
     name = NULL,
@@ -196,8 +201,8 @@ spe_merged_covers |> filter(nonvascular==0) |>
 #GEOM_COL PRO POČTY DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO LOKALITY
 
 spe_merged_covers |> filter(nonvascular==0) |>
-  count(releve_nr, locality_detail, serpentine_affinity) |> 
-  complete(nesting(releve_nr, locality_detail), serpentine_affinity, fill = list(n = 0)) |> 
+  count(releve_nr, site, serpentine_affinity) |> 
+  complete(nesting(releve_nr, site), serpentine_affinity, fill = list(n = 0)) |> 
   mutate(
     affinity = factor(
       serpentine_affinity,
@@ -205,16 +210,16 @@ spe_merged_covers |> filter(nonvascular==0) |>
       labels = c("Obligate", "Facultative", "Generalists")
     )
   ) |> 
-  group_by(locality_detail, affinity) |> 
+  group_by(site, affinity) |> 
   summarise(mean_n = mean(n), .groups = "drop") |>
-  group_by(locality_detail) |> 
+  group_by(site) |> 
   mutate(spec_celkem = sum(mean_n[affinity != "Generalists"])) |> 
   ungroup() |> 
   mutate(
-    locality_detail = fct_reorder(locality_detail, spec_celkem),
+    site = fct_reorder(site, spec_celkem),
     affinity = fct_rev(affinity)
   ) |> 
-  ggplot(aes(x = mean_n, y = locality_detail, fill = affinity)) +
+  ggplot(aes(x = mean_n, y = site, fill = affinity)) +
   geom_col(width = 0.75) +
   scale_fill_manual(
     name = NULL,
@@ -239,9 +244,9 @@ spe_merged_covers |> filter(nonvascular==0) |>
 #GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO CELKY
 
 spe_merged_covers|> filter(nonvascular==0) |> 
-  group_by(releve_nr, locality, serpentine_affinity) |> 
+  group_by(releve_nr, region, serpentine_affinity) |> 
   summarise(suma_cover = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |> 
-  complete(nesting(releve_nr, locality), serpentine_affinity, fill = list(suma_cover = 0)) |> 
+  complete(nesting(releve_nr, region), serpentine_affinity, fill = list(suma_cover = 0)) |> 
   mutate(
     affinity = factor(
       serpentine_affinity,
@@ -249,16 +254,16 @@ spe_merged_covers|> filter(nonvascular==0) |>
       labels = c("Obligate", "Facultative", "Generalists")
     )
   ) |> 
-  group_by(locality, affinity) |> 
+  group_by(region, affinity) |> 
   summarise(mean_cover = mean(suma_cover), .groups = "drop") |> 
-  group_by(locality) |> 
+  group_by(region) |> 
   mutate(spec_celkem = sum(mean_cover[affinity != "Generalists"])) |> 
   ungroup() |> 
   mutate(
-    locality = fct_reorder(locality, spec_celkem),
+    region = fct_reorder(region, spec_celkem),
     affinity = fct_rev(affinity)
   ) |> 
-  ggplot(aes(x = mean_cover, y = locality, fill = affinity)) +
+  ggplot(aes(x = mean_cover, y = region, fill = affinity)) +
   geom_col(width = 0.75) +
   scale_x_continuous(labels = function(x) paste0(x, "%")) +
   scale_fill_manual(
@@ -284,9 +289,9 @@ spe_merged_covers|> filter(nonvascular==0) |>
 #GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO LOKALITY
 
 spe_merged_covers|> filter(nonvascular==0) |> 
-  group_by(releve_nr, locality_detail, serpentine_affinity) |> 
+  group_by(releve_nr, site, serpentine_affinity) |> 
   summarise(suma_cover = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |> 
-  complete(nesting(releve_nr, locality_detail), serpentine_affinity, fill = list(suma_cover = 0)) |> 
+  complete(nesting(releve_nr, site), serpentine_affinity, fill = list(suma_cover = 0)) |> 
   mutate(
     affinity = factor(
       serpentine_affinity,
@@ -294,16 +299,16 @@ spe_merged_covers|> filter(nonvascular==0) |>
       labels = c("Obligate", "Facultative", "Generalists")
     )
   ) |> 
-  group_by(locality_detail, affinity) |> 
+  group_by(site, affinity) |> 
   summarise(mean_cover = mean(suma_cover), .groups = "drop") |> 
-  group_by(locality_detail) |> 
+  group_by(site) |> 
   mutate(spec_celkem = sum(mean_cover[affinity != "Generalists"])) |> 
   ungroup() |> 
   mutate(
-    locality_detail = fct_reorder(locality_detail, spec_celkem),
+    site = fct_reorder(site, spec_celkem),
     affinity = fct_rev(affinity)
   ) |> 
-  ggplot(aes(x = mean_cover, y = locality_detail, fill = affinity)) +
+  ggplot(aes(x = mean_cover, y = site, fill = affinity)) +
   geom_col(width = 0.75) +
   scale_x_continuous(labels = function(x) paste0(x, "%")) +
   scale_fill_manual(
@@ -325,7 +330,7 @@ spe_merged_covers|> filter(nonvascular==0) |>
     axis.text.y = element_text(size = 8, face = "bold"),
     panel.grid.major.y = element_blank()
   )
-# Průměry lokality ----
+# Průměry lokality --------------------------------------------------------
 
 names(env)
 spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
@@ -333,18 +338,215 @@ spe_merged_covers |>
   left_join(env, by=c("releve_nr"="poradi")) -> spe_merged_covers_env
 
 spe_merged_covers_env |>
-  group_by(locality_detail) |>
-  ggplot(aes(y = locality_detail, x = s_ph_h2o)) +
+  group_by(site) |>
+  ggplot(aes(y = site, x = s_ph_h2o)) +
   geom_boxplot()
 
 # 1. Výpočet průměrů na lokalitu
-env_averages_locality <- env |>
-  group_by(locality) |>
-  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) |> 
-  select(-c(poradi,deg_lat, deg_lon))
+env_averages_region <- env |>
+  select(-c(poradi, deg_lat, deg_lon)) |> 
+  group_by(region) |>
+  summarise(across(where(is.numeric), list(
+    mean = \(x) mean(x, na.rm = TRUE),
+    min = \(x) min(x, na.rm = TRUE),
+    max = \(x) max(x, na.rm = TRUE)
+  ))) |> 
+  rename_with(
+  .cols = ends_with("_mean"),
+  .fn   = \(x) str_to_title(str_remove(x, "_mean"))
+)
 
 # 1. Výpočet průměrů na lokalitu
-env_averages_detail <- env |>
-  group_by(locality_detail) |>
-  summarise(across(where(is.numeric), \(x) mean(x, na.rm = TRUE))) |> 
-  select(-c(poradi,deg_lat, deg_lon))
+env_averages_site <- env |>
+  select(-c(poradi, deg_lat, deg_lon)) |> 
+  group_by(site) |>
+  summarise(across(where(is.numeric), list(
+    mean = \(x) mean(x, na.rm = TRUE),
+    min = \(x) min(x, na.rm = TRUE),
+    max = \(x) max(x, na.rm = TRUE)
+  ))) |> 
+  rename_with(
+  .cols = ends_with("_mean"),
+  .fn   = \(x) str_to_title(str_remove(x, "_mean"))
+)
+
+env_averages_region |> write_csv("Data/env_averages_region.csv")
+env_averages_site |> write_csv("Data/env_averages_site.csv")
+
+env_averages_region |> 
+  mutate(region = fct_reorder(region, altitude_mean)) |> 
+  ggplot(aes(x = altitude_mean, y = region)) +
+  geom_linerange(aes(xmin = altitude_min, xmax = altitude_max), color = "grey60", linewidth = 0.8)+
+  geom_point(size = 2.8, color = "#2b5c8f")+
+  labs(
+    title = "Mean Altitude of Relevés by Region",
+    x = "Mean Altitude (m)",
+    y = NULL
+  )+
+  theme_minimal() +
+  theme(
+    axis.text.y = element_text(size = 8.5, face = "bold"),
+    panel.grid.major.y = element_line(color = "grey92"),
+    panel.grid.minor = element_blank()
+  )
+
+#definiton of groups of variables for boxplots
+names(env_averages_region)
+
+# 1. Číselník vybraných proměnných (název sloupce průměru -> hezký popisek v grafu + skupina)
+vybrane_promenne <- tribble(
+  ~var_mean,                               ~label,                                     ~skupina,
+  # --- Geographical (3 proměnné) ---
+  "Altitude",                              "Altitude (m a.s.l.)",                      "Geographical",
+  "Exposition",                            "Exposition (°)",                           "Geographical",
+  "Inclinatio",                            "Slope inclination (°)",                    "Geographical",
+
+  # --- Climate (14 proměnných - CHELSA / Bioclim) ---
+  "Bio1_annual_temperature_mean",          "Annual Mean Temp (Bio1, °C)",            "Climate",
+  "Bio4_temperature_seasonality",          "Temp Seasonality (Bio4)",                  "Climate",
+  "Bio5_max_temperature_warmest_month",    "Max Temp Warmest Month (Bio5, °C)",        "Climate",
+  "Bio6_min_temperature_coldest_month",    "Min Temp Coldest Month (Bio6, °C)",        "Climate",
+  "Bio7_temperature_annual_range",         "Temp Annual Range (Bio7, °C)",             "Climate",
+  "Bio12_annual_precipitation",            "Annual Precipitation (Bio12, mm)",         "Climate",
+  "Bio15_precipitation_seasonality",       "Precip Seasonality (Bio15)",               "Climate",
+  "Bio18_precipitation_warmest_quarter",   "Precip Warmest Quarter (Bio18, mm)",       "Climate",
+  "Ai_aridity_index",                      "Aridity Index (AI)",                       "Climate",
+  "Cmi_climate_moisture_index_mean",       "Climate Moisture Index (CMI)",             "Climate",
+  "Gsl_growing_season_length",             "Growing Season Length (days)",             "Climate",
+  "Gdd5_growing_degree_days",              "Growing Degree Days >5°C (GDD5)",          "Climate",
+  "Scd_snow_cover_days",                   "Snow Cover Days (days)",                   "Climate",
+  "Vpd_vapor_pressure_deficit_mean",       "Vapor Pressure Deficit (VPD)",             "Climate",
+
+  # --- Edaphic (15 proměnných - chemismus a fyzika půdy) ---
+  "S_ph_h2o",                              "Soil pH (H2O)",                            "Edaphic",
+  "Kond",                                  "Conductivity (µS/cm)",                     "Edaphic",
+  "Toc",                                   "Total Organic Carbon (TOC)",               "Edaphic",
+  "Tn",                                    "Total Nitrogen (TN)",                      "Edaphic",
+  "Ppo43_miii",                            "Phosphorus (Mehlich III)",                 "Edaphic",
+  "Ca_miii",                               "Calcium (Mehlich III)",                    "Edaphic",
+  "Mg_miii",                               "Magnesium (Mehlich III)",                  "Edaphic",
+  "K",                                     "Potassium (K)",                            "Edaphic",
+  "Fe_miii",                               "Iron (Mehlich III)",                       "Edaphic",
+  "Mn_miii",                               "Manganese (Mehlich III)",                  "Edaphic",
+  "Cr_miii",                               "Chromium (Mehlich III)",                   "Edaphic",
+  "Ni_miii",                               "Nickel (Mehlich III)",                     "Edaphic",
+  "Co_miii",                               "Cobalt (Mehlich III)",                     "Edaphic",
+  "Al_miii",                               "Aluminium (Mehlich III)",                  "Edaphic",
+  "Soildepavg",                            "Mean Soil Depth (cm)",                     "Edaphic",
+
+  # --- Vegetation & Microhabitat / VEGETAČNÍ (11 proměnných - pokryvnosti pater a povrchu) ---
+  "Cov_trees",                             "Tree Layer Cover (%)",                     "Vegetation & Microhabitat",
+  "Cov_shrubs",                            "Shrub Layer Cover (%)",                    "Vegetation & Microhabitat",
+  "Cov_herbs",                             "Herb Layer Cover (%)",                     "Vegetation & Microhabitat",
+  "Cov_mosses",                            "Moss Layer Cover (%)",                     "Vegetation & Microhabitat",
+  "Cov_lichen",                            "Lichen Layer Cover (%)",                   "Vegetation & Microhabitat",
+  "Cov_litter",                            "Litter Cover (%)",                         "Vegetation & Microhabitat",
+  "Herb_high",                             "Mean Herb Height (cm)",                    "Vegetation & Microhabitat",
+  "Rock",                                  "Rock Outcrops (%)",                        "Vegetation & Microhabitat",
+  "Gravel",                                "Gravel Cover (%)",                         "Vegetation & Microhabitat",
+  "Bare_soil",                             "Bare Soil Cover (%)",                      "Vegetation & Microhabitat",
+  "Npp_net_primary_production",            "Net Primary Production (NPP)",             "Vegetation & Microhabitat"
+) |> 
+  mutate(
+    # Automatické sestavení přesných názvů sloupců _min a _max (včetně opravy Bio1/2/8/9/10/11)
+    base_lower = str_to_lower(var_mean) |> 
+      str_replace("^(bio\\d+)_(.*)_mean$", "\\1_mean_\\2"),
+    var_min = paste0(base_lower, "_min"),
+    var_max = paste0(base_lower, "_max")
+  )
+
+env_long_region <- env_averages_region |> 
+  mutate(region = fct_reorder(region, Altitude)) |> 
+  # Vezmeme jen ty sloupce, které máme v číselníku vybrane_promenne
+  select(region, all_of(c(vybrane_promenne$var_mean, vybrane_promenne$var_min, vybrane_promenne$var_max))) |> 
+  # Sjednotíme názvy na stejný vzor (promenna___mean, promenna___min, promenna___max)
+  rename_with(~ paste0(.x, "___mean"), all_of(vybrane_promenne$var_mean)) |> 
+  rename_with(~ paste0(vybrane_promenne$var_mean[match(.x, vybrane_promenne$var_min)], "___min"), all_of(vybrane_promenne$var_min)) |> 
+  rename_with(~ paste0(vybrane_promenne$var_mean[match(.x, vybrane_promenne$var_max)], "___max"), all_of(vybrane_promenne$var_max)) |> 
+  pivot_longer(
+    cols = -region,
+    names_to = c("var_mean", ".value"),
+    names_sep = "___"
+  ) |> 
+  left_join(vybrane_promenne, by = "var_mean") |> 
+  mutate(label = fct_inorder(label))
+
+env_long_site <- env_averages_site |> 
+  mutate(site = fct_reorder(site, Altitude)) |> 
+  # Vezmeme jen ty sloupce, které máme v číselníku vybrane_promenne
+  select(site, all_of(c(vybrane_promenne$var_mean, vybrane_promenne$var_min, vybrane_promenne$var_max))) |> 
+  # Sjednotíme názvy na stejný vzor (promenna___mean, promenna___min, promenna___max)
+  rename_with(~ paste0(.x, "___mean"), all_of(vybrane_promenne$var_mean)) |> 
+  rename_with(~ paste0(vybrane_promenne$var_mean[match(.x, vybrane_promenne$var_min)], "___min"), all_of(vybrane_promenne$var_min)) |> 
+  rename_with(~ paste0(vybrane_promenne$var_mean[match(.x, vybrane_promenne$var_max)], "___max"), all_of(vybrane_promenne$var_max)) |> 
+  pivot_longer(
+    cols = -site,
+    names_to = c("var_mean", ".value"),
+    names_sep = "___"
+  ) |> 
+  left_join(vybrane_promenne, by = "var_mean") |> 
+  mutate(label = fct_inorder(label))
+
+# 3. Function for panel
+vykresli_skupinu <- function(data, nazev_skupiny, y_var = region, pocet_sloupcu = 4) {
+  data |> 
+    filter(skupina == nazev_skupiny) |> 
+    group_by(label) |>
+    mutate(overall_mean = mean(mean, na.rm = TRUE)) |>
+    ungroup() |>
+    ggplot(aes(x = mean, y = {{ y_var }})) +
+    geom_vline(aes(xintercept = overall_mean), color = "firebrick", linetype = "dashed", linewidth = 0.5, alpha = 0.7) +
+    geom_linerange(aes(xmin = min, xmax = max), color = "grey65", linewidth = 0.7) +
+    geom_point(size = 2.2, color = "#2b5c8f") +
+    facet_wrap(~ label, scales = "free_x", ncol = pocet_sloupcu) +
+    labs(
+      subtitle = "Point = mean, line = range (min–max), dashed line = overall mean",
+      x = NULL,
+      y = NULL
+    ) +
+    theme_minimal() +
+    theme(
+  plot.title = element_text(size = 16, face = "bold"),
+  plot.subtitle = element_text(size = 12, color = "grey30", margin = margin(b = 12)),
+  strip.text = element_text(size = 10.5, face = "bold"),
+  axis.text.y = element_text(size = 8.5, face = "bold"),
+  axis.text.x = element_text(size = 8.5),
+  panel.spacing.x = unit(1.2, "lines"),
+  panel.spacing.y = unit(1, "lines")
+)
+}
+
+#vykreslení pro regiony
+geo_region <- vykresli_skupinu(env_long_region, "Geographical",y_var = region, pocet_sloupcu = 3)
+clima_region <- vykresli_skupinu(env_long_region, "Climate", y_var = region, pocet_sloupcu = 4)
+soil_region <- vykresli_skupinu(env_long_region, "Edaphic", y_var = region, pocet_sloupcu = 4)
+vege_region <- vykresli_skupinu(env_long_region, "Vegetation & Microhabitat", y_var = region, pocet_sloupcu = 4)
+
+#vykreslení pro lokality
+geo_site <- vykresli_skupinu(env_long_site, "Geographical", y_var = site, pocet_sloupcu = 3)
+clima_site <- vykresli_skupinu(env_long_site, "Climate", y_var = site, pocet_sloupcu = 4)
+soil_site <- vykresli_skupinu(env_long_site, "Edaphic", y_var = site, pocet_sloupcu = 4)
+vege_site <- vykresli_skupinu(env_long_site, "Vegetation & Microhabitat", y_var = site, pocet_sloupcu = 4)
+
+graph_averages <- function(nazev_grafu, vyska = 16) {
+  jmeno_souboru <- deparse(substitute(nazev_grafu))
+  
+  ggsave(
+    filename = paste0("plots/", jmeno_souboru, "_characteristics.png"),
+    plot = nazev_grafu,
+    width = 14,
+    height = vyska,
+    units = "in",
+    dpi = 300,
+    bg = "white"
+  )
+}
+
+graph_averages(geo_region)
+graph_averages(clima_region)
+graph_averages(soil_region)
+graph_averages(vege_region)
+graph_averages(geo_site)
+graph_averages(clima_site)
+graph_averages(soil_site)
+graph_averages(vege_site)

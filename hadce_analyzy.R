@@ -550,3 +550,269 @@ graph_averages(geo_site)
 graph_averages(clima_site)
 graph_averages(soil_site)
 graph_averages(vege_site)
+
+
+
+# linear regression -------------------------------------------------------
+library(broom)
+library(psych)
+library(vegan)
+library(gordi)
+
+richness <- spe_vas %>%
+  ungroup() %>% 
+  group_by(releve_nr) %>%
+  summarise(n = n_distinct(species))
+
+# Complete named vector of English labels for all soil chemistry variables
+soil_labels <- c(
+  # General soil properties & carbon/nitrogen
+  "s_ph_h2o"   = "Soil pH (H2O)",
+  "kond"       = "Conductivity (µS/cm)",
+  "tn"         = "Total Nitrogen (TN)",
+  "tc"         = "Total Carbon (TC)",
+  "ic"         = "Inorganic Carbon (IC)",
+  "toc"        = "Total Organic Carbon (TOC)",
+  
+  # Water-extractable nitrogen & phosphorus forms
+  "nno2"       = "Nitrite-N (N-NO2-)",
+  "nno3"       = "Nitrate-N (N-NO3-)",
+  "nnh4"       = "Ammonium-N (N-NH4+)",
+  "ppo43"      = "Phosphate-P (P-PO43-)",
+  
+  # Water-extractable ions
+  "cl"         = "Chloride (Cl-)",
+  "no2"        = "Nitrite (NO2-)",
+  "no3"        = "Nitrate (NO3-)",
+  "so42"       = "Sulfate (SO42-)",
+  "hco3"       = "Bicarbonate (HCO3-)",
+  "nh4"        = "Ammonium (NH4+)",
+  "k"          = "Water-soluble K+",
+  "na"         = "Water-soluble Na+",
+  "mg2"        = "Water-soluble Mg2+",
+  "ca2"        = "Water-soluble Ca2+",
+  
+  # Mehlich III extractable elements (plant-available nutrients & heavy metals)
+  "ppo43_miii" = "Phosphate (Mehlich III)",
+  "ca_miii"    = "Calcium (Mehlich III)",
+  "mg_miii"    = "Magnesium (Mehlich III)",
+  "fe_miii"    = "Iron (Mehlich III)",
+  "mn_miii"    = "Manganese (Mehlich III)",
+  "cu_miii"    = "Copper (Mehlich III)",
+  "cr_miii"    = "Chromium (Mehlich III)",
+  "ni_miii"    = "Nickel (Mehlich III)",
+  "co_miii"    = "Cobalt (Mehlich III)",
+  "al_miii"    = "Aluminium (Mehlich III)"
+)
+
+soil_vars <- names(soil_labels)
+
+soil_model <- env |> 
+  left_join(richness, by = c("poradi" = "releve_nr")) |> 
+  select(poradi, n, all_of(soil_vars))
+
+regression_results <- soil_model |>
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |>
+  group_by(variable) |>
+  nest() |>
+  mutate(
+    model = map(data, ~ lm(n ~ value, data = .x)),
+    tidied = map(model, tidy)
+  ) |>
+  unnest(tidied) |>
+  filter(term == "value") |>
+  select(variable, estimate, std.error, statistic, p.value) |>
+  arrange(p.value)
+
+# Display the full table with all columns
+print(regression_results, n = 30)
+
+# Merge data with p-values so we know which panels are significant
+soil_plot_data <- soil_model |> 
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |> 
+  left_join(regression_results %>% select(variable, p.value), by = "variable") |> 
+  mutate(is_significant = p.value < 0.05)
+
+# Plot all variables in a multi-panel figure
+ggplot(soil_plot_data, aes(x = value, y = n)) +
+  geom_point(color = "black", size = 1) +
+  # Draw linear regression line ONLY for statistically significant relationships (p < 0.05)
+  geom_smooth(
+    data = ~ filter(.x, is_significant == TRUE),
+    method = "lm",
+    color = "red",
+    fill = "red",
+    se = TRUE
+  ) +
+  facet_wrap(
+    ~ variable, 
+    scales = "free_x", 
+    labeller = labeller(variable = soil_labels)
+  ) +
+  theme_bw() +
+  labs(
+    title = "Effects of Soil Chemistry on Vascular Plant Species Richness",
+    x = "Soil Parameter Value",
+    y = "Number of Species per Relevé"
+  )
+
+# log linear regression ---------------------------------------------------
+
+soil_model_log <- env |> 
+  left_join(richness, by = c("poradi" = "releve_nr")) |> 
+  select(poradi, n, all_of(soil_vars)) |> 
+  mutate(across(
+    .cols = all_of(setdiff(soil_vars, "s_ph_h2o")), 
+    .fns = ~ log10(.x + 1)
+  ))
+
+regression_results_log <- soil_model_log |>
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |>
+  group_by(variable) |>
+  nest() |>
+  mutate(
+    model = map(data, ~ lm(n ~ value, data = .x)),
+    tidied = map(model, tidy)
+  ) |>
+  unnest(tidied) |>
+  filter(term == "value") |>
+  select(variable, estimate, std.error, statistic, p.value) |>
+  arrange(p.value)
+
+# Print statistical results
+print(regression_results_log, n = 30)
+
+# Merge transformed data with p-values
+soil_plot_data_log <- soil_model_log |>
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |>
+  left_join(regression_results_log |> select(variable, p.value), by = "variable") |>
+  mutate(is_significant = p.value < 0.05)
+
+# 5. Plot log-transformed variables in a multi-panel figure
+ggplot(soil_plot_data_log, aes(x = value, y = n)) +
+  geom_point(color = "black", size = 1) +
+  geom_smooth(
+    data = ~ filter(.x, is_significant == TRUE),
+    method = "lm",
+    color = "red",
+    fill = "red",
+    se = TRUE
+  ) +
+  facet_wrap(
+    ~ variable, 
+    scales = "free_x",
+    labeller = labeller(variable = soil_labels)
+  ) +
+  theme_bw() +
+  labs(
+    title = "Effects of Soil Chemistry (log10-transformed) on Vascular Plant Species Richness",
+    x = "Log10(Value + 1) [Soil pH untransformed]",
+    y = "Number of Species per Relevé")
+
+# loglog linear regression  -----------------------------------------------
+
+soil_model_loglog <- env |> 
+  left_join(richness, by = c("poradi" = "releve_nr")) |> 
+  select(poradi, n, all_of(soil_vars)) |> 
+  mutate(
+    n_log = log10(n), # Log10-transform species richness (y-axis)
+    across(
+      .cols = all_of(setdiff(soil_vars, "s_ph_h2o")), 
+      .fns = ~ log10(.x + 1) # Log10(x + 1) for soil chemistry except pH
+    ))
+
+regression_results_loglog <- soil_model_loglog |>
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |>
+  group_by(variable) |>
+  nest() |>
+  mutate(
+    model = map(data, ~ lm(n_log ~ value, data = .x)),
+    tidied = map(model, tidy)
+  ) |>
+  unnest(tidied) |>
+  filter(term == "value") |>
+  select(variable, estimate, std.error, statistic, p.value) |>
+  arrange(p.value)
+
+# Print statistical results
+print(regression_results_loglog, n = 30)
+
+# Merge transformed data with p-values
+soil_plot_data_loglog <- soil_model_loglog |>
+  pivot_longer(cols = all_of(soil_vars), names_to = "variable", values_to = "value") |>
+  left_join(regression_results_loglog |> select(variable, p.value), by = "variable") |>
+  mutate(is_significant = p.value < 0.05)
+
+# Plot log-log transformed data in a multi-panel figure
+ggplot(soil_plot_data_loglog, aes(x = value, y = n_log)) +
+  geom_point(color = "black", size = 1) +
+  geom_smooth(
+    data = ~ filter(.x, is_significant == TRUE),
+    method = "lm",
+    color = "red",
+    fill = "red",
+    se = TRUE
+  ) +
+  facet_wrap(
+    ~ variable, 
+    scales = "free_x",
+    labeller = labeller(variable = soil_labels)
+  ) +
+  theme_bw() +
+  labs(
+    title = "Effects of Soil Chemistry on Vascular Plant Species Richness (Log-Log)",
+    x = "Log10(Soil Parameter + 1) [Soil pH untransformed]",
+    y = "Log10(Number of Species per Relevé)"
+  )
+
+
+# ordination --------------------------------------------------------------
+
+spe_wide <- spe_vas |>
+  group_by(releve_nr, species) |>
+  summarise(cover_perc_new = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |>
+  pivot_wider(
+    names_from = species,
+    values_from = cover_perc_new,
+    values_fill = 0
+  ) |>
+  arrange(releve_nr)
+
+spe_matrix <- spe_wide |>
+  ungroup() |> 
+  select(-releve_nr) |>
+  sqrt()
+
+env_gordi <- env |>
+  filter(poradi %in% spe_wide$releve_nr) |>
+  arrange(poradi) |>
+  rename(
+    "Soil pH"      = s_ph_h2o,
+    "Conductivity" = kond,
+    "TOC"          = toc,
+    "TN"           = tn,
+    "P"            = ppo43_miii,
+    "Ca"           = ca_miii,
+    "Mg"           = mg_miii,
+    "Ni"           = ni_miii,
+    "Cr"           = cr_miii,
+    "Co"           = co_miii,)
+
+# PCoA ordination model
+pcoa_bc <- capscale(spe_matrix ~ 1, distance = "bray", sqrt.dist = TRUE)
+
+summary(eigenvals(pcoa_bc))[, 1:4]
+
+gordi_read(m = pcoa_bc, spe = spe_matrix, env = env_gordi, correlation = TRUE, show = F) |>
+  gordi_fit(slice_max = 30, abs_frequency = 5) |>
+  gordi_species(label = TRUE, colour = "#5C6B53") |>
+  gordi_label(what = "species", shortcut = "upper.lower", repel_label = TRUE, max.overlaps = Inf, show.legend = FALSE) |>
+  gordi_corr(variables = c("Soil pH", "Conductivity", "TOC", "P", "Ca", "Mg", "Ni", "Cr"), 
+             show_label = TRUE, 
+             repel_label = TRUE, 
+             colour = "red") |> 
+  gordi_plot() + 
+  theme_bw() +
+  labs(
+    title = "PCoA of Vascular Plant Communities with Soil Chemistry Vectors")
+

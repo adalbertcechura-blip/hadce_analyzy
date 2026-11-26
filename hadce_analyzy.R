@@ -822,3 +822,83 @@ gordi_read(m = pcoa_bc, spe = spe_matrix, env = env_gordi, correlation = TRUE, s
   labs(
     title = "PCoA of Vascular Plant Communities with Soil Chemistry Vectors")
 
+
+
+# Classification ----------------------------------------------------------
+
+env_abiotic_all <- env |>
+  ungroup() |>
+  arrange(poradi) |>
+  select(
+    poradi, 
+    region, 
+    where(is.numeric),
+    -any_of(c("releve_nr", "deg_lat", "deg_lon", "longitude", "latitude", "exposition", "soildepmin", "soildepmax", "gravel", "altitude", "inclinatio", "herb_high","rock", "bare_soil", "cov_trees", "cov_herbs", "cov_lichen", "cov_rock", "cov_shrubs", "cov_mosses", "cov_litter"))
+  ) |>
+  drop_na()
+
+abiotic_matrix <- env_abiotic_all |>
+  select(-poradi, -region) |>
+  scale() |> # Crucial: standardizes different units (pH, mg/kg, °C, mm)
+  as.data.frame()
+
+set.seed(123)
+nmds_env_2 <- metaMDS(abiotic_matrix, distance = "euclidean", k = 2, trymax = 100, trace = FALSE)
+nmds_env_3 <- metaMDS(abiotic_matrix, distance = "euclidean", k = 3, trymax = 100, trace = FALSE)
+nmds_env_4 <- metaMDS(abiotic_matrix, distance = "euclidean", k = 4, trymax = 100, trace = FALSE)
+nmds_env_5 <- metaMDS(abiotic_matrix, distance = "euclidean", k = 5, trymax = 100, trace = FALSE)
+
+stress_env_df <- tibble(
+  k = 2:5,
+  stress = c(nmds_env_2$stress, nmds_env_3$stress, nmds_env_4$stress, nmds_env_5$stress))
+
+print(stress_env_df)
+
+ggplot(stress_env_df, aes(k, stress))+
+  geom_point()+
+  geom_line(lty = 2)+
+  theme_classic()
+
+print(nmds_env_2)
+stressplot(nmds_env_2)
+
+# classification plot
+gordi_read(m = nmds_env_2, spe = abiotic_matrix, env = env_abiotic_all, correlation = TRUE, show = TRUE) |>
+  gordi_sites(colour = "region") |>
+  gordi_cluster(
+    cluster = "region", 
+    hull = TRUE, 
+    fill = "region", 
+    colour = "region", 
+    alpha = 0.4) 
+
+# 10 top explaining variables
+fit_env <- envfit(nmds_env_2, abiotic_matrix, permutations = 999)
+
+# 2. Extract R2 values, keep only significant ones (p < 0.05), and pick TOP 10 strongest variables
+top_vars <- tibble(
+  variable = names(fit_env$vectors$r),
+  r2 = fit_env$vectors$r,
+  p_val = fit_env$vectors$pvals
+) |>
+  filter(p_val < 0.05) |>
+  slice_max(order_by = r2, n = 10) |> 
+  pull(variable)
+
+# Plot NMDS with ONLY those top explaining variables
+gordi_read(m = nmds_env_2, spe = abiotic_matrix, env = env_abiotic_all, correlation = TRUE, show = TRUE) |>
+  gordi_sites(colour = "region") |>
+  gordi_cluster(
+    cluster = "region", 
+    hull = TRUE, 
+    fill = "region", 
+    colour = "region", 
+    alpha = 0.6
+  ) |>
+  gordi_corr(
+    variables = top_vars, 
+    show_label = TRUE, 
+    repel_label = TRUE, 
+    colour = "black")
+
+

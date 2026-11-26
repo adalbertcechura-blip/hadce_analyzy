@@ -4,7 +4,10 @@ library(tidyverse)
 library(janitor)
 library(readxl)
 library(readr)
-
+library(broom)
+library(psych)
+library(vegan)
+library(gordi)
 
 # Data import -------------------------------------------------------------
 
@@ -193,7 +196,7 @@ spe_merged_covers |> filter(nonvascular==0) |>
   theme_minimal() +
   theme(
     legend.position = "top",
-    axis.text.y = element_text(size = 8, face = "bold"),
+    axis.text.y = element_text(size = 12, face = "bold"),
     panel.grid.major.y = element_blank()
   )
 
@@ -230,14 +233,14 @@ spe_merged_covers |> filter(nonvascular==0) |>
     )
   ) +
   labs(
-    title = "Mean Number of Vascular Plants in Plot grouped by localities",
+    title = "Mean Number of Vascular Plants in Plot grouped by sites",
     x = "Mean Number of Species in Plot",
     y = NULL
   ) +
   theme_minimal() +
   theme(
     legend.position = "top",
-    axis.text.y = element_text(size = 8, face = "bold"),
+    axis.text.y = element_text(size = 12, face = "bold"),
     panel.grid.major.y = element_blank()
   )
 
@@ -275,14 +278,14 @@ spe_merged_covers|> filter(nonvascular==0) |>
     )
   ) +
   labs(
-    title = "Mean Cumulative Cover of Vascular Plants in Plot grouped by localities",
+    title = "Mean Cumulative Cover of Vascular Plants in Plot Grouped by Regions",
     x = "Mean Cumulative Cover in Plot",
     y = NULL
   ) +
   theme_minimal() +
   theme(
     legend.position = "top",
-    axis.text.y = element_text(size = 8, face = "bold"),
+    axis.text.y = element_text(size = 12, face = "bold"),
     panel.grid.major.y = element_blank()
   )
 
@@ -327,7 +330,7 @@ spe_merged_covers|> filter(nonvascular==0) |>
   theme_minimal() +
   theme(
     legend.position = "top",
-    axis.text.y = element_text(size = 8, face = "bold"),
+    axis.text.y = element_text(size = 12, face = "bold"),
     panel.grid.major.y = element_blank()
   )
 # Průměry lokality --------------------------------------------------------
@@ -560,10 +563,7 @@ graph_averages(vege_site)
 
 
 # linear regression -------------------------------------------------------
-library(broom)
-library(psych)
-library(vegan)
-library(gordi)
+
 
 richness <- spe_vas %>%
   ungroup() %>% 

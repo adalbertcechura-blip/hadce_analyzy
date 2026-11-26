@@ -488,6 +488,7 @@ env_long_site <- env_averages_site |>
   mutate(label = fct_inorder(label))
 
 # 3. Function for panel
+
 vykresli_skupinu <- function(data, nazev_skupiny, y_var = region, pocet_sloupcu = 4) {
   data |> 
     filter(skupina == nazev_skupiny) |> 
@@ -527,6 +528,11 @@ geo_site <- vykresli_skupinu(env_long_site, "Geographical", y_var = site, pocet_
 clima_site <- vykresli_skupinu(env_long_site, "Climate", y_var = site, pocet_sloupcu = 4)
 soil_site <- vykresli_skupinu(env_long_site, "Edaphic", y_var = site, pocet_sloupcu = 4)
 vege_site <- vykresli_skupinu(env_long_site, "Vegetation & Microhabitat", y_var = site, pocet_sloupcu = 4)
+
+geo_region
+geo_site
+clima_region
+clima_site
 
 graph_averages <- function(nazev_grafu, vyska = 16) {
   jmeno_souboru <- deparse(substitute(nazev_grafu))

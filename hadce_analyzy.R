@@ -74,29 +74,52 @@ combine_cover <- function(x){
 
 spe <- spe %>%    
   group_by(releve_nr, species, layer, nonvascular) %>%    
-  summarize(cover_perc_new = combine_cover(cover_perc))
+  summarize(cover_perc_new = combine_cover(cover_perc), .groups = "drop")
 
-#spe %>% 
-#  write_csv("data/spe_merged_covers.csv")
+# Join environment with locality info
+env <- env %>% 
+  left_join(localities, by = c("locality_detail" = "jmeno_od_vojty"))
 
-spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
+# Join species with serpentine affinity info
+serp_spe_info <- read_excel("Data/hadcovi_specialisti_edit.xlsx")
+spe <- spe %>% 
+  left_join(serp_spe_info, by = c("species" = "species_name"))
 
+
+
+
+# Filter by vascularity
 spe_vas <- spe %>% 
   filter(nonvascular == 0)      # only vascular plants
 
 spe_nonv <- spe %>% 
   filter(nonvascular == 1)      # only nonvascular plants
 
+# Calculate richness
+richness <- spe_vas %>%
+  group_by(releve_nr) %>%
+  summarise(n = n_distinct(species), .groups = "drop")
+
 
 # Analysis ----------------------------------------------------------------
 
-richness <- spe %>%
-  ungroup() %>% 
-  group_by(releve_nr) %>%
-  summarise(n = n_distinct(species))
-
 env %>%
   left_join(richness, by = c("poradi" = "releve_nr")) %>%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   ggplot(aes(x = s_ph_h2o, y = n)) +
   geom_point() +
   theme_minimal() +
@@ -112,20 +135,23 @@ env %>%
 # R-squared:  0.0001469; F-statistic: 0.01469 on 1 and 100 DF;  p-value: 0.9038
 
 
-# Serp. specialists -------------------------------------------------------
 
-serp_spe <- read_excel("Data/hadcovi_specialisti_edit.xlsx")
-spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
-env <- read_delim("data/serp_env.csv", 
-                  delim = ";", escape_double = FALSE, trim_ws = TRUE, locale = locale(encoding = "Windows-1250"))
-env |> left_join(localities, by = c("locality_detail" = "jmeno_od_vojty")) -> env
-spe_merged_covers |> left_join(serp_spe, by= c("species" = "species_name")) -> spe_merged_covers 
-spe_merged_covers |>
-left_join(env |> select(poradi, region, site), by=c("releve_nr"="poradi"))-> spe_merged_covers
 
-spe_merged_covers |> count(releve_nr, serpentine_affinity) |>
+
+
+
+
+
+# Serp. specialists ---------------------------------
+
+spe_with_env <- spe %>%
+  left_join(env %>% select(poradi, region, site), by = c("releve_nr" = "poradi"))
+
+spe_with_env |> count(releve_nr, serpentine_affinity) |>
   complete(releve_nr, serpentine_affinity, fill = list(n = 0)) |> 
   group_by(releve_nr) |> 
+ 
+
   mutate(podil=n/sum(n)) |>
   ungroup() |> 
   filter(serpentine_affinity != 0) |>
@@ -160,7 +186,8 @@ serp_spe_count |> ggplot(aes(x = factor(releve_nr), y = podil, fill = affinity))
 
 #GEOM_COL PRO POČTY DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO CELKY
 
-spe_merged_covers |> filter(nonvascular==0) |>
+spe_with_env |> filter(nonvascular==0) |>
+
   count(releve_nr, region, serpentine_affinity) |> 
   complete(nesting(releve_nr, region), serpentine_affinity, fill = list(n = 0)) |> 
   mutate(
@@ -203,7 +230,8 @@ spe_merged_covers |> filter(nonvascular==0) |>
 
 #GEOM_COL PRO POČTY DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO LOKALITY
 
-spe_merged_covers |> filter(nonvascular==0) |>
+spe_with_env |> filter(nonvascular==0) |>
+
   count(releve_nr, site, serpentine_affinity) |> 
   complete(nesting(releve_nr, site), serpentine_affinity, fill = list(n = 0)) |> 
   mutate(
@@ -246,7 +274,8 @@ spe_merged_covers |> filter(nonvascular==0) |>
 
 #GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO CELKY
 
-spe_merged_covers|> filter(nonvascular==0) |> 
+spe_with_env|> filter(nonvascular==0) |> 
+ 
   group_by(releve_nr, region, serpentine_affinity) |> 
   summarise(suma_cover = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |> 
   complete(nesting(releve_nr, region), serpentine_affinity, fill = list(suma_cover = 0)) |> 
@@ -291,7 +320,8 @@ spe_merged_covers|> filter(nonvascular==0) |>
 
 #GEOM_COL PRO POKRYVNOSTI DRUHŮ Z JEDNOTLIVÝCH KATEGORIÍ PRO LOKALITY
 
-spe_merged_covers|> filter(nonvascular==0) |> 
+spe_with_env|> filter(nonvascular==0) |> 
+ 
   group_by(releve_nr, site, serpentine_affinity) |> 
   summarise(suma_cover = sum(cover_perc_new, na.rm = TRUE), .groups = "drop") |> 
   complete(nesting(releve_nr, site), serpentine_affinity, fill = list(suma_cover = 0)) |> 
@@ -336,9 +366,9 @@ spe_merged_covers|> filter(nonvascular==0) |>
 # Průměry lokality --------------------------------------------------------
 
 names(env)
-spe_merged_covers <- read_csv("Data/spe_merged_covers.csv")
-spe_merged_covers |> 
-  left_join(env, by=c("releve_nr"="poradi")) -> spe_merged_covers_env
+spe_merged_covers_env <- spe %>% 
+  left_join(env, by=c("releve_nr"="poradi"))
+
 
 spe_merged_covers_env |>
   group_by(site) |>
@@ -564,13 +594,15 @@ graph_averages(vege_site)
 
 # linear regression -------------------------------------------------------
 
-
-richness <- spe_vas %>%
-  ungroup() %>% 
-  group_by(releve_nr) %>%
-  summarise(n = n_distinct(species))
-
 # Complete named vector of English labels for all soil chemistry variables
+
+
+
+
+
+
+
+
 soil_labels <- c(
   # General soil properties & carbon/nitrogen
   "s_ph_h2o"   = "Soil pH (H2O)",
@@ -819,6 +851,7 @@ gordi_read(m = pcoa_bc, spe = spe_matrix, env = env_gordi, correlation = TRUE, s
              colour = "red") |> 
   gordi_plot() + 
   theme_bw() +
-  labs(
+    labs(
     title = "PCoA of Vascular Plant Communities with Soil Chemistry Vectors")
+
 
